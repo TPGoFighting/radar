@@ -1,0 +1,375 @@
+{
+  "date": "2026-08-15",
+  "generatedAt": "2026-08-15T15:18:13.960Z",
+  "stats": {
+    "scanned": 9,
+    "selected": 9,
+    "mustRead": 0,
+    "zeroNoise": "0 废话"
+  },
+  "trends": [
+    {
+      "id": "trend-1",
+      "name": "AGENT & HARNESS",
+      "direction": "up",
+      "score": 88,
+      "title": "1. Agent 编排范式向“时空可组合”演进",
+      "summary": "DeepSeek 发布 Harness 论文重构 Agent 执行范式，长程持久记忆（Agent Memory）成为核心突破点。"
+    },
+    {
+      "id": "trend-2",
+      "name": "SKILLS & WORKFLOW",
+      "direction": "up",
+      "score": 86,
+      "title": "2. Codex / Claude Skill 生态向垂直场景爆发",
+      "summary": "从通用 Prompt 全面转向即插即用 Skill，涵盖概念插画、轻拟物图标与原生视频生成全流程。"
+    },
+    {
+      "id": "trend-3",
+      "name": "DEV CRAFT & BOOKS",
+      "direction": "up",
+      "score": 85,
+      "title": "3. 前沿工程开源专著与 Agent 本地工具涌现",
+      "summary": "《FDE 指南》与经典深度学习全彩教材开源，面向 Agent 的自然语言设备控制 CLI 加速落地。"
+    }
+  ],
+  "items": [
+    {
+      "id": "tweet-1",
+      "category": "agent",
+      "categoryLabel": "AI Harness 范式",
+      "sourceUrl": "https://x.com/phodal_huang/status/2088105640082497782",
+      "author": {
+        "name": "phodal",
+        "handle": "@phodal_huang",
+        "avatar": "https://pbs.twimg.com/profile_images/627789679635476480/FIbr52Qo_x96.jpg"
+      },
+      "createdAt": "2026-08-14T03:29:14.000Z",
+      "displayDate": "2026-08-14",
+      "content": "要不是利益太相关，不能黑 DSH 太明显，我真想多吐槽几句。总的来说吧，搞学术的人搞软件工程就是个灾难。\n\n算了，大家来试试最近新上线的  Harness Inspector 吧！ 建议了 intent-session-commit 的关联，并分析（实时功能开发中）分析 Agent 执行轨迹（未来会给出建议）。 虽然有点抽象，但是没有 80+ 页的数学论文抽象。\n\n\nhttps://qoderai.github.io/better-harness/inspector…",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://pbs.twimg.com/media/HPpvVPDa8AACuE4?format=jpg&name=large"
+        }
+      ],
+      "metrics": {
+        "reposts": 11,
+        "likes": 116,
+        "replies": 18
+      },
+      "links": [
+        {
+          "url": "https://t.co/TrxjXPz7zO",
+          "type": "website"
+        }
+      ],
+      "ai": {
+        "score": 88,
+        "isMustRead": false,
+        "tags": [
+          "Agent",
+          "Architecture"
+        ],
+        "whyInteresting": "高匹配度 (88% MATCH)，契合当前技术雷达重点关注领域。",
+        "action": "查阅对应链接: https://t.co/TrxjXPz7zO"
+      }
+    },
+    {
+      "id": "tweet-3",
+      "category": "agent",
+      "categoryLabel": "AI Harness 范式",
+      "sourceUrl": "https://x.com/jahooma/status/2088052629347967108",
+      "author": {
+        "name": "James Grugett",
+        "handle": "@jahooma",
+        "avatar": "https://pbs.twimg.com/profile_images/1959486169722527744/Jb060mBU_x96.jpg"
+      },
+      "createdAt": "2026-08-13T23:58:35.000Z",
+      "displayDate": "2026-08-13",
+      "content": "我们正在提供 DeepSeek V4 Pro，100% 免费。\n\n它将永远免费，因为我们在我们的平台中加入了广告。\n\n立即试用：\nhttps://freebuff.com",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://pbs.twimg.com/media/HPmOJZlbUAAOgVt?format=jpg&name=medium"
+        }
+      ],
+      "metrics": {
+        "reposts": 581,
+        "likes": 7800,
+        "replies": 389
+      },
+      "links": [
+        {
+          "url": "https://t.co/uCHw0PuzKO",
+          "type": "website"
+        }
+      ],
+      "ai": {
+        "score": 88,
+        "isMustRead": false,
+        "tags": [
+          "Agent",
+          "Architecture"
+        ],
+        "whyInteresting": "高匹配度 (88% MATCH)，契合当前技术雷达重点关注领域。",
+        "action": "查阅对应链接: https://t.co/uCHw0PuzKO"
+      }
+    },
+    {
+      "id": "tweet-7",
+      "category": "agent",
+      "categoryLabel": "AI Harness 范式",
+      "sourceUrl": "https://x.com/vaibhav__upreti/status/2074080243405475999/analytics",
+      "author": {
+        "name": "Vaibhav Upreti",
+        "handle": "@vaibhav__upreti",
+        "avatar": "https://pbs.twimg.com/profile_images/2046743492316053504/3WRltbm9_x96.jpg"
+      },
+      "createdAt": "2026-08-15T15:18:13.894Z",
+      "displayDate": "2026-08-15",
+      "content": "正在寻找开源贡献者。Apache 2.0。\n如果你关心 SRE、agents 或 devtools，这就是你的邀请。",
+      "media": [],
+      "metrics": {
+        "reposts": 607,
+        "likes": 9450,
+        "replies": 392
+      },
+      "links": [
+        {
+          "url": "https://github.com/Tracer-Cloud/opensre/?twclid=22lhekz2ytdnjkhfffntlmrq9u",
+          "type": "github"
+        }
+      ],
+      "ai": {
+        "score": 88,
+        "isMustRead": false,
+        "tags": [
+          "Agent",
+          "Architecture"
+        ],
+        "whyInteresting": "高匹配度 (88% MATCH)，契合当前技术雷达重点关注领域。",
+        "action": "查阅对应链接: https://github.com/Tracer-Cloud/opensre/?twclid=22lhekz2ytdnjkhfffntlmrq9u"
+      }
+    },
+    {
+      "id": "tweet-2",
+      "category": "skills",
+      "categoryLabel": "生产力 Skill",
+      "sourceUrl": "https://x.com/WalrusProtocol/status/2085890274459541754/analytics",
+      "author": {
+        "name": "Walrus /acc",
+        "handle": "@WalrusProtocol",
+        "avatar": "https://pbs.twimg.com/profile_images/2033682078215376899/GSiJDj1j_x96.png"
+      },
+      "createdAt": "2026-08-15T15:18:13.894Z",
+      "displayDate": "2026-08-15",
+      "content": "Claude Code 的自动记忆永远不会离开 Claude Code。打开 Codex，你的代理从零开始。Walrus Memory 将记忆绑定到你的账户，而不是工具。在 Claude Code 中编写它，在 Codex、Cursor 或你自己的 SDK 中回忆它。\n\n两个命令即可安装。\n安装方法如下 ↓",
+      "media": [],
+      "metrics": {
+        "reposts": 18,
+        "likes": 248,
+        "replies": 13
+      },
+      "links": [
+        {
+          "url": "https://blog.walrus.xyz/how-to-add-portable-memory-to-claude-code-and-codex-with-walrus-memory/?utm_source=twitter&utm_medium=paid_social&utm_campaign=walrus_memory_experiment1&utm_content=blog&twclid=2deg40qwrtjy055thpvaxwryc7",
+          "type": "website"
+        }
+      ],
+      "ai": {
+        "score": 86,
+        "isMustRead": false,
+        "tags": [
+          "Skill",
+          "Codex"
+        ],
+        "whyInteresting": "高匹配度 (86% MATCH)，契合当前技术雷达重点关注领域。",
+        "action": "查阅对应链接: https://blog.walrus.xyz/how-to-add-portable-memory-to-claude-code-and-codex-with-walrus-memory/?utm_source=twitter&utm_medium=paid_social&utm_campaign=walrus_memory_experiment1&utm_content=blog&twclid=2deg40qwrtjy055thpvaxwryc7"
+      }
+    },
+    {
+      "id": "tweet-6",
+      "category": "skills",
+      "categoryLabel": "生产力 Skill",
+      "sourceUrl": "https://x.com/Vincent_AINotes/status/2088475167551025334",
+      "author": {
+        "name": "Vincent",
+        "handle": "@Vincent_AINotes",
+        "avatar": "https://pbs.twimg.com/profile_images/2010360210008023040/tDA3CwgH_x96.jpg"
+      },
+      "createdAt": "2026-08-15T03:57:36.000Z",
+      "displayDate": "2026-08-15",
+      "content": "看完评论区才发现，大家早就拿Codex闷声发大财了，照这么搞下去，估计一个个都快财富自由了吧？",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://pbs.twimg.com/media/HPvAxZ_bsAAL2PD?format=jpg&name=900x900"
+        }
+      ],
+      "metrics": {
+        "reposts": 18,
+        "likes": 186,
+        "replies": 8
+      },
+      "links": [],
+      "ai": {
+        "score": 86,
+        "isMustRead": false,
+        "tags": [
+          "Skill",
+          "Codex"
+        ],
+        "whyInteresting": "高匹配度 (86% MATCH)，契合当前技术雷达重点关注领域。",
+        "action": "收藏并关注后续演化"
+      }
+    },
+    {
+      "id": "tweet-8",
+      "category": "skills",
+      "categoryLabel": "生产力 Skill",
+      "sourceUrl": "https://x.com/ssuixinsuoyu/status/2088585218169209264",
+      "author": {
+        "name": "Zede",
+        "handle": "@ssuixinsuoyu",
+        "avatar": "https://pbs.twimg.com/profile_images/2060730694507307008/qOmOZxcc_x96.jpg"
+      },
+      "createdAt": "2026-08-15T11:14:54.000Z",
+      "displayDate": "2026-08-15",
+      "content": "逆向分析、提炼动画规律了\n油管八百万粉丝3Blue1Brown的数学演示\n视频演示的素材库\nhttps://github.com/3b1b/videos基于这些画面，我做一个skill，用代码帮你演示数学，物理，逻辑等画面，有什么不满意的可以让他修改\n以下是我用luna生成的视频画面，消耗的token很少\n\nhttps://github.com/ssuixinsuoyu/derive-math-animations-skill…",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2088583655602176000/img/0azZOnLx8sAis9CE.jpg"
+        }
+      ],
+      "metrics": {
+        "reposts": 1,
+        "likes": 11,
+        "replies": 1
+      },
+      "links": [
+        {
+          "url": "https://t.co/ojCMireG00",
+          "type": "website"
+        },
+        {
+          "url": "https://t.co/Rxpoaq9AEC",
+          "type": "website"
+        }
+      ],
+      "ai": {
+        "score": 86,
+        "isMustRead": false,
+        "tags": [
+          "Skill",
+          "Codex"
+        ],
+        "whyInteresting": "高匹配度 (86% MATCH)，契合当前技术雷达重点关注领域。",
+        "action": "查阅对应链接: https://t.co/ojCMireG00"
+      }
+    },
+    {
+      "id": "tweet-5",
+      "category": "tools",
+      "categoryLabel": "开源工具与图书",
+      "sourceUrl": "https://x.com/huangyun_122/status/2088167103610368435",
+      "author": {
+        "name": "黄赟",
+        "handle": "@huangyun_122",
+        "avatar": "https://pbs.twimg.com/profile_images/1183766724534882305/SIxSKinT_x96.jpg"
+      },
+      "createdAt": "2026-08-14T07:33:28.000Z",
+      "displayDate": "2026-08-14",
+      "content": "小红书拼豆这个自动化 App 生意，真的让人眼馋\n\n1.99 一单，主力款已售 2.3 万+，全店 2.4 万+，评分 4.5\n\n关键是，这活儿几乎零履约成本：\n1/ 下单自动发货，发个链接，用户自己用工具转图\n2/ 不囤货、不发货、不售后，7 天无理由也基本没人退\n3/ 一张照片转成带色号的图纸，交付感直接拉满\n\n我家门口超市天天有小朋友拼，这魔力我搞不懂",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://pbs.twimg.com/media/HPqoLNbbAAAGFxD?format=jpg&name=large"
+        }
+      ],
+      "metrics": {
+        "reposts": 35,
+        "likes": 256,
+        "replies": 5
+      },
+      "links": [],
+      "ai": {
+        "score": 85,
+        "isMustRead": false,
+        "tags": [
+          "OpenSource",
+          "Tooling"
+        ],
+        "whyInteresting": "高匹配度 (85% MATCH)，契合当前技术雷达重点关注领域。",
+        "action": "收藏并关注后续演化"
+      }
+    },
+    {
+      "id": "tweet-4",
+      "category": "agent",
+      "categoryLabel": "AI 动态",
+      "sourceUrl": "https://x.com/immasiddx/status/2088316146735030612",
+      "author": {
+        "name": "sid",
+        "handle": "@immasiddx",
+        "avatar": "https://pbs.twimg.com/profile_images/1809700473655414785/3CquWTgV_x96.jpg"
+      },
+      "createdAt": "2026-08-14T17:25:43.000Z",
+      "displayDate": "2026-08-14",
+      "content": "这仍然是我有史以来最喜欢的 ChatGPT 视频。\n\n我让 ChatGPT 扮演一个印度骗子，它的回应超级搞笑。",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://pbs.twimg.com/profile_images/1809700473655414785/3CquWTgV_normal.jpg"
+        }
+      ],
+      "metrics": {
+        "reposts": 47,
+        "likes": 960,
+        "replies": 32
+      },
+      "links": [],
+      "ai": {
+        "score": 75,
+        "isMustRead": false,
+        "tags": [],
+        "whyInteresting": "高匹配度 (75% MATCH)，契合当前技术雷达重点关注领域。",
+        "action": "收藏并关注后续演化"
+      }
+    },
+    {
+      "id": "tweet-9",
+      "category": "agent",
+      "categoryLabel": "AI 动态",
+      "sourceUrl": "https://x.com/MindBranches/status/2088390319385497830",
+      "author": {
+        "name": "MindBranches",
+        "handle": "@MindBranches",
+        "avatar": "https://pbs.twimg.com/profile_images/1634423987080949761/vnqmQ-CD_x96.jpg"
+      },
+      "createdAt": "2026-08-14T22:20:27.000Z",
+      "displayDate": "2026-08-14",
+      "content": "如何在1天内修复你的整个生活\n\n4K深色与浅色文章摘要",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://pbs.twimg.com/media/HPtz7OGW4AAsELl?format=jpg&name=large"
+        }
+      ],
+      "metrics": {
+        "reposts": 152,
+        "likes": 1136,
+        "replies": 2
+      },
+      "links": [],
+      "ai": {
+        "score": 75,
+        "isMustRead": false,
+        "tags": [],
+        "whyInteresting": "高匹配度 (75% MATCH)，契合当前技术雷达重点关注领域。",
+        "action": "收藏并关注后续演化"
+      }
+    }
+  ]
+}

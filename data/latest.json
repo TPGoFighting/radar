@@ -1,0 +1,210 @@
+{
+  "date": "2026-08-24",
+  "generatedAt": "2026-08-24T00:02:34.890Z",
+  "stats": {
+    "scanned": 5,
+    "selected": 5,
+    "mustRead": 0,
+    "zeroNoise": "0 废话"
+  },
+  "trends": [
+    {
+      "id": "trend-1",
+      "name": "AGENT & HARNESS",
+      "direction": "up",
+      "score": 75,
+      "title": "1. Agent 编排范式向“时空可组合”演进",
+      "summary": "DeepSeek 发布 Harness 论文重构 Agent 执行范式，长程持久记忆（Agent Memory）成为核心突破点。"
+    },
+    {
+      "id": "trend-2",
+      "name": "SKILLS & WORKFLOW",
+      "direction": "up",
+      "score": 93,
+      "title": "2. Codex / Claude Skill 生态向垂直场景爆发",
+      "summary": "从通用 Prompt 全面转向即插即用 Skill，涵盖概念插画、轻拟物图标与原生视频生成全流程。"
+    },
+    {
+      "id": "trend-3",
+      "name": "DEV CRAFT & BOOKS",
+      "direction": "up",
+      "score": 85,
+      "title": "3. 前沿工程开源专著与 Agent 本地工具涌现",
+      "summary": "《FDE 指南》与经典深度学习全彩教材开源，面向 Agent 的自然语言设备控制 CLI 加速落地。"
+    }
+  ],
+  "items": [
+    {
+      "id": "tweet-2",
+      "category": "tools",
+      "categoryLabel": "开源工具与图书",
+      "sourceUrl": "https://x.com/noisyb0y1/status/2091459094666183147",
+      "author": {
+        "name": "Noisy",
+        "handle": "@noisyb0y1",
+        "avatar": "/data/images/tweet-2-avatar-0.jpg"
+      },
+      "createdAt": "2026-08-23T09:34:40.000Z",
+      "displayDate": "2026-08-23",
+      "content": "他 18 岁，同时做 10 份工作，每月赚 20 万美元 - 而 AI 为他做出所有决定：\n\n00:20 - AI 如何为你做出 1000 个决定并节省 90% 的时间 \n34:36 - 一个代理比拥有 20 年经验的人做出更好的决定 \n01:09 - 从零到每月 20 万美元 - 10 个 AI 包办一切的业务\n\n看完后我意识到，我把 90% 的时间花在了 AI 比我做得更好、更快的决定上。\n\n看这个视频 - 然后阅读下面的指南，了解如何将 1000 个决定委托给 AI 并释放 90% 的时间。",
+      "media": [],
+      "metrics": {
+        "reposts": 47,
+        "likes": 277,
+        "replies": 8
+      },
+      "links": [],
+      "ai": {
+        "score": 85,
+        "isMustRead": false,
+        "tags": [
+          "OpenSource",
+          "Tooling"
+        ],
+        "whyInteresting": "高匹配度 (85% MATCH)，契合当前技术雷达重点关注领域。",
+        "action": "收藏并关注后续演化"
+      }
+    },
+    {
+      "id": "tweet-4",
+      "category": "tools",
+      "categoryLabel": "开源工具与图书",
+      "sourceUrl": "https://x.com/hanakoxbt/status/2091637072045949248",
+      "author": {
+        "name": "Hanako",
+        "handle": "@hanakoxbt",
+        "avatar": "/data/images/tweet-4-avatar-0.jpg"
+      },
+      "createdAt": "2026-08-23T21:21:53.000Z",
+      "displayDate": "2026-08-23",
+      "content": "代理 vs. 图，清晰解释！\n\n生成更多代理很棒，但它有一个没人说出口的天花板：\n\n五个代理是个数量。一个图是个形状。只有其中一个会改变答案。\n\n让五个代理用相同的窗口指向同一堆东西，它们会趋同。\n\n第一个写下发现，其余的读它，所有五个报告都围绕同一件事。你为一个观点支付了五倍的费用，换来四个回声。\n\n图工程通过将决策提升一层来修复这个问题：不是有多少代理，而是谁被允许看什么。\n\n你需要两者结合。以下是其工作原理：\n\n↳ 数量给你带来吞吐量。五个事情同时发生，而不是一个\n↳ 形状给你带来覆盖范围。五个不同的事情发生，而不是同一件事重复五次\n\n提示 → 上下文 → 框架 → 代理 → 图\n\n执行这个的节点是分隔器，它比系统中任何其他节点决定更多。\n\n按文件夹切割仓库，四个工作者审计相同的三个文件。按爆炸半径切割，每个都会看到别人看不到的东西。\n\n诀窍在于对每条通道被允许看到的内容进行选择性处理。\n\n分离上下文不是锦上添花，而是机制本身。\n\n如果两个代理旨在产生不同的东西，它们绝不能共享窗口。如果它们旨在产生相同的东西，你就不需要两个代理。\n\n在扩展之前需要知道的一件事。\n\n一个抛出异常的分支不会拒绝批次。它解析为 null，这就是隔离。这意味着你的合并会悄无声息地收到一个短列表。\n\n↳ 在合并前过滤 null，否则一条死通道会毒化整个结果\n↳ 绝不要按位置索引合并。八个好的分支和一个失败会悄无声息地将一切偏移一个位置\n\n跳过这个，运行看起来像是成功了。输出只是缺少一条通道，没有任何错误。\n\n还有一个会吞噬整夜的东西：多代理设置的总令牌消耗可能是一个单一聊天的十五倍，因为每条通道都会重新加载自己的核心。\n\n你是在用总令牌换取一个干净的主窗口。通常是正确的交易，但始终是一个选择。\n\n下面我引用了我关于图工程的完整指南。它涵盖了三种拓扑结构、验证器模式，以及大门实际应该在哪里打开。\n\n保存这个，并在下面阅读 ↓",
+      "media": [],
+      "metrics": {
+        "reposts": 4,
+        "likes": 57,
+        "replies": 4
+      },
+      "links": [],
+      "ai": {
+        "score": 85,
+        "isMustRead": false,
+        "tags": [
+          "OpenSource",
+          "Tooling"
+        ],
+        "whyInteresting": "高匹配度 (85% MATCH)，契合当前技术雷达重点关注领域。",
+        "action": "收藏并关注后续演化"
+      }
+    },
+    {
+      "id": "tweet-5",
+      "category": "tools",
+      "categoryLabel": "开源工具与图书",
+      "sourceUrl": "https://x.com/mertmetindev/status/2091146828137791887",
+      "author": {
+        "name": "Mert Metin Tekdemir",
+        "handle": "@mertmetindev",
+        "avatar": "/data/images/tweet-5-avatar-0.jpg"
+      },
+      "createdAt": "2026-08-22T12:53:50.000Z",
+      "displayDate": "2026-08-22",
+      "content": "一进入就可能待上几个小时出不来的50个网站\n\n1.) '\nhttp://zoom.earth' — 通过卫星实时图像观看世界\n2.) '\nhttp://flightradar24.com' — 查看当前天空中的所有飞机\n3.) '\nhttp://marinetraffic.com' — 实时跟踪海上所有船只\n4.) '\nhttp://windy.com' — 风和风暴的实时地图\n5.) '\nhttp://lightningmaps.org' — 实时观看降落到世界各地的闪电\n6.) '\nhttp://earthquake.usgs.gov' — 最新地震的实时列表\n7.) '\nhttp://submarinecablemap.com' — 承载互联网的海洋电缆\n8.) '\nhttp://globalforestwatch.org' — 从卫星上观看森林的消失\n9.) '\nhttp://worldometers.info' — 世界统计数据逐秒更新\n10.) '\nhttp://internetlivestats.com' — 当前发布的推文和搜索数量\n11.) '\nhttp://thetruesize.com' — 比较各国真实尺寸\n12.) '\nhttp://oldmapsonline.org' — 几个世纪前的地图\n13.) '\nhttp://davidrumsey.com' — 15万张历史地图档案\n14.) '\nhttp://openstreetmap.org' — 志愿者绘制的世界地图\n15.) '\nhttp://window-swap.com' — 从随机某人的窗户看世界\n16.) '\nhttp://virtualvacation.us' — 城市中的虚拟漫步\n17.) '\nhttp://mapcrunch.com' — 瞬间传送到世界随机一点\n18.) '\nhttp://atlasobscura.com' — 世界最奇怪地方的目录\n19.) '\nhttp://neal.fun' — 互动知识体验\n20.) '\nhttp://htwins.net/scale2' — 从原子到宇宙的尺度之旅\n21.) '\nhttp://eyes.nasa.gov' — 3D漫游太阳系\n22.) '\nhttp://stellarium-web.org' — 浏览器中的真实星空地图\n23.) '\nhttp://apod.nasa.gov' — NASA每日天文摄影\n24.) '\nhttp://images.nasa.gov' — NASA全部图像档案免费获取\n25.) '\nhttp://pudding.cool' — 用数据讲述的视觉文章\n26.) '\nhttp://ourworldindata.org' — 世界基于真实数据的状态\n27.) '\nhttp://gapminder.org' — 我们对世界的错误认知\n28.) '\nhttp://informationisbeautiful.net' — 复杂数据的可视化\n29.) '\nhttp://data.worldbank.org' — 世界银行的开放数据\n30.) '\nhttp://data.tuik.gov.tr' — 土耳其官方统计数据库\n31.) '\nhttp://archive.org' — 数百万书籍、电影和软件档案\n32.) '\nhttp://gutenberg.org' — 版权过期后的7万本免费书籍\n33.) '\nhttp://openlibrary.org' — 世界每本书的记录\n34.) '\nhttp://loc.gov' — 美国国会图书馆数字档案\n35.) '\nhttp://europeana.eu' — 欧洲文化遗产档案\n36.) '\nhttp://dp.la' — 美国的数字图书馆收藏\n37.) '\nhttp://artsandculture.google.com' — 从家里游览博物馆\n38.) '\nhttp://rijksmuseum.nl' — 高分辨率下载艺术作品\n39.) '\nhttp://wikiart.org' — 25万件艺术作品档案\n40.) '\nhttp://publicdomainreview.org' — 历史遗忘的视觉宝藏\n41.) '\nhttp://openculture.com' — 免费文化和教育档案\n42.) '\nhttp://metmuseum.org' — 大都会博物馆开放收藏\n43.) '\nhttp://musicmap.info' — 音乐类型的家谱树\n44.) '\nhttp://radiooooo.com' — 选择国家和年代聆听那个时代\n45.) '\nhttp://listen.hatnote.com' — 将维基百科编辑转为语音\n46.) '\nhttp://wikipedia.org/wiki/Special:Random…' — 随机知识井\n47.) '\nhttp://timeanddate.com' — 时间、日出和天空事件\n48.) '\nhttp://sciencedaily.com' — 科学新闻的实时流\n49.) '\nhttp://arxiv.org' — 科学论文的免费预印本\n50.) '\nhttp://observablehq.com' — 用实时代码可视化数据\n\n互联网并不仅仅是你面前算法推送的那五个网站。",
+      "media": [],
+      "metrics": {
+        "reposts": 18981,
+        "likes": 57093,
+        "replies": 375
+      },
+      "links": [
+        {
+          "url": "https://t.co/FDTmt38jKw",
+          "type": "website"
+        },
+        {
+          "url": "https://t.co/Tytazsp6y2",
+          "type": "website"
+        },
+        {
+          "url": "https://t.co/b8trMj1vUi",
+          "type": "website"
+        }
+      ],
+      "ai": {
+        "score": 85,
+        "isMustRead": false,
+        "tags": [
+          "OpenSource",
+          "Tooling"
+        ],
+        "whyInteresting": "高匹配度 (85% MATCH)，契合当前技术雷达重点关注领域。",
+        "action": "查阅对应链接: https://t.co/FDTmt38jKw"
+      }
+    },
+    {
+      "id": "tweet-1",
+      "category": "agent",
+      "categoryLabel": "AI 动态",
+      "sourceUrl": "https://x.com/yyyole/status/2091554005772321204",
+      "author": {
+        "name": "沐阳",
+        "handle": "@yyyole",
+        "avatar": "/data/images/tweet-1-avatar-0.jpg"
+      },
+      "createdAt": "2026-08-23T15:51:48.000Z",
+      "displayDate": "2026-08-23",
+      "content": "发现一个很酷的动效库！！！\n\n它把粒子、流体、玻璃质感这些复杂效果，直接做成了可以调参的模板！选好效果以后，颜色、速度、循环和亮度都能自己调整，还能实时预览！！\n\n超多“thinking orb”效果，刚好需要，拿来就能用！",
+      "media": [
+        {
+          "type": "image",
+          "url": "/data/images/tweet-1-1.jpg"
+        }
+      ],
+      "metrics": {
+        "reposts": 11,
+        "likes": 180,
+        "replies": 3
+      },
+      "links": [],
+      "ai": {
+        "score": 75,
+        "isMustRead": false,
+        "tags": [],
+        "whyInteresting": "高匹配度 (75% MATCH)，契合当前技术雷达重点关注领域。",
+        "action": "收藏并关注后续演化"
+      }
+    },
+    {
+      "id": "tweet-3",
+      "category": "agent",
+      "categoryLabel": "AI 动态",
+      "sourceUrl": "https://x.com/ustnvs/status/2084212680257143213/analytics",
+      "author": {
+        "name": "Sergey U",
+        "handle": "@ustnvs",
+        "avatar": "/data/images/tweet-3-avatar-0.jpg"
+      },
+      "createdAt": "2026-08-24T00:02:34.687Z",
+      "displayDate": "2026-08-24",
+      "content": "iOS 和 Android CLI，专为您的编码代理打造\n\nnoqa action tap -d “底部蓝色登录按钮”\n\n任何框架和平台，真机设备，无需定位器或坐标的麻烦。",
+      "media": [],
+      "metrics": {
+        "reposts": 41,
+        "likes": 489,
+        "replies": 31
+      },
+      "links": [
+        {
+          "url": "https://noqa.ai/developers/?utm_source=X&utm_medium=paid_social&utm_campaign=devs&utm_term=narrow&utm_content=gif_cli&twclid=2f374urruoqrkga62h3blpsyzz",
+          "type": "website"
+        }
+      ],
+      "ai": {
+        "score": 75,
+        "isMustRead": false,
+        "tags": [],
+        "whyInteresting": "高匹配度 (75% MATCH)，契合当前技术雷达重点关注领域。",
+        "action": "查阅对应链接: https://noqa.ai/developers/?utm_source=X&utm_medium=paid_social&utm_campaign=devs&utm_term=narrow&utm_content=gif_cli&twclid=2f374urruoqrkga62h3blpsyzz"
+      }
+    }
+  ]
+}

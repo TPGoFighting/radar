@@ -1,0 +1,181 @@
+{
+  "date": "2026-08-17",
+  "generatedAt": "2026-08-17T00:28:18.435Z",
+  "stats": {
+    "scanned": 4,
+    "selected": 4,
+    "mustRead": 0,
+    "zeroNoise": "0 废话"
+  },
+  "trends": [
+    {
+      "id": "trend-1",
+      "name": "AGENT & HARNESS",
+      "direction": "up",
+      "score": 75,
+      "title": "1. Agent 编排范式向“时空可组合”演进",
+      "summary": "DeepSeek 发布 Harness 论文重构 Agent 执行范式，长程持久记忆（Agent Memory）成为核心突破点。"
+    },
+    {
+      "id": "trend-2",
+      "name": "SKILLS & WORKFLOW",
+      "direction": "up",
+      "score": 93,
+      "title": "2. Codex / Claude Skill 生态向垂直场景爆发",
+      "summary": "从通用 Prompt 全面转向即插即用 Skill，涵盖概念插画、轻拟物图标与原生视频生成全流程。"
+    },
+    {
+      "id": "trend-3",
+      "name": "DEV CRAFT & BOOKS",
+      "direction": "up",
+      "score": 85,
+      "title": "3. 前沿工程开源专著与 Agent 本地工具涌现",
+      "summary": "《FDE 指南》与经典深度学习全彩教材开源，面向 Agent 的自然语言设备控制 CLI 加速落地。"
+    }
+  ],
+  "items": [
+    {
+      "id": "tweet-3",
+      "category": "tools",
+      "categoryLabel": "开源工具与图书",
+      "sourceUrl": "https://x.com/Arpit_2023/status/2088830609615397333",
+      "author": {
+        "name": "Arpit",
+        "handle": "@Arpit_2023",
+        "avatar": "/data/images/tweet-3-avatar-0.jpg"
+      },
+      "createdAt": "2026-08-16T03:30:00.000Z",
+      "displayDate": "2026-08-16",
+      "content": "免费开源 React UI 库，你应该访问的\n\n- 图表\n- 加载器\n- 组件 & 更多 \n\n立即访问 - \nhttps://amicro.vercel.app由 - \n@SubhanHQ\n 构建",
+      "media": [
+        {
+          "type": "image",
+          "url": "/data/images/tweet-3-1.jpg"
+        }
+      ],
+      "metrics": {
+        "reposts": 57,
+        "likes": 687,
+        "replies": 7
+      },
+      "links": [
+        {
+          "url": "https://t.co/aN4wwzWw2V",
+          "type": "website"
+        }
+      ],
+      "ai": {
+        "score": 85,
+        "isMustRead": false,
+        "tags": [
+          "OpenSource",
+          "Tooling"
+        ],
+        "whyInteresting": "高匹配度 (85% MATCH)，契合当前技术雷达重点关注领域。",
+        "action": "查阅对应链接: https://t.co/aN4wwzWw2V"
+      }
+    },
+    {
+      "id": "tweet-4",
+      "category": "tools",
+      "categoryLabel": "开源工具与图书",
+      "sourceUrl": "https://x.com/yiyirats/status/2088923721717489717",
+      "author": {
+        "name": "Dliyang",
+        "handle": "@yiyirats",
+        "avatar": "/data/images/tweet-4-avatar-0.jpg"
+      },
+      "createdAt": "2026-08-16T09:40:00.000Z",
+      "displayDate": "2026-08-16",
+      "content": "做自媒体最累的，不是剪视频。\n\n而是同一个视频，要在七八个平台重复发七八遍。\n\nGitHub这个开源项目MatrixMedia，把这些重复操作全部自动化了。\n\n它把多个自媒体平台的网页发布流程封装成统一接口，目前支持抖音、快手、B站、视频号、小红书、头条、百家号、番茄视频等平台，同时提供GUI、CLI、HTTP",
+      "media": [
+        {
+          "type": "image",
+          "url": "/data/images/tweet-4-1.jpg"
+        }
+      ],
+      "metrics": {
+        "reposts": 113,
+        "likes": 348,
+        "replies": 18
+      },
+      "links": [],
+      "ai": {
+        "score": 85,
+        "isMustRead": false,
+        "tags": [
+          "OpenSource",
+          "Tooling"
+        ],
+        "whyInteresting": "高匹配度 (85% MATCH)，契合当前技术雷达重点关注领域。",
+        "action": "收藏并关注后续演化"
+      }
+    },
+    {
+      "id": "tweet-1",
+      "category": "agent",
+      "categoryLabel": "AI 动态",
+      "sourceUrl": "https://x.com/thesupermanmx/status/2088659059008491594",
+      "author": {
+        "name": "Superman",
+        "handle": "@thesupermanmx",
+        "avatar": "/data/images/tweet-1-avatar-0.jpg"
+      },
+      "createdAt": "2026-08-15T16:08:19.000Z",
+      "displayDate": "2026-08-15",
+      "content": "谷歌DeepMind的研究人员认为，我们需要停止构建大型语言模型（LLMs）。\n\n他们发表了一篇论文，提出了一种改变一切的替代解决方案。\n\nLLMs在预测下一个标记方面令人惊叹。\n\n但它们从根本上缺少真正智能的核心架构。它们缺乏持久记忆、主动世界模型、动态目标管理和持续自我进化。",
+      "media": [
+        {
+          "type": "image",
+          "url": "/data/images/tweet-1-1.jpg"
+        }
+      ],
+      "metrics": {
+        "reposts": 268,
+        "likes": 980,
+        "replies": 92
+      },
+      "links": [],
+      "ai": {
+        "score": 75,
+        "isMustRead": false,
+        "tags": [],
+        "whyInteresting": "高匹配度 (75% MATCH)，契合当前技术雷达重点关注领域。",
+        "action": "收藏并关注后续演化"
+      }
+    },
+    {
+      "id": "tweet-2",
+      "category": "agent",
+      "categoryLabel": "AI 动态",
+      "sourceUrl": "https://x.com/Millanphilipose/status/2087595867087991073/analytics",
+      "author": {
+        "name": "Millan Philipose",
+        "handle": "@Millanphilipose",
+        "avatar": "/data/images/tweet-2-avatar-0.jpg"
+      },
+      "createdAt": "2026-08-17T00:28:18.005Z",
+      "displayDate": "2026-08-17",
+      "content": "用 Bouncer 掌控你的动态。",
+      "media": [],
+      "metrics": {
+        "reposts": 131,
+        "likes": 751,
+        "replies": 57
+      },
+      "links": [
+        {
+          "url": "https://imbue.com/product/bouncer/redirect.html?utm_source=x&utm_campaign=omni_redirect_garb&authuser=0&hl=en&twclid=2axp89x0xdbf8uxhq67ar1qxj5",
+          "type": "website"
+        }
+      ],
+      "ai": {
+        "score": 75,
+        "isMustRead": false,
+        "tags": [],
+        "whyInteresting": "高匹配度 (75% MATCH)，契合当前技术雷达重点关注领域。",
+        "action": "查阅对应链接: https://imbue.com/product/bouncer/redirect.html?utm_source=x&utm_campaign=omni_redirect_garb&authuser=0&hl=en&twclid=2axp89x0xdbf8uxhq67ar1qxj5"
+      }
+    }
+  ]
+}

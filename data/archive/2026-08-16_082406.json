@@ -1,0 +1,217 @@
+{
+  "date": "2026-08-16",
+  "generatedAt": "2026-08-16T00:24:06.880Z",
+  "stats": {
+    "scanned": 5,
+    "selected": 5,
+    "mustRead": 0,
+    "zeroNoise": "0 废话"
+  },
+  "trends": [
+    {
+      "id": "trend-1",
+      "name": "AGENT & HARNESS",
+      "direction": "up",
+      "score": 88,
+      "title": "1. Agent 编排范式向“时空可组合”演进",
+      "summary": "DeepSeek 发布 Harness 论文重构 Agent 执行范式，长程持久记忆（Agent Memory）成为核心突破点。"
+    },
+    {
+      "id": "trend-2",
+      "name": "SKILLS & WORKFLOW",
+      "direction": "up",
+      "score": 86,
+      "title": "2. Codex / Claude Skill 生态向垂直场景爆发",
+      "summary": "从通用 Prompt 全面转向即插即用 Skill，涵盖概念插画、轻拟物图标与原生视频生成全流程。"
+    },
+    {
+      "id": "trend-3",
+      "name": "DEV CRAFT & BOOKS",
+      "direction": "up",
+      "score": 85,
+      "title": "3. 前沿工程开源专著与 Agent 本地工具涌现",
+      "summary": "《FDE 指南》与经典深度学习全彩教材开源，面向 Agent 的自然语言设备控制 CLI 加速落地。"
+    }
+  ],
+  "items": [
+    {
+      "id": "tweet-1",
+      "category": "agent",
+      "categoryLabel": "AI Harness 范式",
+      "sourceUrl": "",
+      "author": {
+        "name": "Frank Wang 玉伯",
+        "handle": "@lifesinger",
+        "avatar": "https://pbs.twimg.com/profile_images/1965120373781114880/rLnJ1xpC_x96.jpg"
+      },
+      "createdAt": "2026-08-15T07:41:17.000Z",
+      "displayDate": "2026-08-15",
+      "content": "今天文君在大理，一起约在洱海边的时光咖啡聊天。挺有感触的几个收获：\n\n1、Agent 类似网站，OpenClaw 是第一种被大众感知的建站技术。虾是个人网站。Yahoo、Google、Facebook 等大型网站还没出现。网站 -〉移动应用 -〉Agent，是技术也是产品路线。一切才刚开始。\n\n2、Agent 创业者最重要的两大能力是：能不断找到目标用户的能力、能预判技术实现路线并疯狂执行的能力。找市场 + 执行力，缺了这两个，很难成。\n\n3、Agent 产品的基础功是：用做模型的方式去做应用。由上下文、测评等构建出 Loop 循环，让 Agent 在特定领域能持续进化。很难，但有机会。\n\n4、Agent 不是孤立的。人与 LLM 共同孕育出一个个 agent。这是一种新的生命体，不是人的分身。生命体的长大需要关系，关系的构建需要环境，或者叫社群。新时代的社群产品，有大机会。\n\n5、社群里，有可能会产生神。比如 Claude Tag 就是在一个组织环境下，自然而然造出了一个组织协作环境下接近全知全能的神。神学很值得研究。\n\n以上。",
+      "media": [
+        {
+          "type": "image",
+          "url": "/data/images/tweet-1-1.jpg"
+        }
+      ],
+      "metrics": {
+        "reposts": 10,
+        "likes": 63,
+        "replies": 21
+      },
+      "links": [],
+      "ai": {
+        "score": 88,
+        "isMustRead": false,
+        "tags": [
+          "Agent",
+          "Architecture"
+        ],
+        "whyInteresting": "高匹配度 (88% MATCH)，契合当前技术雷达重点关注领域。",
+        "action": "收藏并关注后续演化"
+      }
+    },
+    {
+      "id": "tweet-2",
+      "category": "skills",
+      "categoryLabel": "生产力 Skill",
+      "sourceUrl": "",
+      "author": {
+        "name": "卷毛 shaw",
+        "handle": "@Juanmao_shaw",
+        "avatar": "https://pbs.twimg.com/profile_images/1965284641440698368/YCCmYXfo_x96.jpg"
+      },
+      "createdAt": "2026-08-15T08:44:27.000Z",
+      "displayDate": "2026-08-15",
+      "content": "海报设计skill（最后几个）  \n\nphoto-relic-editorial\n\nhttps://github.com/wnby/photo-relic-editorial…photo-distillhttps://github.com/yangcodingmaster/photo-distill…poetic-line-zine-posterhttps://github.com/zhu930824/poetic-line-zine-poster…photo-abstract-editorialhttps://github.com/ZzzLc0405/photo-abstract-editorial…",
+      "media": [
+        {
+          "type": "image",
+          "url": "/data/images/tweet-2-1.jpg"
+        }
+      ],
+      "metrics": {
+        "reposts": 15,
+        "likes": 95,
+        "replies": 19
+      },
+      "links": [
+        {
+          "url": "https://github.com/wnby/photo-relic-editorial…photo-distillhttps://github.com/yangcodingmaster/photo-distill…poetic-line-zine-posterhttps://github.com/zhu930824/poetic-line-zine-poster…photo-abstract-editorialhttps://github.com/ZzzLc0405/photo-abstract-editorial…",
+          "type": "github"
+        }
+      ],
+      "ai": {
+        "score": 86,
+        "isMustRead": false,
+        "tags": [
+          "Skill",
+          "Codex"
+        ],
+        "whyInteresting": "高匹配度 (86% MATCH)，契合当前技术雷达重点关注领域。",
+        "action": "查阅对应链接: https://github.com/wnby/photo-relic-editorial…photo-distillhttps://github.com/yangcodingmaster/photo-distill…poetic-line-zine-posterhttps://github.com/zhu930824/poetic-line-zine-poster…photo-abstract-editorialhttps://github.com/ZzzLc0405/photo-abstract-editorial…"
+      }
+    },
+    {
+      "id": "tweet-3",
+      "category": "tools",
+      "categoryLabel": "开源工具与图书",
+      "sourceUrl": "",
+      "author": {
+        "name": "Kiyotaka",
+        "handle": "@SubhanHQ",
+        "avatar": "https://pbs.twimg.com/profile_images/2069989070877659136/Qkxsn8ez_x96.jpg"
+      },
+      "createdAt": "2026-08-15T12:11:32.000Z",
+      "displayDate": "2026-08-15",
+      "content": "介绍 Mono Charts。\n\n一个用于 React 的极简动画图表组件集合。\n\n现在，您可以通过单个 CLI 命令将精美、交互式图表添加到您的应用中。\n\nAmicro 的一部分。\n开源。\n\n试用：\nhttps://amicro.vercel.app",
+      "media": [
+        {
+          "type": "image",
+          "url": "/data/images/tweet-3-1.jpg"
+        }
+      ],
+      "metrics": {
+        "reposts": 75,
+        "likes": 1163,
+        "replies": 19
+      },
+      "links": [
+        {
+          "url": "https://amicro.vercel.app",
+          "type": "website"
+        }
+      ],
+      "ai": {
+        "score": 85,
+        "isMustRead": false,
+        "tags": [
+          "OpenSource",
+          "Tooling"
+        ],
+        "whyInteresting": "高匹配度 (85% MATCH)，契合当前技术雷达重点关注领域。",
+        "action": "查阅对应链接: https://amicro.vercel.app"
+      }
+    },
+    {
+      "id": "tweet-4",
+      "category": "agent",
+      "categoryLabel": "AI 动态",
+      "sourceUrl": "",
+      "author": {
+        "name": "langfuse.com",
+        "handle": "@langfuse",
+        "avatar": "https://pbs.twimg.com/profile_images/2044396073561550848/qCtNGUmN_x96.jpg"
+      },
+      "createdAt": "2026-08-16T00:06:37.773Z",
+      "displayDate": "2026-08-16",
+      "content": "Canva 的一个 4 人机器学习团队为 2.5 亿月活跃用户提供 AI 支持。\n\n如何做到？他们使用 Langfuse 来追踪、评估，并让非工程师调优提示词。\n\n阅读故事",
+      "media": [],
+      "metrics": {
+        "reposts": 62,
+        "likes": 690,
+        "replies": 16
+      },
+      "links": [],
+      "ai": {
+        "score": 75,
+        "isMustRead": false,
+        "tags": [],
+        "whyInteresting": "高匹配度 (75% MATCH)，契合当前技术雷达重点关注领域。",
+        "action": "收藏并关注后续演化"
+      }
+    },
+    {
+      "id": "tweet-5",
+      "category": "agent",
+      "categoryLabel": "AI 动态",
+      "sourceUrl": "",
+      "author": {
+        "name": "Ahmed Hassan",
+        "handle": "@uihssn",
+        "avatar": "https://pbs.twimg.com/profile_images/2044610870983196672/i3taG2SB_x96.jpg"
+      },
+      "createdAt": "2026-08-15T13:28:01.000Z",
+      "displayDate": "2026-08-15",
+      "content": "你喜欢我的背景图。\n\n现在想象它们动起来。\n\n50+ 个动画背景，可用于你的下一个着陆页、SaaS 网站、广告或创意项目。\n\n有些完全免费。\n\n在下面获取它们。↓",
+      "media": [
+        {
+          "type": "image",
+          "url": "/data/images/tweet-5-1.jpg"
+        }
+      ],
+      "metrics": {
+        "reposts": 5,
+        "likes": 157,
+        "replies": 5
+      },
+      "links": [],
+      "ai": {
+        "score": 75,
+        "isMustRead": false,
+        "tags": [],
+        "whyInteresting": "高匹配度 (75% MATCH)，契合当前技术雷达重点关注领域。",
+        "action": "收藏并关注后续演化"
+      }
+    }
+  ]
+}

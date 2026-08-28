@@ -1,0 +1,342 @@
+{
+  "date": "2026-08-22",
+  "generatedAt": "2026-08-22T00:02:28.717Z",
+  "stats": {
+    "scanned": 9,
+    "selected": 9,
+    "mustRead": 0,
+    "zeroNoise": "0 废话"
+  },
+  "trends": [
+    {
+      "id": "trend-1",
+      "name": "AGENT & HARNESS",
+      "direction": "up",
+      "score": 88,
+      "title": "1. Agent 编排范式向“时空可组合”演进",
+      "summary": "DeepSeek 发布 Harness 论文重构 Agent 执行范式，长程持久记忆（Agent Memory）成为核心突破点。"
+    },
+    {
+      "id": "trend-2",
+      "name": "SKILLS & WORKFLOW",
+      "direction": "up",
+      "score": 86,
+      "title": "2. Codex / Claude Skill 生态向垂直场景爆发",
+      "summary": "从通用 Prompt 全面转向即插即用 Skill，涵盖概念插画、轻拟物图标与原生视频生成全流程。"
+    },
+    {
+      "id": "trend-3",
+      "name": "DEV CRAFT & BOOKS",
+      "direction": "up",
+      "score": 85,
+      "title": "3. 前沿工程开源专著与 Agent 本地工具涌现",
+      "summary": "《FDE 指南》与经典深度学习全彩教材开源，面向 Agent 的自然语言设备控制 CLI 加速落地。"
+    }
+  ],
+  "items": [
+    {
+      "id": "tweet-1",
+      "category": "agent",
+      "categoryLabel": "AI Harness 范式",
+      "sourceUrl": "https://x.com/coder_left/status/2090734882498736474",
+      "author": {
+        "name": "程序员Left",
+        "handle": "@coder_left",
+        "avatar": "/data/images/tweet-1-avatar-0.jpg"
+      },
+      "createdAt": "2026-08-21T09:36:54.000Z",
+      "displayDate": "2026-08-21",
+      "content": "随着 Agent 落地越来越深，Harness 的设计与治理成了大家绕不开的核心话题。想把 Harness 真正用好，工程化思维是不可或缺的一环\n\n如果你正准备系统性搞懂 Harness，我把近期读到的优质资料整理出来了，希望对大家有所帮助\n\n一、你不知道的 Claude Code：架构、治理与工程实践",
+      "media": [
+        {
+          "type": "image",
+          "url": "/data/images/tweet-1-1.jpg"
+        }
+      ],
+      "metrics": {
+        "reposts": 5,
+        "likes": 19,
+        "replies": 6
+      },
+      "links": [],
+      "ai": {
+        "score": 88,
+        "isMustRead": false,
+        "tags": [
+          "Agent",
+          "Architecture"
+        ],
+        "whyInteresting": "高匹配度 (88% MATCH)，契合当前技术雷达重点关注领域。",
+        "action": "收藏并关注后续演化"
+      }
+    },
+    {
+      "id": "tweet-9",
+      "category": "skills",
+      "categoryLabel": "生产力 Skill",
+      "sourceUrl": "https://x.com/0x99_Ethan/status/2090908174543139298",
+      "author": {
+        "name": "0x99 | Ethan",
+        "handle": "@0x99_Ethan",
+        "avatar": "/data/images/tweet-9-avatar-0.png"
+      },
+      "createdAt": "2026-08-21T21:05:30.000Z",
+      "displayDate": "2026-08-21",
+      "content": "claude fable 5 weekly量不够用，opus 5和sonnet 5的产出质量基本没办法用。\n\ncodex gpt 5.6 sol的一周的限额只够一两天，并且今天削弱成个智障了。\n\n这个月已经不知道该订阅哪家了。\n\ncoding plan里最开始weekly",
+      "media": [],
+      "metrics": {
+        "reposts": 0,
+        "likes": 1,
+        "replies": 0
+      },
+      "links": [],
+      "ai": {
+        "score": 86,
+        "isMustRead": false,
+        "tags": [
+          "Skill",
+          "Codex"
+        ],
+        "whyInteresting": "高匹配度 (86% MATCH)，契合当前技术雷达重点关注领域。",
+        "action": "收藏并关注后续演化"
+      }
+    },
+    {
+      "id": "tweet-4",
+      "category": "tools",
+      "categoryLabel": "开源工具与图书",
+      "sourceUrl": "https://x.com/yibie/status/2090549027435954617",
+      "author": {
+        "name": "yibie",
+        "handle": "@yibie",
+        "avatar": "/data/images/tweet-4-avatar-0.jpg"
+      },
+      "createdAt": "2026-08-20T21:18:23.000Z",
+      "displayDate": "2026-08-20",
+      "content": "Vizuara AI Labs 联合创始人、MIT 博士 Raj Dandekar 花 252 美元租一张 H200，从零预训练了一个迷你版 Kimi，把官方代码训不动的坑也一条条写进日志。\n\n《预训练一个迷你 Kimi K3》\n\n《Pretraining a Mini Kimi K3》是一本免费电子书，作者 Dr. Raj Dandekar 是 Vizuara AI Labs",
+      "media": [],
+      "metrics": {
+        "reposts": 148,
+        "likes": 699,
+        "replies": 44
+      },
+      "links": [
+        {
+          "url": "https://t.co/RHQ9BuyfHI",
+          "type": "website"
+        }
+      ],
+      "ai": {
+        "score": 85,
+        "isMustRead": false,
+        "tags": [
+          "OpenSource",
+          "Tooling"
+        ],
+        "whyInteresting": "高匹配度 (85% MATCH)，契合当前技术雷达重点关注领域。",
+        "action": "查阅对应链接: https://t.co/RHQ9BuyfHI"
+      }
+    },
+    {
+      "id": "tweet-8",
+      "category": "tools",
+      "categoryLabel": "开源工具与图书",
+      "sourceUrl": "https://x.com/bkdgiffug/status/2090591462031569218",
+      "author": {
+        "name": "lumxss",
+        "handle": "@bkdgiffug",
+        "avatar": "/data/images/tweet-8-avatar-0.jpg"
+      },
+      "createdAt": "2026-08-21T00:07:00.000Z",
+      "displayDate": "2026-08-21",
+      "content": "港大又憋了个大招，DeepTutor，一套开源终身个性化辅导系统，GitHub星数已经快摸到3万了。\n\n它根本不是那种一问一答的聊天机器人。你把教材、论文、课堂笔记一股脑丢进去，它就会基于你自己的资料干活：\n\n 解题时把推理链条一层层剥给你看\n 自动出题+批改，顺手给你生成针对性的练习",
+      "media": [
+        {
+          "type": "image",
+          "url": "/data/images/tweet-8-1.jpg"
+        }
+      ],
+      "metrics": {
+        "reposts": 99,
+        "likes": 382,
+        "replies": 35
+      },
+      "links": [],
+      "ai": {
+        "score": 85,
+        "isMustRead": false,
+        "tags": [
+          "OpenSource",
+          "Tooling"
+        ],
+        "whyInteresting": "高匹配度 (85% MATCH)，契合当前技术雷达重点关注领域。",
+        "action": "收藏并关注后续演化"
+      }
+    },
+    {
+      "id": "tweet-2",
+      "category": "agent",
+      "categoryLabel": "AI 动态",
+      "sourceUrl": "https://x.com/muellerberndt/status/2079877767416709231/analytics",
+      "author": {
+        "name": "Bernhard Mueller",
+        "handle": "@muellerberndt",
+        "avatar": "/data/images/tweet-2-avatar-0.jpg"
+      },
+      "createdAt": "2026-08-22T00:02:26.706Z",
+      "displayDate": "2026-08-22",
+      "content": "有限的观察者能否强制时空、引力和标准模型？\n\nOPH 是一个开放、可审计的尝试，带有 Lean 证明、模拟和明确的空白。\n\n数学、Lean 4 和物理黑客：凭证可选；严谨性强制。给它加星。挑选一个问题。",
+      "media": [],
+      "metrics": {
+        "reposts": 1023,
+        "likes": 9384,
+        "replies": 384
+      },
+      "links": [
+        {
+          "url": "https://t.co/Pb6AYEtEKR?twclid=22faj0olvvzjn2bswdp10ls3o9",
+          "type": "website"
+        }
+      ],
+      "ai": {
+        "score": 75,
+        "isMustRead": false,
+        "tags": [],
+        "whyInteresting": "高匹配度 (75% MATCH)，契合当前技术雷达重点关注领域。",
+        "action": "查阅对应链接: https://t.co/Pb6AYEtEKR?twclid=22faj0olvvzjn2bswdp10ls3o9"
+      }
+    },
+    {
+      "id": "tweet-3",
+      "category": "agent",
+      "categoryLabel": "AI 动态",
+      "sourceUrl": "https://x.com/OpenAI/status/2090885187634905500",
+      "author": {
+        "name": "OpenAI",
+        "handle": "@OpenAI",
+        "avatar": "/data/images/tweet-3-avatar-0.jpg"
+      },
+      "createdAt": "2026-08-21T19:34:10.000Z",
+      "displayDate": "2026-08-21",
+      "content": "在我们继续推动能力边界的同时提升效率，我们将GPT-5.6 Sol的API和信用价格下调超过20%，为期3个月。",
+      "media": [
+        {
+          "type": "image",
+          "url": "/data/images/tweet-3-1.jpg"
+        }
+      ],
+      "metrics": {
+        "reposts": 770,
+        "likes": 8114,
+        "replies": 373
+      },
+      "links": [],
+      "ai": {
+        "score": 75,
+        "isMustRead": false,
+        "tags": [],
+        "whyInteresting": "高匹配度 (75% MATCH)，契合当前技术雷达重点关注领域。",
+        "action": "收藏并关注后续演化"
+      }
+    },
+    {
+      "id": "tweet-5",
+      "category": "agent",
+      "categoryLabel": "AI 动态",
+      "sourceUrl": "https://x.com/oooodjdjd/status/2090319146156445988",
+      "author": {
+        "name": "meme",
+        "handle": "@oooodjdjd",
+        "avatar": "/data/images/tweet-5-avatar-0.jpg"
+      },
+      "createdAt": "2026-08-20T06:04:55.000Z",
+      "displayDate": "2026-08-20",
+      "content": "字节CEO张一鸣对应届毕业生的演讲：\n\n2005 年，我从南开大学毕业，加入了一家公司叫酷讯。我是最早期加入的员工之一，\n\n一开始只是一个普通工程师，但在工作第 2 年，我在公司管了四五十个人的团队，负责所有后端技术，同时也负责很多产品相关的工作。\n\n有人问我：为什么你在第一份工作就成长很快？",
+      "media": [
+        {
+          "type": "image",
+          "url": "/data/images/tweet-5-1.jpg"
+        }
+      ],
+      "metrics": {
+        "reposts": 254,
+        "likes": 1361,
+        "replies": 185
+      },
+      "links": [],
+      "ai": {
+        "score": 75,
+        "isMustRead": false,
+        "tags": [],
+        "whyInteresting": "高匹配度 (75% MATCH)，契合当前技术雷达重点关注领域。",
+        "action": "收藏并关注后续演化"
+      }
+    },
+    {
+      "id": "tweet-6",
+      "category": "agent",
+      "categoryLabel": "AI 动态",
+      "sourceUrl": "https://x.com/DLKFZWilliam2/status/2090697370732548488",
+      "author": {
+        "name": "独立开发者William",
+        "handle": "@DLKFZWilliam2",
+        "avatar": "/data/images/tweet-6-avatar-0.jpg"
+      },
+      "createdAt": "2026-08-21T07:07:51.000Z",
+      "displayDate": "2026-08-21",
+      "content": "我申请了，秒过！Apple送钱了啊啊啊啊啊！\n\n朋友们都可以去试试！Apple免费的云端AI Private Cloud Compute（PCC）调用云端的 Apple Foundation Models，一分钱不要！！！\n\n以后在 App 里我要全部加AI功能了！！！成本为0！！！​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​ 大家快搞起！我把链接放进来：",
+      "media": [
+        {
+          "type": "image",
+          "url": "/data/images/tweet-6-1.jpg"
+        }
+      ],
+      "metrics": {
+        "reposts": 142,
+        "likes": 1156,
+        "replies": 95
+      },
+      "links": [],
+      "ai": {
+        "score": 75,
+        "isMustRead": false,
+        "tags": [],
+        "whyInteresting": "高匹配度 (75% MATCH)，契合当前技术雷达重点关注领域。",
+        "action": "收藏并关注后续演化"
+      }
+    },
+    {
+      "id": "tweet-7",
+      "category": "agent",
+      "categoryLabel": "AI 动态",
+      "sourceUrl": "https://x.com/langfuse/status/2071599598062424383/analytics",
+      "author": {
+        "name": "langfuse.com",
+        "handle": "@langfuse",
+        "avatar": "/data/images/tweet-7-avatar-0.jpg"
+      },
+      "createdAt": "2026-08-22T00:02:26.706Z",
+      "displayDate": "2026-08-22",
+      "content": "Canva 的一个 4 人机器学习团队为 2.5 亿月活跃用户提供 AI 支持。\n\n如何做到？他们使用 Langfuse 来追踪、评估，并让非工程师调优提示词。\n\n阅读故事",
+      "media": [],
+      "metrics": {
+        "reposts": 66,
+        "likes": 741,
+        "replies": 30
+      },
+      "links": [
+        {
+          "url": "https://langfuse.com/users/canva?utm_source=XAds&utm_medium=paid-social&utm_campaign=x-traffic-apac-tier-1&twclid=25ro3zifus2n2l1p12t6xfxns3",
+          "type": "website"
+        }
+      ],
+      "ai": {
+        "score": 75,
+        "isMustRead": false,
+        "tags": [],
+        "whyInteresting": "高匹配度 (75% MATCH)，契合当前技术雷达重点关注领域。",
+        "action": "查阅对应链接: https://langfuse.com/users/canva?utm_source=XAds&utm_medium=paid-social&utm_campaign=x-traffic-apac-tier-1&twclid=25ro3zifus2n2l1p12t6xfxns3"
+      }
+    }
+  ]
+}

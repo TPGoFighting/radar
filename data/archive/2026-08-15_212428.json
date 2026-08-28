@@ -1,0 +1,333 @@
+{
+  "date": "2026-08-15",
+  "generatedAt": "2026-08-15T13:24:28.358Z",
+  "stats": {
+    "scanned": 9,
+    "selected": 9,
+    "mustRead": 1,
+    "zeroNoise": "0 废话"
+  },
+  "trends": [
+    {
+      "id": "trend-1",
+      "name": "AGENT & HARNESS",
+      "direction": "up",
+      "score": 88,
+      "title": "1. Agent 编排范式向“时空可组合”演进",
+      "summary": "DeepSeek 发布 Harness 论文重构 Agent 执行范式，长程持久记忆（Agent Memory）成为核心突破点。"
+    },
+    {
+      "id": "trend-2",
+      "name": "SKILLS & WORKFLOW",
+      "direction": "up",
+      "score": 94,
+      "title": "2. Codex / Claude Skill 生态向垂直场景爆发",
+      "summary": "从通用 Prompt 全面转向即插即用 Skill，涵盖概念插画、轻拟物图标与原生视频生成全流程。"
+    },
+    {
+      "id": "trend-3",
+      "name": "DEV CRAFT & BOOKS",
+      "direction": "up",
+      "score": 90,
+      "title": "3. 前沿工程开源专著与 Agent 本地工具涌现",
+      "summary": "《FDE 指南》与经典深度学习全彩教材开源，面向 Agent 的自然语言设备控制 CLI 加速落地。"
+    }
+  ],
+  "items": [
+    {
+      "id": "tweet-6",
+      "category": "skills",
+      "categoryLabel": "生产力 Skill",
+      "sourceUrl": "https://x.com/Saccc_c/status/2087960830201745517",
+      "author": {
+        "name": "Sac",
+        "handle": "@Saccc_c",
+        "avatar": "https://pbs.twimg.com/profile_images/2081939362808520704/FwzCMH0g_x96.jpg"
+      },
+      "createdAt": "2026-08-13T17:53:49.000Z",
+      "displayDate": "2026-08-13",
+      "content": "这是玩 Seedance 2.5 必须在 Codex 中安装的插件： Higgsfield\n\n安装这个插件，你在 codex 中可以直接调用 Higgsfield 生成高质量的 AIGC 视频，生产力直接起飞\n\n我实测下来，最大的感受是现在 seedance 2.5 工作流直接住在了 codex 中，从关键帧  视频提示词  视频生成  修改都可以直接在 codex",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2087552798531702785/img/P3DK4dx5Os2lk5ze?format=jpg&name=360x360"
+        }
+      ],
+      "metrics": {
+        "reposts": 87,
+        "likes": 503,
+        "replies": 122
+      },
+      "links": [],
+      "ai": {
+        "score": 94,
+        "isMustRead": true,
+        "tags": [
+          "Skill",
+          "Codex"
+        ],
+        "whyInteresting": "高匹配度 (94% MATCH)，契合当前技术雷达重点关注领域。",
+        "action": "收藏并关注后续演化"
+      }
+    },
+    {
+      "id": "tweet-4",
+      "category": "agent",
+      "categoryLabel": "AI Harness 范式",
+      "sourceUrl": "https://x.com/WangBenson6541/status/2088059987855810983",
+      "author": {
+        "name": "Benson Wang",
+        "handle": "@WangBenson6541",
+        "avatar": "https://pbs.twimg.com/profile_images/2046153330179866624/ITw0NVto_x96.jpg"
+      },
+      "createdAt": "2026-08-14T00:27:50.000Z",
+      "displayDate": "2026-08-14",
+      "content": "昨晚DeepSeek Harness 发布了\n我们把官方 DeepSeek Harness 打包成了一个开箱即用的桌面应用\n\n不需要安装 Node.js，也不用再通过命令行启动\n\n目前支持：\nmacOS Apple Silicon\nWindows x64\n本地运行\n自动管理 Harness 服务\n保留官方插件能力和 Web UI\n\nGitHub：\nhttps://\ngithub.com/anywhere-labs/\ndeepseek-harness-desktop\n…",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://pbs.twimg.com/media/HPpHe_raMAA7dEK?format=jpg&name=medium"
+        }
+      ],
+      "metrics": {
+        "reposts": 235,
+        "likes": 1170,
+        "replies": 116
+      },
+      "links": [],
+      "ai": {
+        "score": 88,
+        "isMustRead": false,
+        "tags": [
+          "Agent",
+          "Architecture"
+        ],
+        "whyInteresting": "高匹配度 (88% MATCH)，契合当前技术雷达重点关注领域。",
+        "action": "收藏并关注后续演化"
+      }
+    },
+    {
+      "id": "tweet-8",
+      "category": "agent",
+      "categoryLabel": "AI Harness 范式",
+      "sourceUrl": "https://x.com/MaxForAI/status/2088420807282446826",
+      "author": {
+        "name": "Max For AI",
+        "handle": "@MaxForAI",
+        "avatar": "https://pbs.twimg.com/profile_images/1885611457376903171/zWWnahYp_x96.jpg"
+      },
+      "createdAt": "2026-08-15T00:21:36.000Z",
+      "displayDate": "2026-08-15",
+      "content": "独家爆料：DeepSeek-V4-Pro疑似存在不同版本\n\n过去一天内，中国社区一直在流传一个非常离谱的说法：\n\nDeepSeek V4 Pro 的 API 背后，可能藏着三个不同的模型。\n\n有人发现，同样调用 deepseek-v4-pro，换 IP、重新开会话之后，模型会出现三种截然不同的「思维链指纹」。\n\n一种大量出现 Let",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://pbs.twimg.com/media/HPuPphqacAAKg3A?format=jpg&name=medium"
+        }
+      ],
+      "metrics": {
+        "reposts": 47,
+        "likes": 380,
+        "replies": 80
+      },
+      "links": [],
+      "ai": {
+        "score": 88,
+        "isMustRead": false,
+        "tags": [
+          "Agent",
+          "Architecture"
+        ],
+        "whyInteresting": "高匹配度 (88% MATCH)，契合当前技术雷达重点关注领域。",
+        "action": "收藏并关注后续演化"
+      }
+    },
+    {
+      "id": "tweet-1",
+      "category": "skills",
+      "categoryLabel": "生产力 Skill",
+      "sourceUrl": "https://x.com/SevenXL77/status/2088566363107242092",
+      "author": {
+        "name": "Seven",
+        "handle": "@SevenXL77",
+        "avatar": "https://pbs.twimg.com/profile_images/1930764418998317056/IljxmxLV_x96.jpg"
+      },
+      "createdAt": "2026-08-15T09:59:59.000Z",
+      "displayDate": "2026-08-15",
+      "content": "给 Codex 5.6 装上这 4 个前端设计神器，做出来的网页终于有灵魂了！\n\n分享一套我目前实测下来最棒的 Codex 前端审美组合：\n\nFigma（内置插件）\n\n直接读取设计稿、品牌规范和组件，把视觉参考像素级还原成响应式代码，不再让 Codex 凭空猜设计。\n\nProduct Design（内置插件）",
+      "media": [],
+      "metrics": {
+        "reposts": 5,
+        "likes": 13,
+        "replies": 2
+      },
+      "links": [],
+      "ai": {
+        "score": 86,
+        "isMustRead": false,
+        "tags": [
+          "Skill",
+          "Codex"
+        ],
+        "whyInteresting": "高匹配度 (86% MATCH)，契合当前技术雷达重点关注领域。",
+        "action": "收藏并关注后续演化"
+      }
+    },
+    {
+      "id": "tweet-3",
+      "category": "skills",
+      "categoryLabel": "生产力 Skill",
+      "sourceUrl": "https://x.com/nini_incrypto_/status/2088250044839289090",
+      "author": {
+        "name": "nini",
+        "handle": "@nini_incrypto_",
+        "avatar": "https://pbs.twimg.com/profile_images/2035875407359262720/qVUpg1XW_x96.jpg"
+      },
+      "createdAt": "2026-08-14T13:03:03.000Z",
+      "displayDate": "2026-08-14",
+      "content": "大家玩Codex，一定记得先把GitHub插件接上，真的能省好多Token\n\n很多人一上来就让AI做网站、做简历，直接Vibe Coding\n\n其实你想做的东西，GitHub上大概率已经有人做过了，而且不少方案也很成熟，\n那为什么还要从头写一遍呢？\n\n直接把这段提示词丢给Codex：\n我要做一个XXX",
+      "media": [],
+      "metrics": {
+        "reposts": 21,
+        "likes": 159,
+        "replies": 39
+      },
+      "links": [],
+      "ai": {
+        "score": 86,
+        "isMustRead": false,
+        "tags": [
+          "Skill",
+          "Codex"
+        ],
+        "whyInteresting": "高匹配度 (86% MATCH)，契合当前技术雷达重点关注领域。",
+        "action": "收藏并关注后续演化"
+      }
+    },
+    {
+      "id": "tweet-9",
+      "category": "skills",
+      "categoryLabel": "生产力 Skill",
+      "sourceUrl": "https://x.com/kevinma_dev_zh/status/2088540954521412074",
+      "author": {
+        "name": "Kevin Ma",
+        "handle": "@kevinma_dev_zh",
+        "avatar": "https://pbs.twimg.com/profile_images/1783509931813154816/O2ZjRUSc_x96.jpg"
+      },
+      "createdAt": "2026-08-15T08:19:01.000Z",
+      "displayDate": "2026-08-15",
+      "content": "再聊聊 grill-me skill 的价值。\n\n我觉得真正重要的，其实是把它当成一个 Review 工具，用来帮助我们检查已经成形的计划和方案，找出遗漏的边界情况。尤其是在交互设计、架构设计和程序设计这些场景里，它非常有用。\n\n我通常不建议一上来就直接 grill。",
+      "media": [],
+      "metrics": {
+        "reposts": 5,
+        "likes": 42,
+        "replies": 5
+      },
+      "links": [],
+      "ai": {
+        "score": 86,
+        "isMustRead": false,
+        "tags": [
+          "Skill",
+          "Codex"
+        ],
+        "whyInteresting": "高匹配度 (86% MATCH)，契合当前技术雷达重点关注领域。",
+        "action": "收藏并关注后续演化"
+      }
+    },
+    {
+      "id": "tweet-2",
+      "category": "agent",
+      "categoryLabel": "AI 动态",
+      "sourceUrl": "https://x.com/OpenAI/status/2087996496088297746",
+      "author": {
+        "name": "OpenAI",
+        "handle": "@OpenAI",
+        "avatar": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_x96.jpg"
+      },
+      "createdAt": "2026-08-13T20:15:32.000Z",
+      "displayDate": "2026-08-13",
+      "content": "ChatGPT 现在可以记住您在计算机上的应用程序和网站中的活动。\n\n通过桌面应用程序中的计算机历史记录功能，未来的交互感觉更加个性化，并且需要更少的解释。",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2087996446595485696/img/H3Zozzo8XjGuIawW.jpg"
+        }
+      ],
+      "metrics": {
+        "reposts": 1656,
+        "likes": 11640,
+        "replies": 712
+      },
+      "links": [],
+      "ai": {
+        "score": 75,
+        "isMustRead": false,
+        "tags": [],
+        "whyInteresting": "高匹配度 (75% MATCH)，契合当前技术雷达重点关注领域。",
+        "action": "收藏并关注后续演化"
+      }
+    },
+    {
+      "id": "tweet-5",
+      "category": "agent",
+      "categoryLabel": "AI 动态",
+      "sourceUrl": "https://x.com/robert_lauko/status/2084753655413006737/analytics",
+      "author": {
+        "name": "Robert Lauko",
+        "handle": "@robert_lauko",
+        "avatar": "https://pbs.twimg.com/profile_images/1258145716267958272/dJ396jWw_x96.jpg"
+      },
+      "createdAt": "2026-08-15T13:24:28.012Z",
+      "displayDate": "2026-08-15",
+      "content": "跟上 \n@arxiv\n 是不可能的。一天有 500 多篇预印本，涵盖数十个领域。\n\n\n@KurateOrg\n 在 16 个维度（影响力、新颖性、严谨性、惊喜度、转化潜力……）上对论文进行评分，这样你就能一目了然地看出哪些值得一读。排序、筛选并订阅每周通讯。",
+      "media": [],
+      "metrics": {
+        "reposts": 803,
+        "likes": 9135,
+        "replies": 248
+      },
+      "links": [],
+      "ai": {
+        "score": 75,
+        "isMustRead": false,
+        "tags": [],
+        "whyInteresting": "高匹配度 (75% MATCH)，契合当前技术雷达重点关注领域。",
+        "action": "收藏并关注后续演化"
+      }
+    },
+    {
+      "id": "tweet-7",
+      "category": "agent",
+      "categoryLabel": "AI 动态",
+      "sourceUrl": "https://x.com/MrLarus/status/2088258006014115937",
+      "author": {
+        "name": "Larus Canus",
+        "handle": "@MrLarus",
+        "avatar": "https://pbs.twimg.com/profile_images/1863595862196363264/-JQahom9_x96.jpg"
+      },
+      "createdAt": "2026-08-14T13:34:41.000Z",
+      "displayDate": "2026-08-14",
+      "content": "用 GPT-Image2 做了一组高密度排版海报，凌乱美还挺上头！\n\n文字、图案、图像、版式融成一体，看起来凌乱，但版式各有骨架：\n1. 壁上乐舞 — 壁画 × 纹样\n2. 宋之器 — 器物 × 档案\n3. 城中旧构 — 建筑 × 结构\n4. 海上来风 — 地图 × 航线\n\n很适合文化展览、博物馆视觉、艺术海报和 Editorial",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://pbs.twimg.com/media/HPr7XnqW4AEej-R?format=jpg&name=medium"
+        }
+      ],
+      "metrics": {
+        "reposts": 22,
+        "likes": 115,
+        "replies": 12
+      },
+      "links": [],
+      "ai": {
+        "score": 75,
+        "isMustRead": false,
+        "tags": [],
+        "whyInteresting": "高匹配度 (75% MATCH)，契合当前技术雷达重点关注领域。",
+        "action": "收藏并关注后续演化"
+      }
+    }
+  ]
+}

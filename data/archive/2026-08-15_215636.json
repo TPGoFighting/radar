@@ -1,0 +1,370 @@
+{
+  "date": "2026-08-15",
+  "generatedAt": "2026-08-15T13:56:36.579Z",
+  "stats": {
+    "scanned": 9,
+    "selected": 9,
+    "mustRead": 1,
+    "zeroNoise": "0 废话"
+  },
+  "trends": [
+    {
+      "id": "trend-1",
+      "name": "AGENT & HARNESS",
+      "direction": "up",
+      "score": 88,
+      "title": "1. Agent 编排范式向“时空可组合”演进",
+      "summary": "DeepSeek 发布 Harness 论文重构 Agent 执行范式，长程持久记忆（Agent Memory）成为核心突破点。"
+    },
+    {
+      "id": "trend-2",
+      "name": "SKILLS & WORKFLOW",
+      "direction": "up",
+      "score": 84,
+      "title": "2. Codex / Claude Skill 生态向垂直场景爆发",
+      "summary": "从通用 Prompt 全面转向即插即用 Skill，涵盖概念插画、轻拟物图标与原生视频生成全流程。"
+    },
+    {
+      "id": "trend-3",
+      "name": "DEV CRAFT & BOOKS",
+      "direction": "up",
+      "score": 93,
+      "title": "3. 前沿工程开源专著与 Agent 本地工具涌现",
+      "summary": "《FDE 指南》与经典深度学习全彩教材开源，面向 Agent 的自然语言设备控制 CLI 加速落地。"
+    }
+  ],
+  "items": [
+    {
+      "id": "tweet-5",
+      "category": "tools",
+      "categoryLabel": "开源工具与图书",
+      "sourceUrl": "https://x.com/NoraX2026/status/2088507496692695199",
+      "author": {
+        "name": "Nora X",
+        "handle": "@NoraX2026",
+        "avatar": "https://pbs.twimg.com/profile_images/2078140848114720768/hMPWC08N_x96.jpg"
+      },
+      "createdAt": "2026-08-15T06:06:04.000Z",
+      "displayDate": "2026-08-15",
+      "content": "免费看书的地方，不用付订阅费：\n\n\nhttps://\nlibbyapp.com：用图书馆借书证借电子书和有声书\n\nhttps://\ngutenberg.org：七万多本免费经典名著\n\nhttps://\nstandardebooks.org：同样的经典，但排版舒服得多\n\nhttps://\nopenlibrary.org：借阅扫描书，其他地方找不到的都在这",
+      "media": [],
+      "metrics": {
+        "reposts": 4,
+        "likes": 17,
+        "replies": 5
+      },
+      "links": [
+        {
+          "url": "https://t.co/5bvtyfHt3w",
+          "type": "website"
+        },
+        {
+          "url": "https://t.co/ZPVqWcjOy9",
+          "type": "website"
+        },
+        {
+          "url": "https://t.co/pBOBTukNgS",
+          "type": "website"
+        }
+      ],
+      "ai": {
+        "score": 93,
+        "isMustRead": true,
+        "tags": [
+          "OpenSource",
+          "Tooling"
+        ],
+        "whyInteresting": "高匹配度 (93% MATCH)，契合当前技术雷达重点关注领域。",
+        "action": "查阅对应链接: https://t.co/5bvtyfHt3w"
+      }
+    },
+    {
+      "id": "tweet-7",
+      "category": "agent",
+      "categoryLabel": "AI Harness 范式",
+      "sourceUrl": "https://x.com/xiaoxiaodong01/status/2088589282516910371",
+      "author": {
+        "name": "小小东",
+        "handle": "@xiaoxiaodong01",
+        "avatar": "https://pbs.twimg.com/profile_images/2046072820095176704/QBve47KI_x96.jpg"
+      },
+      "createdAt": "2026-08-15T11:31:03.000Z",
+      "displayDate": "2026-08-15",
+      "content": "这套DeepSeek Harness 主题：49 个中国传统色 × 亮暗 = 98 套。\n\n最满意的不是配色，是选色的方式——不问你喜欢什么颜色，问你今天想怎么工作：\n\n晨起 心流 · 午后 禅定 · 傍晚 攻坚\n深夜 爆肝 · 凌晨 夜航 · 天亮 收工\n\n这六档是算出来的，不是我编的 ↓\n▎ 暗而静 → 夜航\n▎ 暗而烈 → 爆肝\n▎",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://pbs.twimg.com/media/HPwoP_MbIAAJmAL?format=jpg&name=medium"
+        }
+      ],
+      "metrics": {
+        "reposts": 0,
+        "likes": 7,
+        "replies": 2
+      },
+      "links": [],
+      "ai": {
+        "score": 88,
+        "isMustRead": false,
+        "tags": [
+          "Agent",
+          "Architecture"
+        ],
+        "whyInteresting": "高匹配度 (88% MATCH)，契合当前技术雷达重点关注领域。",
+        "action": "收藏并关注后续演化"
+      }
+    },
+    {
+      "id": "tweet-8",
+      "category": "agent",
+      "categoryLabel": "AI Harness 范式",
+      "sourceUrl": "https://x.com/huxlab/status/2088486985321357467",
+      "author": {
+        "name": "Hux",
+        "handle": "@huxlab",
+        "avatar": "https://pbs.twimg.com/profile_images/2073032972291469312/RNTIcS9R_x96.jpg"
+      },
+      "createdAt": "2026-08-15T04:44:34.000Z",
+      "displayDate": "2026-08-15",
+      "content": "总体来讲，其实就是这四项真正重要的能力：\n\n① 闭环能力：不是能跑通 demo，是能用 eval + error analysis 把一个不可预测的系统变得可控。这才是从玩具到生产的分水岭。\n\n② 扎实的软件工程基础：懂架构、成本、可靠性、安全这些取舍。否则你连怎么给 coding agent 下指令都说不清楚。\n\n③ 真会用",
+      "media": [],
+      "metrics": {
+        "reposts": 3,
+        "likes": 11,
+        "replies": 0
+      },
+      "links": [],
+      "ai": {
+        "score": 88,
+        "isMustRead": false,
+        "tags": [
+          "Agent",
+          "Architecture"
+        ],
+        "whyInteresting": "高匹配度 (88% MATCH)，契合当前技术雷达重点关注领域。",
+        "action": "收藏并关注后续演化"
+      }
+    },
+    {
+      "id": "tweet-9",
+      "category": "agent",
+      "categoryLabel": "AI Harness 范式",
+      "sourceUrl": "https://x.com/MaxForAI/status/2088420807282446826",
+      "author": {
+        "name": "Max For AI",
+        "handle": "@MaxForAI",
+        "avatar": "https://pbs.twimg.com/profile_images/1885611457376903171/zWWnahYp_x96.jpg"
+      },
+      "createdAt": "2026-08-15T00:21:36.000Z",
+      "displayDate": "2026-08-15",
+      "content": "独家爆料：DeepSeek-V4-Pro疑似存在不同版本\n\n过去一天内，中国社区一直在流传一个非常离谱的说法：\n\nDeepSeek V4 Pro 的 API 背后，可能藏着三个不同的模型。\n\n有人发现，同样调用 deepseek-v4-pro，换 IP、重新开会话之后，模型会出现三种截然不同的「思维链指纹」。\n\n一种大量出现 Let",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://pbs.twimg.com/media/HPuPphqacAAKg3A?format=jpg&name=medium"
+        }
+      ],
+      "metrics": {
+        "reposts": 47,
+        "likes": 382,
+        "replies": 80
+      },
+      "links": [],
+      "ai": {
+        "score": 88,
+        "isMustRead": false,
+        "tags": [
+          "Agent",
+          "Architecture"
+        ],
+        "whyInteresting": "高匹配度 (88% MATCH)，契合当前技术雷达重点关注领域。",
+        "action": "收藏并关注后续演化"
+      }
+    },
+    {
+      "id": "tweet-1",
+      "category": "tools",
+      "categoryLabel": "开源工具与图书",
+      "sourceUrl": "https://x.com/yhyyzjj/status/2088349315152711895/analytics",
+      "author": {
+        "name": "keur",
+        "handle": "@yhyyzjj",
+        "avatar": "https://pbs.twimg.com/profile_images/1568336349811589121/aZpbS0vz_x96.png"
+      },
+      "createdAt": "2026-08-15T13:56:35.655Z",
+      "displayDate": "2026-08-15",
+      "content": "Chrome 对 AI 代理来说太笨重了\n\nMoli：AI 代理的终极无头浏览器\n\n- 内存仅为 1/7，冷启动速度快 4 倍，CPU 占用仅 2/3\n- 爬取更多网页\n- 全面自动化支持\n\n开源，纯 Rust 编写。",
+      "media": [],
+      "metrics": {
+        "reposts": 2,
+        "likes": 21,
+        "replies": 0
+      },
+      "links": [
+        {
+          "url": "https://github.com/lexmount/moli?twclid=2a2hsyrib6e6u7yy4v8qmhwxc5",
+          "type": "github"
+        }
+      ],
+      "ai": {
+        "score": 85,
+        "isMustRead": false,
+        "tags": [
+          "OpenSource",
+          "Tooling"
+        ],
+        "whyInteresting": "高匹配度 (85% MATCH)，契合当前技术雷达重点关注领域。",
+        "action": "查阅对应链接: https://github.com/lexmount/moli?twclid=2a2hsyrib6e6u7yy4v8qmhwxc5"
+      }
+    },
+    {
+      "id": "tweet-2",
+      "category": "tools",
+      "categoryLabel": "开源工具与图书",
+      "sourceUrl": "https://x.com/zhizhuxia22/status/2088506000467022019",
+      "author": {
+        "name": "蜘蛛侠 | 1000X GEM",
+        "handle": "@zhizhuxia22",
+        "avatar": "https://pbs.twimg.com/profile_images/2010019760315285504/Gtk02o9z_x96.jpg"
+      },
+      "createdAt": "2026-08-15T06:00:07.000Z",
+      "displayDate": "2026-08-15",
+      "content": "整理了一篇优质 Telegram 频道合集，持续提供高质量信息\n\n1）\nhttps://\nt.me/chunse1024 优质信息收藏夹\n2）\nhttps://\nt.me/inside1024 内幕消息资源信息\n3）\nhttps://\nt.me/text1024 副业赚钱探索指南\n4）\nhttps://\nt.me/meiriyishu 优质资源高质量资料\n5）\nhttps://\nt.me/ai_9684xtpa  软件资源共享各种黑科技",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://pbs.twimg.com/media/HPvbqIpbgAAEpKP?format=jpg&name=medium"
+        }
+      ],
+      "metrics": {
+        "reposts": 41,
+        "likes": 404,
+        "replies": 71
+      },
+      "links": [
+        {
+          "url": "https://t.co/AyB3D2PgGF",
+          "type": "website"
+        },
+        {
+          "url": "https://t.co/EA8ZQsoiKq",
+          "type": "website"
+        },
+        {
+          "url": "https://t.co/v5wkaKlenJ",
+          "type": "website"
+        }
+      ],
+      "ai": {
+        "score": 85,
+        "isMustRead": false,
+        "tags": [
+          "OpenSource",
+          "Tooling"
+        ],
+        "whyInteresting": "高匹配度 (85% MATCH)，契合当前技术雷达重点关注领域。",
+        "action": "查阅对应链接: https://t.co/AyB3D2PgGF"
+      }
+    },
+    {
+      "id": "tweet-4",
+      "category": "tools",
+      "categoryLabel": "开源工具与图书",
+      "sourceUrl": "https://x.com/kun66666677/status/2088543420344344721",
+      "author": {
+        "name": "想赚钱的坤",
+        "handle": "@kun66666677",
+        "avatar": "https://pbs.twimg.com/profile_images/2028777171104477184/o5IfMLJp_x96.jpg"
+      },
+      "createdAt": "2026-08-15T08:28:49.000Z",
+      "displayDate": "2026-08-15",
+      "content": "所有人都应该尽早做的三件事\n\n1.  学会稳定翻墙\n\n出国后你会自然接触到 X、Reddit、YouTube、GitHub、各种专业论坛\n\n那里的信息已经不只是“提升认知”那么简单了，而是你终于可以摆脱国内营销号、公众号、抖音、B站的二手加工，直接从源头拿到未经筛选、未加滤镜的原始信息",
+      "media": [],
+      "metrics": {
+        "reposts": 9,
+        "likes": 97,
+        "replies": 24
+      },
+      "links": [],
+      "ai": {
+        "score": 85,
+        "isMustRead": false,
+        "tags": [
+          "OpenSource",
+          "Tooling"
+        ],
+        "whyInteresting": "高匹配度 (85% MATCH)，契合当前技术雷达重点关注领域。",
+        "action": "收藏并关注后续演化"
+      }
+    },
+    {
+      "id": "tweet-3",
+      "category": "skills",
+      "categoryLabel": "视觉资产与设计",
+      "sourceUrl": "https://x.com/ShruPosts/status/2088491372923986107",
+      "author": {
+        "name": "Shruti",
+        "handle": "@ShruPosts",
+        "avatar": "https://pbs.twimg.com/profile_images/1946289414075994112/Y6tifXo6_x96.jpg"
+      },
+      "createdAt": "2026-08-15T05:02:00.000Z",
+      "displayDate": "2026-08-15",
+      "content": "用反重力 + ChatGPT + Figma 在大约 100 分钟内构建了这个   \n(想法 → 情绪板 → 图像 → 设计 → 上线)",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2088381111412088832/img/hMj-TsEv097XYoX0.jpg"
+        }
+      ],
+      "metrics": {
+        "reposts": 29,
+        "likes": 705,
+        "replies": 55
+      },
+      "links": [],
+      "ai": {
+        "score": 84,
+        "isMustRead": false,
+        "tags": [
+          "Design",
+          "Frontend"
+        ],
+        "whyInteresting": "高匹配度 (84% MATCH)，契合当前技术雷达重点关注领域。",
+        "action": "收藏并关注后续演化"
+      }
+    },
+    {
+      "id": "tweet-6",
+      "category": "agent",
+      "categoryLabel": "AI 动态",
+      "sourceUrl": "https://x.com/vovudebosh/status/2085371731334615551/analytics",
+      "author": {
+        "name": "Vladimir Bayandin",
+        "handle": "@vovudebosh",
+        "avatar": "https://pbs.twimg.com/profile_images/1604937344125116458/_MWMiVRy_x96.jpg"
+      },
+      "createdAt": "2026-08-15T13:56:35.657Z",
+      "displayDate": "2026-08-15",
+      "content": "Explee 刚刚达到了 200 万美元的 ARR。推出后仅 3 个月。\n\n我们销售的产品就是产品本身：它寻找买家、撰写电子邮件、预约通话——为我们的客户，也为我们自己。\n\n在你的网站上看到它的运作：30 美元免费",
+      "media": [],
+      "metrics": {
+        "reposts": 63,
+        "likes": 1464,
+        "replies": 79
+      },
+      "links": [
+        {
+          "url": "https://t.co/GDOYEVZusO?twclid=23pymcjouf67ow4xfq0py0ev1g",
+          "type": "website"
+        }
+      ],
+      "ai": {
+        "score": 75,
+        "isMustRead": false,
+        "tags": [],
+        "whyInteresting": "高匹配度 (75% MATCH)，契合当前技术雷达重点关注领域。",
+        "action": "查阅对应链接: https://t.co/GDOYEVZusO?twclid=23pymcjouf67ow4xfq0py0ev1g"
+      }
+    }
+  ]
+}

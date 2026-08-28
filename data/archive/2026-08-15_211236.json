@@ -1,0 +1,372 @@
+{
+  "date": "2026-08-15",
+  "generatedAt": "2026-08-15T13:13:36.005Z",
+  "stats": {
+    "scanned": 10,
+    "selected": 10,
+    "mustRead": 0,
+    "zeroNoise": "0 废话"
+  },
+  "trends": [
+    {
+      "id": "trend-1",
+      "name": "AGENT & HARNESS",
+      "direction": "up",
+      "score": 88,
+      "title": "1. Agent 编排范式向“时空可组合”演进",
+      "summary": "DeepSeek 发布 Harness 论文重构 Agent 执行范式，长程持久记忆（Agent Memory）成为核心突破点。"
+    },
+    {
+      "id": "trend-2",
+      "name": "SKILLS & WORKFLOW",
+      "direction": "up",
+      "score": 86,
+      "title": "2. Codex / Claude Skill 生态向垂直场景爆发",
+      "summary": "从通用 Prompt 全面转向即插即用 Skill，涵盖概念插画、轻拟物图标与原生视频生成全流程。"
+    },
+    {
+      "id": "trend-3",
+      "name": "DEV CRAFT & BOOKS",
+      "direction": "up",
+      "score": 85,
+      "title": "3. 前沿工程开源专著与 Agent 本地工具涌现",
+      "summary": "《FDE 指南》与经典深度学习全彩教材开源，面向 Agent 的自然语言设备控制 CLI 加速落地。"
+    }
+  ],
+  "items": [
+    {
+      "id": "tweet-1",
+      "category": "agent",
+      "categoryLabel": "AI Harness 范式",
+      "author": {
+        "name": "Yuu",
+        "handle": "@QuantumTransf",
+        "avatar": "https://pbs.twimg.com/profile_images/1999276127014256644/c3JQXTfM_x96.jpg"
+      },
+      "createdAt": "2026-08-15T05:33:59.000Z",
+      "displayDate": "2026-08-15",
+      "content": "deepseek harness 文章已更新（\nhttps://\nblog.antinomie.org） \ndsh 内部的心智模型其实没那么简单，我在写这篇文章的时候也挣扎了很久；不过，对于写一个插件的人来说，却没有那么复杂。 文章有对此阐述，「复杂度不是消失了，而是转移进了系统内部」，相信读完这篇文章，你能够对 dsh",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://pbs.twimg.com/media/HPvXE9jbwAA6sqY?format=jpg&name=large"
+        }
+      ],
+      "metrics": {
+        "reposts": 37,
+        "likes": 211,
+        "replies": 11
+      },
+      "links": [],
+      "ai": {
+        "score": 88,
+        "isMustRead": false,
+        "tags": [
+          "Agent",
+          "Architecture"
+        ],
+        "whyInteresting": "高匹配度 (88% MATCH)，契合当前技术雷达重点关注领域。",
+        "action": "收藏并关注后续演化"
+      }
+    },
+    {
+      "id": "tweet-3",
+      "category": "agent",
+      "categoryLabel": "AI Harness 范式",
+      "author": {
+        "name": "Max For AI",
+        "handle": "@MaxForAI",
+        "avatar": "https://pbs.twimg.com/profile_images/1885611457376903171/zWWnahYp_x96.jpg"
+      },
+      "createdAt": "2026-08-15T12:37:02.000Z",
+      "displayDate": "2026-08-15",
+      "content": "这两天看了很多关于 DeepSeek Harness 的讨论，但很遗憾，99%的讨论都没有真正搞懂DSH想要做什么。\n\n有人把它当成一个产品，认为 UI 粗糙、配置复杂、完成度低，所以 DSH 是个失败的 Agent 产品。\n\n也有人把它放到 Codex、Claude Code 旁边比较，讨论谁的 Coding Agent 工作流更完整。",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://pbs.twimg.com/media/HPw2y7nbsAA4bFw?format=png&name=900x900"
+        }
+      ],
+      "metrics": {
+        "reposts": 1,
+        "likes": 21,
+        "replies": 4
+      },
+      "links": [],
+      "ai": {
+        "score": 88,
+        "isMustRead": false,
+        "tags": [
+          "Agent",
+          "Architecture"
+        ],
+        "whyInteresting": "高匹配度 (88% MATCH)，契合当前技术雷达重点关注领域。",
+        "action": "收藏并关注后续演化"
+      }
+    },
+    {
+      "id": "tweet-4",
+      "category": "agent",
+      "categoryLabel": "AI Harness 范式",
+      "author": {
+        "name": "Seven",
+        "handle": "@SevenXL77",
+        "avatar": "https://pbs.twimg.com/profile_images/1930764418998317056/IljxmxLV_x96.jpg"
+      },
+      "createdAt": "2026-08-15T09:52:01.000Z",
+      "displayDate": "2026-08-15",
+      "content": "这是目前让你最快上手的 Codex 教学视频！ \n\n仅用38分钟，手把手教你从零到精通Codex各种版本安装、语音交互、插件注入、MCP连接、自动化测试、工作流搭建、Github相关指令……\n\n最新中文版本，一看就会\n\n关键还免费，但内容至少值 400刀。",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2088554905623478272/img/POq4dyLgvlOTzqEE.jpg"
+        }
+      ],
+      "metrics": {
+        "reposts": 9,
+        "likes": 39,
+        "replies": 0
+      },
+      "links": [],
+      "ai": {
+        "score": 88,
+        "isMustRead": false,
+        "tags": [
+          "Agent",
+          "Architecture"
+        ],
+        "whyInteresting": "高匹配度 (88% MATCH)，契合当前技术雷达重点关注领域。",
+        "action": "收藏并关注后续演化"
+      }
+    },
+    {
+      "id": "tweet-8",
+      "category": "agent",
+      "categoryLabel": "AI Harness 范式",
+      "author": {
+        "name": "SuSu_酥酥",
+        "handle": "@NFT_Chen",
+        "avatar": "https://pbs.twimg.com/profile_images/1948253379005906944/uGx9Ufe-_x96.jpg"
+      },
+      "createdAt": "2026-08-15T11:16:23.000Z",
+      "displayDate": "2026-08-15",
+      "content": "独家：DeepSeek Harness刚发布，手机版已经来了！\n\nOperit 插件光速适配，真正本地跑 Agent 不再是梦！  Operit 安卓端已光速支持相关能力  手机直接跑 Agent 任务 + 系统自动化 + Ubuntu 环境  无 root 也能玩，隐私安全本地优先\n\n操作步骤（超简单）：\n去 GitHub 下载 Operit 最新",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://pbs.twimg.com/media/HPwlhjGboAAaO3U?format=jpg&name=medium"
+        }
+      ],
+      "metrics": {
+        "reposts": 6,
+        "likes": 23,
+        "replies": 6
+      },
+      "links": [],
+      "ai": {
+        "score": 88,
+        "isMustRead": false,
+        "tags": [
+          "Agent",
+          "Architecture"
+        ],
+        "whyInteresting": "高匹配度 (88% MATCH)，契合当前技术雷达重点关注领域。",
+        "action": "收藏并关注后续演化"
+      }
+    },
+    {
+      "id": "tweet-9",
+      "category": "agent",
+      "categoryLabel": "AI Harness 范式",
+      "author": {
+        "name": "Hux",
+        "handle": "@huxlab",
+        "avatar": "https://pbs.twimg.com/profile_images/2073032972291469312/RNTIcS9R_x96.jpg"
+      },
+      "createdAt": "2026-08-15T04:44:34.000Z",
+      "displayDate": "2026-08-15",
+      "content": "总体来讲，其实就是这四项真正重要的能力：\n\n① 闭环能力：不是能跑通 demo，是能用 eval + error analysis 把一个不可预测的系统变得可控。这才是从玩具到生产的分水岭。\n\n② 扎实的软件工程基础：懂架构、成本、可靠性、安全这些取舍。否则你连怎么给 coding agent 下指令都说不清楚。\n\n③ 真会用",
+      "media": [],
+      "metrics": {
+        "reposts": 3,
+        "likes": 9,
+        "replies": 0
+      },
+      "links": [],
+      "ai": {
+        "score": 88,
+        "isMustRead": false,
+        "tags": [
+          "Agent",
+          "Architecture"
+        ],
+        "whyInteresting": "高匹配度 (88% MATCH)，契合当前技术雷达重点关注领域。",
+        "action": "收藏并关注后续演化"
+      }
+    },
+    {
+      "id": "tweet-6",
+      "category": "skills",
+      "categoryLabel": "生产力 Skill",
+      "author": {
+        "name": "非著名程序员",
+        "handle": "@KengGuangLong",
+        "avatar": "https://pbs.twimg.com/profile_images/1802706038589935616/DxNYHYGE_x96.jpg"
+      },
+      "createdAt": "2026-08-15T07:54:00.000Z",
+      "displayDate": "2026-08-15",
+      "content": "一个很有意思且很实用的开源项目，一个能把字幕变成手绘动画视频的 Skill。\n\n你只要给它一份 SRT 字幕，它就能按你讲故事的前后顺序，在一张暖米黄色的纸面背景上，一笔一画地把画面画出来，线稿画完再慢慢上色，最后导出一段完整的 MP4 视频。",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://pbs.twimg.com/media/HPv3KjzaQAAqqIG?format=jpg&name=medium"
+        }
+      ],
+      "metrics": {
+        "reposts": 1,
+        "likes": 22,
+        "replies": 0
+      },
+      "links": [],
+      "ai": {
+        "score": 86,
+        "isMustRead": false,
+        "tags": [
+          "Skill",
+          "Codex"
+        ],
+        "whyInteresting": "高匹配度 (86% MATCH)，契合当前技术雷达重点关注领域。",
+        "action": "收藏并关注后续演化"
+      }
+    },
+    {
+      "id": "tweet-10",
+      "category": "skills",
+      "categoryLabel": "生产力 Skill",
+      "author": {
+        "name": "govin.eth | G哥",
+        "handle": "@goan999999",
+        "avatar": "https://pbs.twimg.com/profile_images/2085726397587443712/XkX2eLfE_x96.jpg"
+      },
+      "createdAt": "2026-08-15T12:33:18.000Z",
+      "displayDate": "2026-08-15",
+      "content": "Codex 5.6 必装 Obsidian，直接给 AI 装上安全免费的本地永久记忆库！\n\n很多人想给 AI 增加长期记忆，但又担心云端 Memory 成本、隐私和数据安全问题\n\n今天我找到了正确的解决方法：让 Obsidian 成为 Codex 的外部知识中枢，让Codex",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2088529320411381760/img/t3H_qS8D4GgmR-kW.jpg"
+        }
+      ],
+      "metrics": {
+        "reposts": 5,
+        "likes": 7,
+        "replies": 5
+      },
+      "links": [],
+      "ai": {
+        "score": 86,
+        "isMustRead": false,
+        "tags": [
+          "Skill",
+          "Codex"
+        ],
+        "whyInteresting": "高匹配度 (86% MATCH)，契合当前技术雷达重点关注领域。",
+        "action": "收藏并关注后续演化"
+      }
+    },
+    {
+      "id": "tweet-5",
+      "category": "tools",
+      "categoryLabel": "开源工具与图书",
+      "author": {
+        "name": "叫我阿杭",
+        "handle": "@Astronaut_1216",
+        "avatar": "https://pbs.twimg.com/profile_images/1994286771832557568/wUaZfjN5_x96.jpg"
+      },
+      "createdAt": "2026-08-15T00:33:34.000Z",
+      "displayDate": "2026-08-15",
+      "content": "最近看到一个开源项目，叫 watermarks-remover，感觉对国内自媒体工作流很有启发，用这个东西搞跨境电商矩阵年入百万不成问题\n\n它的定位不是“帮你生成内容”\n而是帮你清理内容生产链路里残留的来源标记和元数据，说白了就是去AI味（无论是图片还是文字）\n\n包括：\nAI 文案里的隐形字符、特殊标记",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://pbs.twimg.com/media/HPuQ3xZaoAAdSe0?format=jpg&name=medium"
+        }
+      ],
+      "metrics": {
+        "reposts": 9,
+        "likes": 64,
+        "replies": 16
+      },
+      "links": [],
+      "ai": {
+        "score": 85,
+        "isMustRead": false,
+        "tags": [
+          "OpenSource",
+          "Tooling"
+        ],
+        "whyInteresting": "高匹配度 (85% MATCH)，契合当前技术雷达重点关注领域。",
+        "action": "收藏并关注后续演化"
+      }
+    },
+    {
+      "id": "tweet-2",
+      "category": "agent",
+      "categoryLabel": "AI 动态",
+      "author": {
+        "name": "gamesporium",
+        "handle": "@gamesporium",
+        "avatar": "https://pbs.twimg.com/profile_images/1823755526645153794/ZC8rGJLU_x96.jpg"
+      },
+      "createdAt": "2026-08-15T13:13:35.507Z",
+      "displayDate": "2026-08-15",
+      "content": "我们与 Luma Island 团队合作，全球开放赠送 10 份副本！\n\n你完成的每项任务都是赢得奖励的又一次机会。\n立即参与：\nhttps://\ngamesporium.com/pages/luma-isl\nand-giveaway?twclid=2d6nkbl19f21o2d44rg327ukss\n…",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://pbs.twimg.com/media/HO93EcpWoAAvqLa?format=jpg&name=medium"
+        }
+      ],
+      "metrics": {
+        "reposts": 45,
+        "likes": 268,
+        "replies": 18
+      },
+      "links": [],
+      "ai": {
+        "score": 75,
+        "isMustRead": false,
+        "tags": [],
+        "whyInteresting": "高匹配度 (75% MATCH)，契合当前技术雷达重点关注领域。",
+        "action": "收藏并关注后续演化"
+      }
+    },
+    {
+      "id": "tweet-7",
+      "category": "agent",
+      "categoryLabel": "AI 动态",
+      "author": {
+        "name": "Rogue Duck Interactive",
+        "handle": "@rogueducknet",
+        "avatar": "https://pbs.twimg.com/profile_images/1785500460440510464/mjDA2Tvs_x96.jpg"
+      },
+      "createdAt": "2026-08-15T13:13:35.508Z",
+      "displayDate": "2026-08-15",
+      "content": "增量游戏，在这里你摧毁行星，Steam 上的试玩版！",
+      "media": [],
+      "metrics": {
+        "reposts": 730,
+        "likes": 18080,
+        "replies": 551
+      },
+      "links": [],
+      "ai": {
+        "score": 75,
+        "isMustRead": false,
+        "tags": [],
+        "whyInteresting": "高匹配度 (75% MATCH)，契合当前技术雷达重点关注领域。",
+        "action": "收藏并关注后续演化"
+      }
+    }
+  ]
+}
