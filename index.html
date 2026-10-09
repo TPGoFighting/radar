@@ -1,116 +1,132 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="zh-CN" data-theme="light">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TP X RADAR // 加油T小P 个人技术情报雷达</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover">
+  <title>TP X RADAR · 加油T小P 个人技术情报雷达</title>
+  <meta name="description" content="唐潘（加油T小P / @TPGoFighting）的个人 AI 与前沿工程技术情报雷达，聚焦 AI Agent 编排范式、Codex/Claude 垂直 Skill 与开源生态。">
+  <meta name="theme-color" content="#fbfaf6" id="theme-color-meta">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,600;0,700;0,800;1,800&family=Syne:wght@700;800;900&family=Noto+Sans+SC:wght@400;600;700;900&family=Space+Mono:wght@700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./css/memphis.css">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/memphis.css?v=20261003_v3">
 </head>
 <body>
 
-  <!-- Floating Memphis Geometric Elements -->
-  <div class="memphis-shape shape-circle" style="top: 20px; right: 4%;"></div>
-  <div class="memphis-shape shape-triangle" style="top: 280px; left: 1.5%;"></div>
-  <div class="memphis-shape shape-cross" style="top: 550px; right: 2%;"></div>
-  <div class="memphis-shape shape-circle" style="top: 1100px; left: 2%; background: var(--memphis-lime);"></div>
+  <!-- Background Graph Paper Grid & Warm Aura (Inspired by tpgofighting.top) -->
+  <div class="grid-paper-bg"></div>
+  <div class="warm-sun-aura"></div>
 
-  <div class="container">
-
-    <!-- HEADER HERO -->
-    <header>
-      <div class="header-top">
-        <div class="ticker-tag">
-          <span class="svg-icon" style="width: 18px; height: 18px;">
-            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
-          </span>
-          TP X RADAR // 加油T小P 专属情报志
-        </div>
-        <div class="header-controls">
-          <div class="header-date" id="dateBadge">
-            <span class="svg-icon" style="width: 16px; height: 16px;">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
-            </span>
-            AUTO-DIGESTED BY EGO-BROWSER
-          </div>
-          <select class="archive-select" onchange="handleArchiveChange(this)">
-            <option value="latest">⚡ 今日最新 (Live)</option>
-            <option value="2026-08-15">📅 2026-08-15 归档</option>
-          </select>
+  <!-- Top Navigation Bar (Sticky Modern Nav matching tpgofighting.top) -->
+  <header class="top-nav-bar" id="topNavBar">
+    <div class="nav-container">
+      <div class="nav-brand" onclick="goRoute('home')">
+        <div class="brand-badge-icon">⚡</div>
+        <div class="brand-text-wrap">
+          <span class="brand-title">TP X RADAR</span>
+          <span class="brand-sub">加油T小P · 技术情报雷达</span>
         </div>
       </div>
-      <h1 class="title">
-        <span class="highlight">TP X RADAR</span>
-        <span>// 加油T小P 技术雷达</span>
-      </h1>
-      <p class="subtitle">
-        唐潘（加油T小P / @TPGoFighting）的 AI 与前沿工程情报站 · 南京邮电大学软件工程 × 字节前端 · 聚焦 AI Agent Harness 编排范式、Codex/Claude 垂直 Skill、3D 视觉与高质量前端开源生态。
-      </p>
-    </header>
 
-    <!-- NAV TABS (Multi-route) -->
-    <nav class="nav-tabs" id="navTabs">
-      <button class="nav-tab active" data-route="home" onclick="goRoute('home', this)">⚡ 今日雷达</button>
-      <button class="nav-tab" data-route="archive" onclick="goRoute('archive', this)">🗂 档案馆</button>
-      <button class="nav-tab" data-route="trends" onclick="goRoute('trends', this)">📈 趋势追踪</button>
-      <button class="nav-tab" data-route="authors" onclick="goRoute('authors', this)">👥 作者雷达</button>
-      <button class="nav-tab" data-route="links" onclick="goRoute('links', this)">🔗 链接收藏</button>
-      <button class="nav-tab" data-route="about" onclick="goRoute('about', this)">ℹ 关于</button>
-    </nav>
+      <!-- Nav Links / Tabs -->
+      <nav class="nav-links" id="navTabs">
+        <button class="nav-tab active" data-route="home" onclick="goRoute('home', this)">⚡ 今日雷达</button>
+        <button class="nav-tab" data-route="archive" onclick="goRoute('archive', this)">🗂 历史归档</button>
+        <button class="nav-tab" data-route="trends" onclick="goRoute('trends', this)">📈 趋势追踪</button>
+        <button class="nav-tab" data-route="authors" onclick="goRoute('authors', this)">👥 核心作者</button>
+        <button class="nav-tab" data-route="links" onclick="goRoute('links', this)">🔗 精选外链</button>
+        <button class="nav-tab" data-route="about" onclick="goRoute('about', this)">ℹ 关于雷达</button>
+      </nav>
+
+      <!-- Nav Actions (Live badge, snapshot select, theme switch, GitHub) -->
+      <div class="nav-actions">
+        <div class="nav-date-badge" id="dateBadge">
+          <span class="live-dot"></span> LIVE 2026-10-03
+        </div>
+        <select class="nav-archive-select" id="archiveSelect" onchange="handleArchiveChange(this)">
+          <option value="latest">⚡ 今日最新 (Live)</option>
+        </select>
+        <button id="themeToggleBtn" class="nav-icon-btn" onclick="toggleTheme()" title="切换深浅主题" aria-label="切换深浅主题">
+          <svg class="svg-icon sun-icon" viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+          <svg class="svg-icon moon-icon" viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+        </button>
+        <a href="https://github.com/TPGoFighting" target="_blank" rel="noopener noreferrer" class="nav-icon-btn" title="GitHub @TPGoFighting" aria-label="GitHub">
+          <svg class="svg-icon" viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Page Container (Zero Overflow) -->
+  <main class="page-container" id="main-content">
+
+    <!-- EDITORIAL HERO STATEMENT (Statement Banner) -->
+    <section class="main-header">
+      <div class="header-branding">
+        <div class="header-pill-tag">⚡ INTELLIGENCE RADAR · BY TYLER TANG</div>
+        <h1 class="title">
+          聚焦 AI Agent 编排范式、Codex/Claude 垂直 Skill 与前沿开源情报
+        </h1>
+        <p class="subtitle">
+          唐潘（加油T小P / @TPGoFighting）的个人全自动化技术雷达。每日对全球 AI 动态进行抓取、打分与态势聚类，过滤营销杂音，提炼核心认知。
+        </p>
+      </div>
+    </section>
+
+    <div id="archiveNotice" class="archive-notice" style="display: none;"></div>
 
     <!-- ROUTE: HOME (今日雷达) -->
     <section class="route-section active" id="route-home">
 
-    <!-- STATS BAR (Dynamic) -->
-    <div class="stats-bar" id="statsBar"></div>
+      <!-- STATS BAR (Dynamic 4 metrics) -->
+      <div class="stats-bar" id="statsBar" style="grid-column: 1 / -1;"></div>
 
-    <!-- RADAR SECTION (Dynamic) -->
-    <section class="radar-section">
-      <div class="section-title-wrap">
-        <div class="section-badge">
-          <span class="svg-icon" style="width: 20px; height: 20px;">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
-          </span>
-          TREND RADAR 核心态势洞察
+      <!-- LEFT SIDEBAR: Filters & Core Trends Insights -->
+      <aside class="home-sidebar" aria-label="雷达控制栏">
+        <!-- FILTER BUTTONS -->
+        <div class="filter-bar">
+          <button class="filter-btn active" onclick="filterCards('all', this)">
+            <span class="svg-icon" style="width: 14px; height: 14px;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg></span>
+            全部推文 (ALL)
+          </button>
+          <button class="filter-btn" onclick="filterCards('agent', this)">
+            <span class="svg-icon" style="width: 14px; height: 14px;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="3" y="11" width="18" height="11" rx="2"/><circle cx="12" cy="5" r="2"/><path d="M12 7v4M8 16h.01M16 16h.01"/></svg></span>
+            AI Agent
+          </button>
+          <button class="filter-btn" onclick="filterCards('skills', this)">
+            <span class="svg-icon" style="width: 14px; height: 14px;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="13.5" cy="6.5" r=".5" fill="currentColor"/><circle cx="17.5" cy="10.5" r=".5" fill="currentColor"/><circle cx="8.5" cy="7.5" r=".5" fill="currentColor"/><circle cx="6.5" cy="12.5" r=".5" fill="currentColor"/><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.563-2.512 5.563-5.563C22 6.5 17.5 2 12 2z"/></svg></span>
+            生产力 Skill
+          </button>
+          <button class="filter-btn" onclick="filterCards('tools', this)">
+            <span class="svg-icon" style="width: 14px; height: 14px;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg></span>
+            开源与教材
+          </button>
+          <button class="filter-btn bookmark-tab" onclick="filterCards('starred', this)">
+            <span class="svg-icon" style="width: 14px; height: 14px;"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></span>
+            T小P收藏 (STARRED)
+          </button>
         </div>
-        <div class="section-desc">基于 T小P 个人知识图谱与兴趣画像的聚合分析</div>
-      </div>
 
-      <div class="trend-grid" id="trendGrid"></div>
-    </section>
+        <!-- RADAR SECTION (Dynamic) -->
+        <section class="radar-section">
+          <div class="section-title-wrap">
+            <div class="section-badge">
+              <span class="svg-icon" style="width: 16px; height: 16px;">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+              </span>
+              核心态势洞察
+            </div>
+          </div>
+          <div class="trend-grid" id="trendGrid"></div>
+        </section>
+      </aside>
 
-    <!-- FILTER BUTTONS -->
-    <div class="filter-bar">
-      <button class="filter-btn active" onclick="filterCards('all', this)">
-        <span class="svg-icon" style="width: 16px; height: 16px;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg></span>
-        全部推文 (ALL)
-      </button>
-      <button class="filter-btn" onclick="filterCards('agent', this)">
-        <span class="svg-icon" style="width: 16px; height: 16px;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="3" y="11" width="18" height="11" rx="2"/><circle cx="12" cy="5" r="2"/><path d="M12 7v4M8 16h.01M16 16h.01"/></svg></span>
-        AI Agent & Harness
-      </button>
-      <button class="filter-btn" onclick="filterCards('skills', this)">
-        <span class="svg-icon" style="width: 16px; height: 16px;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="13.5" cy="6.5" r=".5" fill="currentColor"/><circle cx="17.5" cy="10.5" r=".5" fill="currentColor"/><circle cx="8.5" cy="7.5" r=".5" fill="currentColor"/><circle cx="6.5" cy="12.5" r=".5" fill="currentColor"/><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.563-2.512 5.563-5.563C22 6.5 17.5 2 12 2z"/></svg></span>
-        技能 & 视觉 Skill
-      </button>
-      <button class="filter-btn" onclick="filterCards('tools', this)">
-        <span class="svg-icon" style="width: 16px; height: 16px;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg></span>
-        开源工程与教材
-      </button>
-      <button class="filter-btn bookmark-tab" onclick="filterCards('starred', this)">
-        <span class="svg-icon" style="width: 16px; height: 16px;"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></span>
-        T小P的收藏 (STARRED)
-      </button>
-    </div>
-
-    <!-- TWEETS STREAM GRID (Dynamic) -->
-    <div class="feed-grid" id="feedGrid"></div>
+      <!-- TWEETS STREAM GRID (Dynamic) -->
+      <div class="feed-grid" id="feedGrid"></div>
 
     </section><!-- /route-home -->
 
-    <!-- ROUTE: ARCHIVE (档案馆) -->
+    <!-- ROUTE: ARCHIVE (历史归档) -->
     <section class="route-section" id="route-archive">
       <div class="route-head">
         <div>
@@ -133,74 +149,80 @@
       <div class="trend-history" id="trendHistory"><div class="route-sub">加载中…</div></div>
     </section>
 
-    <!-- ROUTE: AUTHORS (作者雷达) -->
+    <!-- ROUTE: AUTHORS (核心作者) -->
     <section class="route-section" id="route-authors">
       <div class="route-head">
         <div>
-          <div class="route-title">👥 作者雷达</div>
-          <div class="route-sub">本期推文作者活跃度统计</div>
+          <div class="route-title">👥 核心作者雷达</div>
+          <div class="route-sub">本期推文作者活跃度与评分统计</div>
         </div>
       </div>
       <div class="authors-grid" id="authorsGrid"><div class="route-sub">加载中…</div></div>
     </section>
 
-    <!-- ROUTE: LINKS (链接收藏) -->
+    <!-- ROUTE: LINKS (精选外链) -->
     <section class="route-section" id="route-links">
       <div class="route-head">
         <div>
-          <div class="route-title">🔗 链接收藏</div>
-          <div class="route-sub">本期推文中提取的 GitHub / 论文 / 网页链接</div>
+          <div class="route-title">🔗 精选外链收藏</div>
+          <div class="route-sub">本期推文中提取的 GitHub / 论文 / 工具网页链接</div>
         </div>
       </div>
       <div class="links-vault" id="linksVault"><div class="route-sub">加载中…</div></div>
     </section>
 
-    <!-- ROUTE: ABOUT (关于) -->
+    <!-- ROUTE: ARTICLE DETAIL (单列专注详情页，66vw) -->
+    <section class="route-section" id="route-article">
+      <div id="articleDetail"><div class="route-sub">选择一篇文章查看详情。</div></div>
+    </section>
+
+    <!-- ROUTE: ABOUT (关于雷达) -->
     <section class="route-section" id="route-about">
       <div class="route-head">
         <div>
-          <div class="route-title">ℹ 关于</div>
-          <div class="route-sub">TP X RADAR 情报雷达是怎么运作的</div>
+          <div class="route-title">ℹ 关于 TP X RADAR</div>
+          <div class="route-sub">情报雷达的运作逻辑与数据管道</div>
         </div>
       </div>
       <div class="about-card">
         <h3>这是谁</h3>
         <p>唐潘（加油T小P / @TPGoFighting）的个人 AI 与前沿工程技术情报雷达。每天从 X 时间线抓取、打分、聚类，筛出最值得关注的动态。</p>
-        <h3>数据流</h3>
+        <h3>数据流水线</h3>
         <div class="flow-row">
-          <span class="flow-step">每日 08:00 Hermes Cron 触发</span>
+          <span class="flow-step">每日定时触发</span>
           <span class="flow-arrow">→</span>
           <span class="flow-step">ego-browser 抓 X 时间线</span>
           <span class="flow-arrow">→</span>
-          <span class="flow-step">AI 兴趣打分聚类</span>
+          <span class="flow-step">AI 兴趣画像打分</span>
           <span class="flow-arrow">→</span>
-          <span class="flow-step">生成当日快照 + 归档</span>
+          <span class="flow-step">生成快照 + 归档</span>
           <span class="flow-arrow">→</span>
-          <span class="flow-step">git push → Pages 部署</span>
+          <span class="flow-step">自动部署上线</span>
           <span class="flow-arrow">→</span>
           <span class="flow-step">radar.tpgofighting.top</span>
         </div>
-        <h3>隐私与数据</h3>
+        <h3>数据与防丢原则</h3>
         <ul>
-          <li>每次抓取独立存档（archive/YYYY-MM-DD_HHMMSS.json），永不覆盖</li>
-          <li>所有推文保留原文链接，点击卡片上的「查看原文」直达 X</li>
-          <li>本地打分规则基于 config/interests.json 的兴趣画像</li>
+          <li>每次抓取独立归档（archive/YYYY-MM-DD_HHMMSS.json），永不覆盖历史数据</li>
+          <li>所有推文保留原始 X 地址，直达源发讨论</li>
+          <li>推文配图与作者头像本地化缓存，在国内网络环境稳定秒开</li>
+          <li>本地打分规则基于 config/interests.json 的自定义兴趣画像</li>
         </ul>
         <h3>技术栈</h3>
-        <p>ego-browser (X 抓取) · Node.js (打分流水线) · Cloudflare Pages (部署) · Memphis 风格前端</p>
+        <p>ego-browser (X 抓取) · Node.js (打分流水线) · Graph Paper 响应式设计系统 · Nginx 生产托管</p>
       </div>
     </section>
 
     <!-- FOOTER -->
     <footer>
       <div class="footer-left">
-        <span class="svg-icon" style="width: 22px; height: 22px;">
+        <span class="svg-icon" style="width: 20px; height: 20px;">
           <svg viewBox="0 0 24 24" fill="currentColor"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
         </span>
         TP X RADAR // BY 唐潘 (加油T小P / @TPGoFighting)
       </div>
       <div class="footer-badge">
-        <a href="https://github.com/TPGoFighting" target="_blank" style="color: inherit; text-decoration: none; display: flex; align-items: center; gap: 8px;">
+        <a href="https://github.com/TPGoFighting" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none; display: flex; align-items: center; gap: 8px;">
           <span class="svg-icon" style="width: 16px; height: 16px;">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
           </span>
@@ -209,9 +231,17 @@
       </div>
     </footer>
 
+  </main>
+
+  <!-- Image Preview Lightbox -->
+  <div id="imageLightbox" class="image-lightbox" onclick="closeLightbox()" style="display: none;">
+    <div class="lightbox-content" onclick="event.stopPropagation()">
+      <img id="lightboxImg" src="" alt="放大预览">
+      <button class="lightbox-close" onclick="closeLightbox()" title="关闭预览">✕</button>
+    </div>
   </div>
 
-  <script src="./js/filters.js"></script>
-  <script src="./js/render.js"></script>
+  <script src="./js/filters.js?v=20261003_v3"></script>
+  <script src="./js/render.js?v=20261003_v3"></script>
 </body>
 </html>

@@ -1,0 +1,47 @@
+{
+  "profileName": "唐潘 (加油T小P / @TPGoFighting) - TP X Radar",
+  "bio": "南京邮电大学软件工程 · 字节跳动前端 Offer · 3D视觉/AI Agent/数码博主",
+  "domains": [
+    "blog.tpgofighting.top",
+    "video.tpgofighting.top",
+    "github.com/TPGoFighting"
+  ],
+  "topics": {
+    "AI Agent & Harness": 1.0,
+    "Codex & Claude Code": 1.0,
+    "ByteDance & Frontend Engineering": 0.95,
+    "3D Vision & PointNet++ / 3DGS": 0.95,
+    "Vibe Coding & Memphis UI": 0.90,
+    "Agent Skill & Tools": 0.90,
+    "Flutter / Mobile / HarmonyOS": 0.85,
+    "Developer Tooling & Books": 0.85,
+    "Digital Hardware & Reviews": 0.80
+  },
+  "preferredAuthors": [
+    "@Michaelzsguo",
+    "@IndieDevHailey",
+    "@XDash",
+    "@yihui_indie",
+    "@Saccc_c",
+    "@okooo5km",
+    "@huihoo",
+    "@NoraX2026",
+    "@TPGoFighting"
+  ],
+  "scoringWeights": {
+    "interestMatch": 0.35,
+    "novelty": 0.20,
+    "density": 0.15,
+    "actionability": 0.15,
+    "authorWeight": 0.10,
+    "communityHeat": 0.05
+  },
+  "negativeKeywords": [
+    "抽奖",
+    "转发抽",
+    "打折促销",
+    "社群裂变",
+    "买课",
+    "纯广告"
+  ]
+}

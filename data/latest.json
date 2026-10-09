@@ -1,9 +1,9 @@
 {
-  "date": "2026-08-24",
-  "generatedAt": "2026-08-24T00:02:34.890Z",
+  "date": "2026-10-06",
+  "generatedAt": "2026-10-06T00:02:34.268Z",
   "stats": {
-    "scanned": 5,
-    "selected": 5,
+    "scanned": 7,
+    "selected": 7,
     "mustRead": 0,
     "zeroNoise": "0 废话"
   },
@@ -12,7 +12,7 @@
       "id": "trend-1",
       "name": "AGENT & HARNESS",
       "direction": "up",
-      "score": 75,
+      "score": 88,
       "title": "1. Agent 编排范式向“时空可组合”演进",
       "summary": "DeepSeek 发布 Harness 论文重构 Agent 执行范式，长程持久记忆（Agent Memory）成为核心突破点。"
     },
@@ -20,7 +20,7 @@
       "id": "trend-2",
       "name": "SKILLS & WORKFLOW",
       "direction": "up",
-      "score": 93,
+      "score": 86,
       "title": "2. Codex / Claude Skill 生态向垂直场景爆发",
       "summary": "从通用 Prompt 全面转向即插即用 Skill，涵盖概念插画、轻拟物图标与原生视频生成全流程。"
     },
@@ -28,182 +28,686 @@
       "id": "trend-3",
       "name": "DEV CRAFT & BOOKS",
       "direction": "up",
-      "score": 85,
+      "score": 90,
       "title": "3. 前沿工程开源专著与 Agent 本地工具涌现",
       "summary": "《FDE 指南》与经典深度学习全彩教材开源，面向 Agent 的自然语言设备控制 CLI 加速落地。"
     }
   ],
   "items": [
     {
-      "id": "tweet-2",
-      "category": "tools",
-      "categoryLabel": "开源工具与图书",
-      "sourceUrl": "https://x.com/noisyb0y1/status/2091459094666183147",
-      "author": {
-        "name": "Noisy",
-        "handle": "@noisyb0y1",
-        "avatar": "/data/images/tweet-2-avatar-0.jpg"
-      },
-      "createdAt": "2026-08-23T09:34:40.000Z",
-      "displayDate": "2026-08-23",
-      "content": "他 18 岁，同时做 10 份工作，每月赚 20 万美元 - 而 AI 为他做出所有决定：\n\n00:20 - AI 如何为你做出 1000 个决定并节省 90% 的时间 \n34:36 - 一个代理比拥有 20 年经验的人做出更好的决定 \n01:09 - 从零到每月 20 万美元 - 10 个 AI 包办一切的业务\n\n看完后我意识到，我把 90% 的时间花在了 AI 比我做得更好、更快的决定上。\n\n看这个视频 - 然后阅读下面的指南，了解如何将 1000 个决定委托给 AI 并释放 90% 的时间。",
-      "media": [],
-      "metrics": {
-        "reposts": 47,
-        "likes": 277,
-        "replies": 8
-      },
-      "links": [],
-      "ai": {
-        "score": 85,
-        "isMustRead": false,
-        "tags": [
-          "OpenSource",
-          "Tooling"
-        ],
-        "whyInteresting": "高匹配度 (85% MATCH)，契合当前技术雷达重点关注领域。",
-        "action": "收藏并关注后续演化"
-      }
-    },
-    {
-      "id": "tweet-4",
-      "category": "tools",
-      "categoryLabel": "开源工具与图书",
-      "sourceUrl": "https://x.com/hanakoxbt/status/2091637072045949248",
-      "author": {
-        "name": "Hanako",
-        "handle": "@hanakoxbt",
-        "avatar": "/data/images/tweet-4-avatar-0.jpg"
-      },
-      "createdAt": "2026-08-23T21:21:53.000Z",
-      "displayDate": "2026-08-23",
-      "content": "代理 vs. 图，清晰解释！\n\n生成更多代理很棒，但它有一个没人说出口的天花板：\n\n五个代理是个数量。一个图是个形状。只有其中一个会改变答案。\n\n让五个代理用相同的窗口指向同一堆东西，它们会趋同。\n\n第一个写下发现，其余的读它，所有五个报告都围绕同一件事。你为一个观点支付了五倍的费用，换来四个回声。\n\n图工程通过将决策提升一层来修复这个问题：不是有多少代理，而是谁被允许看什么。\n\n你需要两者结合。以下是其工作原理：\n\n↳ 数量给你带来吞吐量。五个事情同时发生，而不是一个\n↳ 形状给你带来覆盖范围。五个不同的事情发生，而不是同一件事重复五次\n\n提示 → 上下文 → 框架 → 代理 → 图\n\n执行这个的节点是分隔器，它比系统中任何其他节点决定更多。\n\n按文件夹切割仓库，四个工作者审计相同的三个文件。按爆炸半径切割，每个都会看到别人看不到的东西。\n\n诀窍在于对每条通道被允许看到的内容进行选择性处理。\n\n分离上下文不是锦上添花，而是机制本身。\n\n如果两个代理旨在产生不同的东西，它们绝不能共享窗口。如果它们旨在产生相同的东西，你就不需要两个代理。\n\n在扩展之前需要知道的一件事。\n\n一个抛出异常的分支不会拒绝批次。它解析为 null，这就是隔离。这意味着你的合并会悄无声息地收到一个短列表。\n\n↳ 在合并前过滤 null，否则一条死通道会毒化整个结果\n↳ 绝不要按位置索引合并。八个好的分支和一个失败会悄无声息地将一切偏移一个位置\n\n跳过这个，运行看起来像是成功了。输出只是缺少一条通道，没有任何错误。\n\n还有一个会吞噬整夜的东西：多代理设置的总令牌消耗可能是一个单一聊天的十五倍，因为每条通道都会重新加载自己的核心。\n\n你是在用总令牌换取一个干净的主窗口。通常是正确的交易，但始终是一个选择。\n\n下面我引用了我关于图工程的完整指南。它涵盖了三种拓扑结构、验证器模式，以及大门实际应该在哪里打开。\n\n保存这个，并在下面阅读 ↓",
-      "media": [],
-      "metrics": {
-        "reposts": 4,
-        "likes": 57,
-        "replies": 4
-      },
-      "links": [],
-      "ai": {
-        "score": 85,
-        "isMustRead": false,
-        "tags": [
-          "OpenSource",
-          "Tooling"
-        ],
-        "whyInteresting": "高匹配度 (85% MATCH)，契合当前技术雷达重点关注领域。",
-        "action": "收藏并关注后续演化"
-      }
-    },
-    {
-      "id": "tweet-5",
-      "category": "tools",
-      "categoryLabel": "开源工具与图书",
-      "sourceUrl": "https://x.com/mertmetindev/status/2091146828137791887",
-      "author": {
-        "name": "Mert Metin Tekdemir",
-        "handle": "@mertmetindev",
-        "avatar": "/data/images/tweet-5-avatar-0.jpg"
-      },
-      "createdAt": "2026-08-22T12:53:50.000Z",
-      "displayDate": "2026-08-22",
-      "content": "一进入就可能待上几个小时出不来的50个网站\n\n1.) '\nhttp://zoom.earth' — 通过卫星实时图像观看世界\n2.) '\nhttp://flightradar24.com' — 查看当前天空中的所有飞机\n3.) '\nhttp://marinetraffic.com' — 实时跟踪海上所有船只\n4.) '\nhttp://windy.com' — 风和风暴的实时地图\n5.) '\nhttp://lightningmaps.org' — 实时观看降落到世界各地的闪电\n6.) '\nhttp://earthquake.usgs.gov' — 最新地震的实时列表\n7.) '\nhttp://submarinecablemap.com' — 承载互联网的海洋电缆\n8.) '\nhttp://globalforestwatch.org' — 从卫星上观看森林的消失\n9.) '\nhttp://worldometers.info' — 世界统计数据逐秒更新\n10.) '\nhttp://internetlivestats.com' — 当前发布的推文和搜索数量\n11.) '\nhttp://thetruesize.com' — 比较各国真实尺寸\n12.) '\nhttp://oldmapsonline.org' — 几个世纪前的地图\n13.) '\nhttp://davidrumsey.com' — 15万张历史地图档案\n14.) '\nhttp://openstreetmap.org' — 志愿者绘制的世界地图\n15.) '\nhttp://window-swap.com' — 从随机某人的窗户看世界\n16.) '\nhttp://virtualvacation.us' — 城市中的虚拟漫步\n17.) '\nhttp://mapcrunch.com' — 瞬间传送到世界随机一点\n18.) '\nhttp://atlasobscura.com' — 世界最奇怪地方的目录\n19.) '\nhttp://neal.fun' — 互动知识体验\n20.) '\nhttp://htwins.net/scale2' — 从原子到宇宙的尺度之旅\n21.) '\nhttp://eyes.nasa.gov' — 3D漫游太阳系\n22.) '\nhttp://stellarium-web.org' — 浏览器中的真实星空地图\n23.) '\nhttp://apod.nasa.gov' — NASA每日天文摄影\n24.) '\nhttp://images.nasa.gov' — NASA全部图像档案免费获取\n25.) '\nhttp://pudding.cool' — 用数据讲述的视觉文章\n26.) '\nhttp://ourworldindata.org' — 世界基于真实数据的状态\n27.) '\nhttp://gapminder.org' — 我们对世界的错误认知\n28.) '\nhttp://informationisbeautiful.net' — 复杂数据的可视化\n29.) '\nhttp://data.worldbank.org' — 世界银行的开放数据\n30.) '\nhttp://data.tuik.gov.tr' — 土耳其官方统计数据库\n31.) '\nhttp://archive.org' — 数百万书籍、电影和软件档案\n32.) '\nhttp://gutenberg.org' — 版权过期后的7万本免费书籍\n33.) '\nhttp://openlibrary.org' — 世界每本书的记录\n34.) '\nhttp://loc.gov' — 美国国会图书馆数字档案\n35.) '\nhttp://europeana.eu' — 欧洲文化遗产档案\n36.) '\nhttp://dp.la' — 美国的数字图书馆收藏\n37.) '\nhttp://artsandculture.google.com' — 从家里游览博物馆\n38.) '\nhttp://rijksmuseum.nl' — 高分辨率下载艺术作品\n39.) '\nhttp://wikiart.org' — 25万件艺术作品档案\n40.) '\nhttp://publicdomainreview.org' — 历史遗忘的视觉宝藏\n41.) '\nhttp://openculture.com' — 免费文化和教育档案\n42.) '\nhttp://metmuseum.org' — 大都会博物馆开放收藏\n43.) '\nhttp://musicmap.info' — 音乐类型的家谱树\n44.) '\nhttp://radiooooo.com' — 选择国家和年代聆听那个时代\n45.) '\nhttp://listen.hatnote.com' — 将维基百科编辑转为语音\n46.) '\nhttp://wikipedia.org/wiki/Special:Random…' — 随机知识井\n47.) '\nhttp://timeanddate.com' — 时间、日出和天空事件\n48.) '\nhttp://sciencedaily.com' — 科学新闻的实时流\n49.) '\nhttp://arxiv.org' — 科学论文的免费预印本\n50.) '\nhttp://observablehq.com' — 用实时代码可视化数据\n\n互联网并不仅仅是你面前算法推送的那五个网站。",
-      "media": [],
-      "metrics": {
-        "reposts": 18981,
-        "likes": 57093,
-        "replies": 375
-      },
-      "links": [
-        {
-          "url": "https://t.co/FDTmt38jKw",
-          "type": "website"
-        },
-        {
-          "url": "https://t.co/Tytazsp6y2",
-          "type": "website"
-        },
-        {
-          "url": "https://t.co/b8trMj1vUi",
-          "type": "website"
-        }
-      ],
-      "ai": {
-        "score": 85,
-        "isMustRead": false,
-        "tags": [
-          "OpenSource",
-          "Tooling"
-        ],
-        "whyInteresting": "高匹配度 (85% MATCH)，契合当前技术雷达重点关注领域。",
-        "action": "查阅对应链接: https://t.co/FDTmt38jKw"
-      }
-    },
-    {
-      "id": "tweet-1",
+      "id": "x-2107113780966494644",
       "category": "agent",
-      "categoryLabel": "AI 动态",
-      "sourceUrl": "https://x.com/yyyole/status/2091554005772321204",
+      "categoryLabel": "AI Harness 范式",
+      "sourceUrl": "https://x.com/liambraus/status/2107113780966494644",
       "author": {
-        "name": "沐阳",
-        "handle": "@yyyole",
-        "avatar": "/data/images/tweet-1-avatar-0.jpg"
+        "name": "liam.",
+        "handle": "@liambraus",
+        "avatar": "./data/images/x-2107113780966494644-avatar-6ca855a113-0.jpg"
       },
-      "createdAt": "2026-08-23T15:51:48.000Z",
-      "displayDate": "2026-08-23",
-      "content": "发现一个很酷的动效库！！！\n\n它把粒子、流体、玻璃质感这些复杂效果，直接做成了可以调参的模板！选好效果以后，颜色、速度、循环和亮度都能自己调整，还能实时预览！！\n\n超多“thinking orb”效果，刚好需要，拿来就能用！",
+      "createdAt": "2026-10-05T14:20:48.000Z",
+      "displayDate": "2026-10-05",
+      "content": "🚨这他妈的太不可思议了\n\n一个家伙刚刚展示如何用一个单一的 MCP 连接，让 Claude 管理他所有的社交媒体。\n\n这不是演示。是他的真实账户。\n\n他给它剪辑。Claude 用 Whisper 提取转录，写标题、描述、标签，然后在 5 个平台上调度发布一切。\n\n一周的内容。7 分钟。\n\n然后他让它生成分析报告。Claude 阅读 30 天的数据，告诉他在哪些地方加倍下注。\n\n然后告诉它管理收件箱。50 条私信和 30 条评论。回复已撰写。紧急的已标记。\n\n而且他把它设置成自动例程。每天。\n\n它叫 Zernio。5 分钟设置。无需代码。\n\n视频在下面。",
       "media": [
         {
           "type": "image",
-          "url": "/data/images/tweet-1-1.jpg"
+          "url": "./data/images/x-2107113780966494644-dfd26d4ee0-1.jpg"
         }
       ],
       "metrics": {
-        "reposts": 11,
-        "likes": 180,
-        "replies": 3
+        "reposts": 95,
+        "likes": 518,
+        "replies": 32
       },
       "links": [],
+      "comments": [
+        {
+          "author": "matt",
+          "handle": "@mattknowsai",
+          "text": "esto cambia las reglas del juego",
+          "avatar": "./data/images/x-2107113780966494644-comment-avatar-9c29a67bd6-0.jpg",
+          "time": "2026-10-05T14:22:09.000Z",
+          "url": "https://x.com/mattknowsai/status/2107114121733013647"
+        },
+        {
+          "author": "Hussain Hashim | Building SundayBack",
+          "handle": "@itsthedonhashim",
+          "text": "@liambraus\n that's wild! watch out for double-checking those auto-generated hashtags. i’ve seen some miss the mark and lead to weird audiences.",
+          "avatar": "./data/images/x-2107113780966494644-comment-avatar-b20438ef88-1.jpg",
+          "time": "2026-10-05T18:48:10.000Z",
+          "url": "https://x.com/itsthedonhashim/status/2107181065047880121"
+        },
+        {
+          "author": "晚晚",
+          "handle": "@An_yhl",
+          "text": "这已经不是自动化了，是把整套运营外包给 Claude 了。",
+          "avatar": "./data/images/x-2107113780966494644-comment-avatar-8fac4be79f-2.jpg",
+          "time": "2026-10-05T15:27:40.000Z",
+          "url": "https://x.com/An_yhl/status/2107130607381934358"
+        },
+        {
+          "author": "kai.",
+          "handle": "@kaido_xr",
+          "text": "curro gestionando redes de tres clientes y la parte de analytics es la que más pinta tiene, ahí es donde pierdo más horas",
+          "avatar": "./data/images/x-2107113780966494644-comment-avatar-d01b7cd07d-3.jpg",
+          "time": "2026-10-05T15:29:23.000Z",
+          "url": "https://x.com/kaido_xr/status/2107131040888414593"
+        },
+        {
+          "author": "fred",
+          "handle": "@heyfredds",
+          "text": "whisper para transcripción es buena elección, la latencia es mínima comparado con otros modelos de speech to text",
+          "avatar": "./data/images/x-2107113780966494644-comment-avatar-fbe8f68f2d-4.jpg",
+          "time": "2026-10-05T14:22:38.000Z",
+          "url": "https://x.com/heyfredds/status/2107114242012766586"
+        },
+        {
+          "author": "tobarra",
+          "handle": "@txbrraa",
+          "text": "primera vez que veo un caso real de mcp gestionando cuentas reales, no una demo con datos falsos",
+          "avatar": "./data/images/x-2107113780966494644-comment-avatar-82e895c145-5.jpg",
+          "time": "2026-10-05T14:30:21.000Z",
+          "url": "https://x.com/txbrraa/status/2107116183690551728"
+        },
+        {
+          "author": "adri",
+          "handle": "@adriihrdzz",
+          "text": "si esto funciona como dice, el puesto de social media manager junior se va a reducir bastante",
+          "avatar": "./data/images/x-2107113780966494644-comment-avatar-20311b9464-6.jpg",
+          "time": "2026-10-05T15:29:40.000Z",
+          "url": "https://x.com/adriihrdzz/status/2107131113252741602"
+        },
+        {
+          "author": "berni",
+          "handle": "@bernirov",
+          "text": "yo llevaba meses programando contenido a mano en 5 apps distintas, esto me ahorra media vida",
+          "avatar": "./data/images/x-2107113780966494644-comment-avatar-03917111ed-7.jpg",
+          "time": "2026-10-05T14:22:22.000Z",
+          "url": "https://x.com/bernirov/status/2107114174577090737"
+        }
+      ],
+      "commentsAnalysis": "已抓取 8 条公开回复：讨论主要围绕体验反馈、补充信息与是否值得尝试展开；回复整体偏正向，但不能把评论热度等同于方案可靠性。",
       "ai": {
-        "score": 75,
+        "score": 88,
         "isMustRead": false,
-        "tags": [],
-        "whyInteresting": "高匹配度 (75% MATCH)，契合当前技术雷达重点关注领域。",
-        "action": "收藏并关注后续演化"
+        "tags": [
+          "Agent",
+          "Architecture"
+        ],
+        "whyInteresting": "高匹配度 (88% MATCH)，契合当前技术雷达重点关注领域。",
+        "action": "收藏并关注后续演化",
+        "personalTake": "这条内容的价值在于把 Agent 放回真实工作流，而不是停留在模型能力展示。案例里的增长或效率结论仍需用自己的数据复核。"
       }
     },
     {
-      "id": "tweet-3",
-      "category": "agent",
-      "categoryLabel": "AI 动态",
-      "sourceUrl": "https://x.com/ustnvs/status/2084212680257143213/analytics",
+      "id": "x-2106951276244484332",
+      "category": "skills",
+      "categoryLabel": "生产力 Skill",
+      "sourceUrl": "https://x.com/_HimanshuBuilds/status/2106951276244484332",
       "author": {
-        "name": "Sergey U",
-        "handle": "@ustnvs",
-        "avatar": "/data/images/tweet-3-avatar-0.jpg"
+        "name": "Official Himanshu",
+        "handle": "@_HimanshuBuilds",
+        "avatar": "./data/images/x-2106951276244484332-avatar-e6ee168db8-0.jpg"
       },
-      "createdAt": "2026-08-24T00:02:34.687Z",
-      "displayDate": "2026-08-24",
-      "content": "iOS 和 Android CLI，专为您的编码代理打造\n\nnoqa action tap -d “底部蓝色登录按钮”\n\n任何框架和平台，真机设备，无需定位器或坐标的麻烦。",
+      "createdAt": "2026-10-05T03:35:04.000Z",
+      "displayDate": "2026-10-05",
+      "content": "今晚别看 Netflix 了。花 2 小时看看这个。Claude AI 完整课程，教你如何构建和自动化任何东西。今晚看这个的人明天醒来就会多一项新技能。现在就看，收藏起来。",
       "media": [],
       "metrics": {
-        "reposts": 41,
-        "likes": 489,
-        "replies": 31
+        "reposts": 154,
+        "likes": 858,
+        "replies": 20
       },
-      "links": [
+      "links": [],
+      "comments": [
         {
-          "url": "https://noqa.ai/developers/?utm_source=X&utm_medium=paid_social&utm_campaign=devs&utm_term=narrow&utm_content=gif_cli&twclid=2f374urruoqrkga62h3blpsyzz",
-          "type": "website"
+          "author": "Cogny",
+          "handle": "@CognyAI",
+          "text": "Claude 负责你的 SEO。每月 9 美元。\n\n\nhttp://\ncogny.com/solo\n?twclid=2914jfo2gqiosb9a5kbbqzwcr2",
+          "avatar": "./data/images/x-2106951276244484332-comment-avatar-9ee2c845b6-0.png",
+          "time": "",
+          "url": "https://x.com/CognyAI/status/2067220231244980463/analytics"
+        },
+        {
+          "author": "Sophia AI & Tech",
+          "handle": "@Sophia_Ai0",
+          "text": "Excellent",
+          "avatar": "./data/images/x-2106951276244484332-comment-avatar-0314f17775-1.jpg",
+          "time": "2026-10-05T05:45:40.000Z",
+          "url": "https://x.com/Sophia_Ai0/status/2106984144316371102"
+        },
+        {
+          "author": "Tanvir Hossain",
+          "handle": "@mrtanviir",
+          "text": "Great",
+          "avatar": "./data/images/x-2106951276244484332-comment-avatar-ea7da7d616-2.jpg",
+          "time": "2026-10-05T04:57:08.000Z",
+          "url": "https://x.com/mrtanviir/status/2106971932163985430"
+        },
+        {
+          "author": "KAS 🧡 🇧🇷 🇦🇺",
+          "handle": "@andrade_keithy",
+          "text": "👀",
+          "avatar": "./data/images/x-2106951276244484332-comment-avatar-ddd9960f36-3.jpg",
+          "time": "2026-10-05T19:16:28.000Z",
+          "url": "https://x.com/andrade_keithy/status/2107188187689107546"
+        },
+        {
+          "author": "Sania Ai",
+          "handle": "@AiWithSania",
+          "text": "🚨 突发新闻：Claude 现在可以免费为你构建一个着陆页，将 1 美元的广告转化为 5 美元的销售额。\n\n以下是 7 个构建真正转化页面的提示：👇",
+          "avatar": "./data/images/x-2106951276244484332-comment-avatar-3bca56b5c9-4.jpg",
+          "time": "2026-10-05T11:50:09.000Z",
+          "url": "https://x.com/AiWithSania/status/2107075868497748026"
+        },
+        {
+          "author": "Alina Viola",
+          "handle": "@AlinaViolaxyz",
+          "text": "🔥 复制这 5 个 NotebookLM 提示语，以更快地分析文档。\n\n1. 从基础开始学习\n\n“将这份文档变成一个简单的指导课程。从基础开始逐步解释关键概念，逐渐过渡到更高级的内容。使用清晰的语言",
+          "avatar": "./data/images/x-2106951276244484332-comment-avatar-784a477f82-5.jpg",
+          "time": "2026-10-05T13:36:27.000Z",
+          "url": "https://x.com/AlinaViolaxyz/status/2107102620674293893"
+        },
+        {
+          "author": "Sadiya Ai",
+          "handle": "@AiWithSadiya",
+          "text": "🚨 在几分钟内将您的 NotebookLM 来源转化为互动网站。\n\n无需编码。无需开发者。只需 5 个简单的 AI 步骤，即可从您自己的来源构建网站。👇",
+          "avatar": "./data/images/x-2106951276244484332-comment-avatar-eb8de44285-6.jpg",
+          "time": "2026-10-05T10:57:03.000Z",
+          "url": "https://x.com/AiWithSadiya/status/2107062505147416585"
+        },
+        {
+          "author": "Arina sharmi",
+          "handle": "@Arina_sharmi",
+          "text": "用合适的 AI 工具升级您的工作流程！💡",
+          "avatar": "./data/images/x-2106951276244484332-comment-avatar-3a8a5bc241-7.jpg",
+          "time": "2026-10-05T13:18:28.000Z",
+          "url": "https://x.com/Arina_sharmi/status/2107098095574200443"
         }
       ],
+      "commentsAnalysis": "已抓取 8 条公开回复：讨论主要围绕体验反馈、补充信息与是否值得尝试展开；回复整体偏正向，但不能把评论热度等同于方案可靠性。",
+      "ai": {
+        "score": 86,
+        "isMustRead": false,
+        "tags": [
+          "Skill",
+          "Codex"
+        ],
+        "whyInteresting": "高匹配度 (86% MATCH)，契合当前技术雷达重点关注领域。",
+        "action": "收藏并关注后续演化",
+        "personalTake": "它展示的是一个可复用的生产流程，而不只是单次作品。真正值得验证的是输入约束、人工复核和批量产出的稳定性。"
+      }
+    },
+    {
+      "id": "x-2106821100390715655",
+      "category": "agent",
+      "categoryLabel": "AI 动态",
+      "sourceUrl": "https://x.com/ErnestoSOFTWARE/status/2106821100390715655",
+      "author": {
+        "name": "Ernesto Lopez",
+        "handle": "@ErnestoSOFTWARE",
+        "avatar": "./data/images/x-2106821100390715655-avatar-5d25e97d7c-0.jpg"
+      },
+      "createdAt": "2026-10-04T18:57:47.000Z",
+      "displayDate": "2026-10-04",
+      "content": "我在滚动时发现了一个价值100万美元的App创意😭\n\n全球有6.65亿企业家\n和超过6000万百万富翁\n\n而他们大多数只知道\n如何赚钱\n\n却不知道如何管理金钱。\n\n所以为什么不打造一个\n金钱管理的Duolingo呢\n\n没人做过这个，\n但我发现了一个TikTok账号\n\n每月浏览量超过2000万\n\n教富人“秘诀”。\n\n这证明了需求\n\n这正是我自己\n愿意付费的东西..\n\n如果他们在视频中植入这样的App\n\n他们每月轻松赚10万美元\n\n如果你想打造并扩展一个App\n阅读下面的文章：",
+      "media": [],
+      "metrics": {
+        "reposts": 43,
+        "likes": 456,
+        "replies": 16
+      },
+      "links": [],
+      "comments": [
+        {
+          "author": "Adinath R",
+          "handle": "@adinathcodes",
+          "text": "是啊，为什么不把洗钱作为付费功能来教，而其他内容免费呢 😂",
+          "avatar": "./data/images/x-2106821100390715655-comment-avatar-b52bfce9e8-0.jpg",
+          "time": "2026-10-04T18:59:15.000Z",
+          "url": "https://x.com/adinathcodes/status/2106821469791793254"
+        },
+        {
+          "author": "Victor",
+          "handle": "@victor_explore",
+          "text": "does this not violate any platform policy ?",
+          "avatar": "./data/images/x-2106821100390715655-comment-avatar-51e10bc8ef-1.jpg",
+          "time": "2026-10-05T03:16:05.000Z",
+          "url": "https://x.com/victor_explore/status/2106946498265338336"
+        },
+        {
+          "author": "AJawhar",
+          "handle": "@alaajawhareng",
+          "text": "What is the channel name ?",
+          "avatar": "./data/images/x-2106821100390715655-comment-avatar-4b0f4c83d5-2.jpg",
+          "time": "2026-10-05T10:07:55.000Z",
+          "url": "https://x.com/alaajawhareng/status/2107050140121039139"
+        },
+        {
+          "author": "Genius💡💹🧲 🤖",
+          "handle": "@GeniusPothead",
+          "text": "The cartoon style videos in the screenshot are great for short attention spans.",
+          "avatar": "./data/images/x-2106821100390715655-comment-avatar-e715eab9aa-3.jpg",
+          "time": "2026-10-04T22:32:21.000Z",
+          "url": "https://x.com/GeniusPothead/status/2106875097768399143"
+        },
+        {
+          "author": "Tripo",
+          "handle": "@tripoai",
+          "text": "From Astra Concepts to Game-Ready Assets.\nCreate Low-Poly Characters, Props, and Environments Faster with Tripo.",
+          "avatar": "./data/images/x-2106821100390715655-comment-avatar-e8de36728c-4.jpg",
+          "time": "",
+          "url": "https://x.com/tripoai/status/2105630177019797802/analytics"
+        },
+        {
+          "author": "suhhhhhhail.x",
+          "handle": "@suhailsufi12",
+          "text": "Bro Accountants exist",
+          "avatar": "./data/images/x-2106821100390715655-comment-avatar-8de6cf49df-5.jpg",
+          "time": "2026-10-05T10:22:33.000Z",
+          "url": "https://x.com/suhailsufi12/status/2107053824942940494"
+        },
+        {
+          "author": "Dimi",
+          "handle": "@GrownixApp",
+          "text": "I watched a few videos on this account, good stuff",
+          "avatar": "./data/images/x-2106821100390715655-comment-avatar-8f5e18c334-6.jpg",
+          "time": "2026-10-04T20:47:52.000Z",
+          "url": "https://x.com/GrownixApp/status/2106848801608888648"
+        },
+        {
+          "author": "Pratap",
+          "handle": "@PratapMukhiya5",
+          "text": "hey \n@grok\n , validate this idea.",
+          "avatar": "./data/images/x-2106821100390715655-comment-avatar-2c6eba7f8f-7.png",
+          "time": "2026-10-05T07:55:57.000Z",
+          "url": "https://x.com/PratapMukhiya5/status/2107016932943929843"
+        }
+      ],
+      "commentsAnalysis": "已抓取 8 条公开回复：讨论主要围绕体验反馈、补充信息与是否值得尝试展开；回复整体偏正向，但不能把评论热度等同于方案可靠性。",
       "ai": {
         "score": 75,
         "isMustRead": false,
         "tags": [],
         "whyInteresting": "高匹配度 (75% MATCH)，契合当前技术雷达重点关注领域。",
-        "action": "查阅对应链接: https://noqa.ai/developers/?utm_source=X&utm_medium=paid_social&utm_campaign=devs&utm_term=narrow&utm_content=gif_cli&twclid=2f374urruoqrkga62h3blpsyzz"
+        "action": "收藏并关注后续演化",
+        "personalTake": "这条内容的价值在于把 Agent 放回真实工作流，而不是停留在模型能力展示。案例里的增长或效率结论仍需用自己的数据复核。"
+      }
+    },
+    {
+      "id": "x-2106833060859981888",
+      "category": "agent",
+      "categoryLabel": "AI 动态",
+      "sourceUrl": "https://x.com/nnn112358/status/2106833060859981888",
+      "author": {
+        "name": "nnn",
+        "handle": "@nnn112358",
+        "avatar": "./data/images/x-2106833060859981888-avatar-8c1665e7c1-0.jpg"
+      },
+      "createdAt": "2026-10-04T19:45:19.000Z",
+      "displayDate": "2026-10-04",
+      "content": "CPU·GPU·NPU的区别，大致理解了。",
+      "media": [
+        {
+          "type": "image",
+          "url": "./data/images/x-2106833060859981888-41f87e92d1-1.jpg"
+        }
+      ],
+      "metrics": {
+        "reposts": 1434,
+        "likes": 10944,
+        "replies": 23
+      },
+      "links": [],
+      "comments": [
+        {
+          "author": "Adrian",
+          "handle": "@adriankuleszo",
+          "text": "We've designed and built for 150+ B2B tech companies…\n\nIncluding Cluely, Seamless AI, Ethena and Lightdash.\n\nBetween them, they've raised over $1B.\n\nOne senior team handles your brand, product and website, from design to launch.\n\nIf your site is losing you deals, book a call ↓",
+          "avatar": "./data/images/x-2106833060859981888-comment-avatar-a06d9e6d8a-0.jpg",
+          "time": "",
+          "url": "https://x.com/adriankuleszo/status/2106952534921552256/analytics"
+        },
+        {
+          "author": "Giovanni Bosco",
+          "handle": "@dkj0208",
+          "text": "TPU是什么？",
+          "avatar": "./data/images/x-2106833060859981888-comment-avatar-5a36de6251-1.jpg",
+          "time": "2026-10-05T09:04:39.000Z",
+          "url": "https://x.com/dkj0208/status/2107034221088784639"
+        },
+        {
+          "author": "MaZz7",
+          "handle": "@MazaZhang",
+          "text": "我知道 CPU 和 GPU，但 NPU 是新的，而且很有趣。",
+          "avatar": "./data/images/x-2106833060859981888-comment-avatar-8ea29fd4b9-2.jpg",
+          "time": "2026-10-05T09:08:26.000Z",
+          "url": "https://x.com/MazaZhang/status/2107035173095358759"
+        },
+        {
+          "author": "Rishi",
+          "handle": "@anxious599",
+          "text": "TPU 呢？",
+          "avatar": "./data/images/x-2106833060859981888-comment-avatar-a002ad064b-3.jpg",
+          "time": "2026-10-05T19:25:10.000Z",
+          "url": "https://x.com/anxious599/status/2107190378730545440"
+        },
+        {
+          "author": "Tom Hills✽",
+          "handle": "@TomHills_TGS",
+          "text": "这很清楚，也很好。",
+          "avatar": "./data/images/x-2106833060859981888-comment-avatar-aa31e63f5e-4.jpg",
+          "time": "2026-10-05T12:34:41.000Z",
+          "url": "https://x.com/TomHills_TGS/status/2107087077599035818"
+        },
+        {
+          "author": "鷹羽 爽香",
+          "handle": "@Alexandra_Clear",
+          "text": "我觉得 NPU 的效率很好。",
+          "avatar": "./data/images/x-2106833060859981888-comment-avatar-afe214f63c-5.jpg",
+          "time": "2026-10-05T11:00:17.000Z",
+          "url": "https://x.com/Alexandra_Clear/status/2107063319442169928"
+        },
+        {
+          "author": "HAOJIA",
+          "handle": "@NiuHao1113",
+          "text": "NPU还是没理解",
+          "avatar": "./data/images/x-2106833060859981888-comment-avatar-9b39b1f445-6.jpg",
+          "time": "2026-10-05T13:44:04.000Z",
+          "url": "https://x.com/NiuHao1113/status/2107104535571218516"
+        },
+        {
+          "author": "fra",
+          "handle": "@FraFraznkl",
+          "text": "谢谢",
+          "avatar": "./data/images/x-2106833060859981888-comment-avatar-bd8e8caf41-7.jpg",
+          "time": "2026-10-05T13:22:35.000Z",
+          "url": "https://x.com/FraFraznkl/status/2107099130590052529"
+        }
+      ],
+      "commentsAnalysis": "已抓取 8 条公开回复：讨论主要围绕体验反馈、补充信息与是否值得尝试展开；回复整体偏正向，但不能把评论热度等同于方案可靠性。",
+      "ai": {
+        "score": 75,
+        "isMustRead": false,
+        "tags": [],
+        "whyInteresting": "高匹配度 (75% MATCH)，契合当前技术雷达重点关注领域。",
+        "action": "收藏并关注后续演化",
+        "personalTake": "这条内容的价值在于把 Agent 放回真实工作流，而不是停留在模型能力展示。案例里的增长或效率结论仍需用自己的数据复核。"
+      }
+    },
+    {
+      "id": "x-2101355640262394307",
+      "category": "agent",
+      "categoryLabel": "AI 动态",
+      "sourceUrl": "https://x.com/karolzdeb/status/2101355640262394307",
+      "author": {
+        "name": "Karol Zdebel",
+        "handle": "@karolzdeb",
+        "avatar": "./data/images/x-2101355640262394307-avatar-4c438df536-0.jpg"
+      },
+      "createdAt": "2026-09-18T14:00:02.000Z",
+      "displayDate": "2026-09-18",
+      "content": "你可以在下一个小时内使用这个方法创建50个新的TikTok和Instagram账户。\n\n设置只需5分钟。\n\n1) 在 \nhttp://pamba.app/?twclid=27djmjs8ht002q1f9hyj3yoot0 上注册并选择免费计划\n2) 转到“账户”选项卡\n3) 点击“购买账户”并选择你想要的数量\n4) 输入你的用户名\n5) 等待大约30分钟让账户创建完成\n6) 设置你的账户预热配置\n7) 开始发布你自己的视频\n\n在我们平台上，没有一个人被封禁或被检测为机器人，尽管我们已经生成了超过5亿的浏览量。\n\n流量95%以上来自美国，因为所有iPhone实际上都在美国，使用美国运营商的SIM卡，并带有真实的电话号码。\n\n如果你需要更多信息，请私信我！",
+      "media": [
+        {
+          "type": "image",
+          "url": "./data/images/x-2101355640262394307-0ee877e07b-1.jpg"
+        }
+      ],
+      "metrics": {
+        "reposts": 304,
+        "likes": 4183,
+        "replies": 230
+      },
+      "links": [
+        {
+          "url": "https://t.co/CFAg7ozq3b?twclid=27djmjs8ht002q1f9hyj3yoot0",
+          "type": "website"
+        }
+      ],
+      "comments": [
+        {
+          "author": "BreakdownDev",
+          "handle": "@breakdowndevelo",
+          "text": "使用本帖中的免费短语每次手机收费100美元。请举报此帖，举报此类虚假推文。",
+          "avatar": "./data/images/x-2101355640262394307-comment-avatar-692ff8df52-0.jpg",
+          "time": "2026-09-19T19:27:34.000Z",
+          "url": "https://x.com/breakdowndevelo/status/2101392774914244614"
+        },
+        {
+          "author": "Chaos Capitalist",
+          "handle": "@quantiflow",
+          "text": "这是垃圾信息，这违反了抖音的服务条款，想象一下，竟然还炫耀在社交媒体上用更多垃圾内容刷屏，真是迫不及待想看到谷歌和抖音把这个狗屁模型彻底炸毁的那一天",
+          "avatar": "./data/images/x-2101355640262394307-comment-avatar-87be72fc2d-1.jpg",
+          "time": "2026-10-03T16:21:35.000Z",
+          "url": "https://x.com/quantiflow/status/2106419400517861629"
+        },
+        {
+          "author": "Math",
+          "handle": "@mathmpv",
+          "text": "每个账号100$？开什么玩笑。每个账号最多不应该超过5$。就像Fiverr上的人做这个甚至更便宜哈哈哈",
+          "avatar": "./data/images/x-2101355640262394307-comment-avatar-fc5e5b5183-2.jpg",
+          "time": "2026-09-28T02:30:04.000Z",
+          "url": "https://x.com/mathmpv/status/2104398202711769372"
+        },
+        {
+          "author": "Ben Lissen",
+          "handle": "@BenLissen",
+          "text": "neat, could you do a comparison table with DoubleSpeed and \n@UseFastlane\n ? It seems like their price point for equivalent service is $150 per account which would make you super interesting but not sure; I might have misunderstood smt",
+          "avatar": "./data/images/x-2101355640262394307-comment-avatar-215d69718c-3.jpg",
+          "time": "2026-09-21T16:46:26.000Z",
+          "url": "https://x.com/BenLissen/status/2102076999569129598"
+        },
+        {
+          "author": "stachio",
+          "handle": "@deficobra",
+          "text": "the accounts are $200 each 😭😭😭😭",
+          "avatar": "./data/images/x-2101355640262394307-comment-avatar-1af777f9f3-4.jpg",
+          "time": "2026-09-27T16:17:41.000Z",
+          "url": "https://x.com/deficobra/status/2104244095329640507"
+        },
+        {
+          "author": "Frankie",
+          "handle": "@FrankiePu2itzer",
+          "text": "登陆页面没有告诉你账户要花多少钱。只告诉你月度订阅要花多少钱，以及它包含多少个视频。",
+          "avatar": "./data/images/x-2101355640262394307-comment-avatar-d64477d356-5.jpg",
+          "time": "2026-09-19T18:08:46.000Z",
+          "url": "https://x.com/FrankiePu2itzer/status/2101372943859175438"
+        },
+        {
+          "author": "Mouzou",
+          "handle": "@mouzourasg",
+          "text": "What’s the purpose of building 50 TikTok’s in the next hour? lol",
+          "avatar": "./data/images/x-2101355640262394307-comment-avatar-cc051491e3-6.jpg",
+          "time": "2026-09-20T00:05:26.000Z",
+          "url": "https://x.com/mouzourasg/status/2101462701801181243"
+        },
+        {
+          "author": "james",
+          "handle": "@dert74682",
+          "text": "Operational for France?",
+          "avatar": "./data/images/x-2101355640262394307-comment-avatar-16194744c3-7.jpg",
+          "time": "2026-10-04T22:43:44.000Z",
+          "url": "https://x.com/dert74682/status/2106877960016056751"
+        }
+      ],
+      "commentsAnalysis": "已抓取 8 条公开回复：讨论主要围绕体验反馈、补充信息与是否值得尝试展开；回复整体偏正向，但不能把评论热度等同于方案可靠性。",
+      "ai": {
+        "score": 75,
+        "isMustRead": false,
+        "tags": [],
+        "whyInteresting": "高匹配度 (75% MATCH)，契合当前技术雷达重点关注领域。",
+        "action": "查阅对应链接: https://t.co/CFAg7ozq3b?twclid=27djmjs8ht002q1f9hyj3yoot0",
+        "personalTake": "这条内容的价值在于把 Agent 放回真实工作流，而不是停留在模型能力展示。案例里的增长或效率结论仍需用自己的数据复核。"
+      }
+    },
+    {
+      "id": "x-2106708411513712676",
+      "category": "agent",
+      "categoryLabel": "AI 动态",
+      "sourceUrl": "https://x.com/whyyoutouzhele/status/2106708411513712676",
+      "author": {
+        "name": "李老师不是你老师",
+        "handle": "@whyyoutouzhele",
+        "avatar": "./data/images/x-2106708411513712676-avatar-9b5c458de6-0.jpg"
+      },
+      "createdAt": "2026-10-04T11:30:00.000Z",
+      "displayDate": "2026-10-04",
+      "content": "美财长称，Kimi将解放军的武器开发计划泄露给了美国\n10月3日，美国财政部长贝森特在采访时表示：“Kimi 把一些解放军武器计划发回给了 Anthropic，真是帮了大忙。”\n他认为这类事情让中国意识到这是一项非常强大的技术。",
+      "media": [
+        {
+          "type": "image",
+          "url": "./data/images/x-2106708411513712676-a1231df4dc-1.jpg"
+        }
+      ],
+      "metrics": {
+        "reposts": 269,
+        "likes": 2561,
+        "replies": 100
+      },
+      "links": [],
+      "comments": [
+        {
+          "author": "tlp",
+          "handle": "@FzgfeH",
+          "text": "老美不会把kimi的抖音训练资料当秘密计划了吧",
+          "avatar": "./data/images/x-2106708411513712676-comment-avatar-cd9bcd2a07-0.jpg",
+          "time": "2026-10-04T14:25:59.000Z",
+          "url": "https://x.com/FzgfeH/status/2106752699119329791"
+        },
+        {
+          "author": "WD40",
+          "handle": "@AaGg065",
+          "text": "我一直说，保密的重要性不是怕别人知道有多先进，而是怕别人知道竟然他娘的这么落后",
+          "avatar": "./data/images/x-2106708411513712676-comment-avatar-98dff18999-1.jpg",
+          "time": "2026-10-04T14:17:16.000Z",
+          "url": "https://x.com/AaGg065/status/2106750506689581099"
+        },
+        {
+          "author": "答案",
+          "handle": "@fhcu2013",
+          "text": "这是个人独裁的治理困境。\n当习的“新质生产力”以政治任务贯彻到基层，基层要做的是通过响应 新质生产力 来向习效忠，至于是否向西方泄密，也管不了这么多了。这是一种基层的躺平，也可能是一种低级红式的反抗🤔",
+          "avatar": "./data/images/x-2106708411513712676-comment-avatar-860dd4c177-2.jpg",
+          "time": "2026-10-04T11:40:50.000Z",
+          "url": "https://x.com/fhcu2013/status/2106711135294796220"
+        },
+        {
+          "author": "懶人",
+          "handle": "@azrealdoll",
+          "text": "對會使用ai幹活的牛馬來說，能用ai把活幹好，順利拿到薪水、獎金才是真的，用什麼ai、洩密不洩密，都沒到手的錢重要",
+          "avatar": "./data/images/x-2106708411513712676-comment-avatar-8e2b751440-3.jpg",
+          "time": "2026-10-04T15:06:32.000Z",
+          "url": "https://x.com/azrealdoll/status/2106762902296523013"
+        },
+        {
+          "author": "政治经济观察",
+          "handle": "@GCNews9",
+          "text": "难怪Anthropic老板提倡限制ai，防止失控！\n\n原来中共一直用Anthropic的ai研究武器，甚至病毒……\n\n被抓了现行！丢人丢到家了",
+          "avatar": "./data/images/x-2106708411513712676-comment-avatar-fcf9612781-4.jpg",
+          "time": "2026-10-04T15:41:42.000Z",
+          "url": "https://x.com/GCNews9/status/2106771751380365435"
+        },
+        {
+          "author": "VeHeo🇺🇦 #StandWithUkraine️",
+          "handle": "@veheo2010",
+          "text": "别把中国想的多强大，从最近几年荒唐行为来看，那就是猪头加草台班子",
+          "avatar": "./data/images/x-2106708411513712676-comment-avatar-b7a9b716ce-5.jpg",
+          "time": "2026-10-04T22:39:53.000Z",
+          "url": "https://x.com/veheo2010/status/2106876991572168777"
+        },
+        {
+          "author": "Aragorn",
+          "handle": "@Jasonlau6688",
+          "text": "保不住了，Kimi泄漏三体水滴武器🤣",
+          "avatar": "./data/images/x-2106708411513712676-comment-avatar-5832c348e5-6.jpg",
+          "time": "2026-10-04T17:43:06.000Z",
+          "url": "https://x.com/Jasonlau6688/status/2106802302447390895"
+        },
+        {
+          "author": "woosuer",
+          "handle": "@rachen22418668",
+          "text": "这种操作反常态，有点此地无银三百两",
+          "avatar": "./data/images/x-2106708411513712676-comment-avatar-437408c2c6-7.jpg",
+          "time": "2026-10-05T21:16:16.000Z",
+          "url": "https://x.com/rachen22418668/status/2107218337507983690"
+        }
+      ],
+      "commentsAnalysis": "已抓取 8 条公开回复：讨论主要围绕体验反馈、补充信息与是否值得尝试展开；回复整体偏正向，但不能把评论热度等同于方案可靠性。",
+      "ai": {
+        "score": 75,
+        "isMustRead": false,
+        "tags": [],
+        "whyInteresting": "高匹配度 (75% MATCH)，契合当前技术雷达重点关注领域。",
+        "action": "收藏并关注后续演化",
+        "personalTake": "这条内容的价值在于把 Agent 放回真实工作流，而不是停留在模型能力展示。案例里的增长或效率结论仍需用自己的数据复核。"
+      }
+    },
+    {
+      "id": "x-2106955281087533528",
+      "category": "agent",
+      "categoryLabel": "AI 动态",
+      "sourceUrl": "https://x.com/Dipanshu_AI/status/2106955281087533528",
+      "author": {
+        "name": "Dipanshu Kushwaha",
+        "handle": "@Dipanshu_AI",
+        "avatar": "./data/images/x-2106955281087533528-avatar-ef00b80f14-0.jpg"
+      },
+      "createdAt": "2026-10-05T03:50:59.000Z",
+      "displayDate": "2026-10-05",
+      "content": "今晚别再看一小时 Netflix 了。\n\nDemis Hassabis 的这场 60 分钟剑桥讲座，将让你对 AI 的未来了解得比大多数人在未来 5 年里学到的还要多。\n\n收藏起来，无论如何都要抽出一小时来看。",
+      "media": [
+        {
+          "type": "image",
+          "url": "./data/images/x-2106955281087533528-c859e3f7aa-1.jpg"
+        }
+      ],
+      "metrics": {
+        "reposts": 19,
+        "likes": 94,
+        "replies": 3
+      },
+      "links": [],
+      "comments": [
+        {
+          "author": "Big 007❄️",
+          "handle": "@Big0047",
+          "text": "在开始哭泣之前先微笑吧，美女 😂",
+          "avatar": "./data/images/x-2106955281087533528-comment-avatar-b764c9fab2-0.jpg",
+          "time": "2026-10-05T19:41:04.000Z",
+          "url": "https://x.com/Big0047/status/2107194380306268224"
+        },
+        {
+          "author": "mTusi original 👦",
+          "handle": "@mTusiOriginal",
+          "text": "Baada ya hii video ku trend haka katoto kakawauganisha wazazi wao na kupata matangazo mbali mbali \"AMANI YA MOYO\"😢🙌🙌",
+          "avatar": "./data/images/x-2106955281087533528-comment-avatar-db31931daa-1.png",
+          "time": "2026-10-04T04:45:35.000Z",
+          "url": "https://x.com/mTusiOriginal/status/2106606634013241369"
+        },
+        {
+          "author": "Way Of Discipline",
+          "handle": "@wayofdiscipline",
+          "text": "开始。悄悄地去做。 进化，直到你成为狼，或者承认你从未真正想要过。",
+          "avatar": "./data/images/x-2106955281087533528-comment-avatar-e12d42f320-2.jpg",
+          "time": "2026-10-05T04:16:29.000Z",
+          "url": "https://x.com/wayofdiscipline/status/2106961700067176505"
+        },
+        {
+          "author": "วi๓๓ฯ🫆",
+          "handle": "@kajairo0",
+          "text": "Hata mama mtoto ameshangazwa na hizo news, Enyewe no one above the program 😂😂",
+          "avatar": "./data/images/x-2106955281087533528-comment-avatar-8ee9d345b3-3.jpg",
+          "time": "2026-10-04T04:06:48.000Z",
+          "url": "https://x.com/kajairo0/status/2106596875654562230"
+        }
+      ],
+      "commentsAnalysis": "已抓取 4 条公开回复：讨论主要围绕体验反馈、补充信息与是否值得尝试展开；回复整体偏正向，但不能把评论热度等同于方案可靠性。",
+      "ai": {
+        "score": 75,
+        "isMustRead": false,
+        "tags": [],
+        "whyInteresting": "高匹配度 (75% MATCH)，契合当前技术雷达重点关注领域。",
+        "action": "收藏并关注后续演化",
+        "personalTake": "这条内容的价值在于把 Agent 放回真实工作流，而不是停留在模型能力展示。案例里的增长或效率结论仍需用自己的数据复核。"
       }
     }
   ]

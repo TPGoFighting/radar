@@ -1,7 +1,7 @@
 /**
  * Personal AI Intelligence Radar - Dynamic Memphis Render Engine
  * 100% Zero-Emoji, Pure Scalable Inline SVGs
- * Includes Bookmarks, User Feedback, Deep Links, and Historical Archive Switcher
+ * Includes Bookmarks, User Feedback, Deep Links, Lightbox, and Historical Archive Switcher
  */
 
 const ICONS = {
@@ -56,118 +56,206 @@ const FALLBACK_DATA = {
   ],
   "items": [
     {
-      "id": "tweet-1",
-      "category": "agent",
-      "categoryLabel": "AI Harness 范式",
-      "author": { "name": "Michael Guo", "handle": "@Michaelzsguo", "avatar": "https://pbs.twimg.com/profile_images/1484637162108825608/755rQsty_x96.jpg" },
-      "createdAt": "2026-08-14T21:15:00.000Z",
-      "displayDate": "2026-08-14",
-      "content": "DeepSeek 发布 Harness 的时候直接发了一篇论文：《A Programming Paradigm for Spatiotemporal Composability》。\n\n别人发布 Agent Harness 通常告诉你有哪些 tools、怎么接 MCP、怎么做 memory，而 DeepSeek 从时空可组合性的理论高度重构 Agent 执行范式。",
-      "media": [{ "type": "image", "url": "https://pbs.twimg.com/media/HPtadgrXMAA66fW?format=jpg&name=medium" }],
-      "metrics": { "reposts": 31, "likes": 143, "replies": 9 },
-      "ai": { "score": 96, "isMustRead": true, "tags": ["DeepSeek", "Agent Harness", "Paper"], "whyInteresting": "从理论范式高度重构 Agent 时空可组合性，超越普通 MCP 封装", "action": "阅读论文并对照现有 Agent 编排逻辑" }
+        "id": "x-2105204499266855051",
+        "category": "agent",
+        "categoryLabel": "AI Harness 范式",
+        "sourceUrl": "https://x.com/I_am_oil_oil/status/2105204499266855051",
+        "author": {
+            "name": "oil-oil",
+            "handle": "@I_am_oil_oil",
+            "avatar": "./data/images/tweet-1-avatar-37c03f1095-0.jpg"
+        },
+        "createdAt": "2026-09-30T07:54:00.000Z",
+        "displayDate": "2026-09-30",
+        "content": "之前发过一期视频讲如何激发 AI 的创造能力做出不平庸的设计，这次把里面的方法整理成了一个 Skill，让 Agent 每次都按这套方法论来做：\nhttps://github.com/oil-oil/oil-ui1. 先定调性，把“高级”“简洁”这种词翻译成具体的文字、留白和颜色\n2. 每个方向从一个具体的灵感出发，比如一种材质、一个场景\n3. 先定首屏骨架再写文案，在不同的几个设计方向之间尽可能做到完全不同\n4. 内置了对比的模版页，可以非常方便的对比不同 Demo\n5. 选定后做成页面，在电脑和手机上截图检查，最后做减法\n\n除了设计流程，Skill 里还写了不少我对 AI 审美的观察心得。我自己实测即便使用非常便宜的 DeepSeek、mimo、gpt luna，也可以设计出很不错的设计效果，任何场景 UI 设计都可以用。\n\n除了开源 skill，我还第一次做了付费 Skill，叫做 Oil UI Pro：\nhttps://skillpay.alipay.com/shelf/product?productId=P0806000207812874&merchantId=2088022260532460…，这里面提供了更多 UX 相关的洞察。\n\n希望这个 Skill 帮助大家把任何 AI 模型的设计能力推到极限，后续会持续更新～",
+        "media": [
+            {
+                "type": "image",
+                "url": "./data/images/tweet-1-6f5b1951c0-1.jpg"
+            }
+        ],
+        "metrics": {
+            "reposts": 13,
+            "likes": 132,
+            "replies": 1
+        },
+        "links": [
+            {
+                "url": "https://t.co/9qAvnHB7aA",
+                "type": "website"
+            },
+            {
+                "url": "https://t.co/Toyazf2JLN",
+                "type": "website"
+            }
+        ],
+        "comments": [
+            {
+                "author": "DD wang",
+                "handle": "@DDwangyrbe",
+                "text": "沙发 ，请教这个怎么用呀，下载下来后，每次使用都要让AI@这个技能吗？",
+                "avatar": "https://abs.twimg.com/sticky/default_profile_images/default_profile_x96.png",
+                "time": "2026-09-30T11:59:07.000Z",
+                "url": "https://x.com/DDwangyrbe/status/2105266185688555903"
+            },
+            {
+                "author": "数字生命卡兹克",
+                "handle": "@Khazix0918",
+                "text": "这两天太多的人问我怎么防止claude被封号了，然后我之前是设备被标记了，所以几乎就是半个小时就会被封。\n不过新的Claude账号，截止今天，已经稳定开发6天了，目前没没看到啥问题，所以呢，也斗胆给大家分享一下我的小小的经验。\n\n1.",
+                "avatar": "./data/images/tweet-1-comment-avatar-a07909ddaf-1.jpg",
+                "time": "2026-09-30T14:12:19.000Z",
+                "url": "https://x.com/Khazix0918/status/2105299706549096697"
+            },
+            {
+                "author": "Yihui",
+                "handle": "@yihui_indie",
+                "text": "小辉单个产品日入500刀成就达成！按照手头的几个产品规划，年底应该能有望冲击一下日入万刀~",
+                "avatar": "./data/images/tweet-1-comment-avatar-eb073a8375-2.jpg",
+                "time": "2026-09-30T02:34:48.000Z",
+                "url": "https://x.com/yihui_indie/status/2105124171768569980"
+            },
+            {
+                "author": "Wei",
+                "handle": "@wei_wang",
+                "text": "Google 这次真的很大方。\n\nAI Pro 账号每个月送 200 个 Colab 计算单元，能跑 A100 80GB。\n\n再加上 Google 刚开放的 Colab CLI，这些额度现在可以直接交给 Agent 调用了。\n\n所以我马上写了一个调用的 Skill。\n\n有 Google AI Pro 账号的朋友可以试试。让 Agent 装好这个 Skill 以后，直接叫它调用",
+                "avatar": "./data/images/tweet-1-comment-avatar-72575f691f-3.jpg",
+                "time": "2026-09-30T02:28:01.000Z",
+                "url": "https://x.com/wei_wang/status/2105122465525486058"
+            },
+            {
+                "author": "Ding",
+                "handle": "@dingyi",
+                "text": "Railway 出了免注册 VM：终端敲 ssh \nhttps://\nrailway.new\n\n1. 大约 1.4 秒起来，2 vCPU / 2GB\n2. 预装 Node、Python、gh，还有 Claude Code、Codex、Cursor CLI、Grok 等 coding agent\n3. 未认领盒子算力免费；60 分钟搭建窗\n\n\nhttps://\nrailway.com/free-vm",
+                "avatar": "./data/images/tweet-1-comment-avatar-ac1beff1f3-4.jpg",
+                "time": "2026-09-30T09:00:14.000Z",
+                "url": "https://x.com/dingyi/status/2105221169440018679"
+            }
+        ],
+        "commentsAnalysis": "已抓取 5 条公开回复：讨论主要围绕体验反馈、补充信息与是否值得尝试展开；回复整体偏正向，但不能把评论热度等同于方案可靠性。",
+        "ai": {
+            "score": 88,
+            "isMustRead": false,
+            "tags": [
+                "Agent",
+                "Architecture"
+            ],
+            "whyInteresting": "高匹配度 (88% MATCH)，契合当前技术雷达重点关注领域。",
+            "action": "查阅对应链接: https://t.co/9qAvnHB7aA",
+            "personalTake": "这条内容的价值在于把 Agent 放回真实工作流，而不是停留在模型能力展示。案例里的增长或效率结论仍需用自己的数据复核。"
+        }
     },
     {
-      "id": "tweet-2",
-      "category": "skills",
-      "categoryLabel": "视觉 Skill",
-      "author": { "name": "Yihui", "handle": "@yihui_indie", "avatar": "https://pbs.twimg.com/profile_images/1804848821702377472/fSfFlGTf_x96.jpg" },
-      "createdAt": "2026-08-13T12:09:42.000Z",
-      "displayDate": "2026-08-13",
-      "content": "在 YouMind 上发布了新 Skill：「Anthropic 风格插画」。\n\n给它一个主题，会转换成简单、克制且带手绘感的 Anthropic 概念插画。很适合做文章配图、封面或抽象视觉隐喻。",
-      "media": [{ "type": "image", "url": "https://pbs.twimg.com/media/HPmcfpcaoAA-nls?format=jpg&name=medium" }],
-      "metrics": { "reposts": 47, "likes": 354, "replies": 74 },
-      "ai": { "score": 92, "isMustRead": false, "tags": ["YouMind", "Anthropic Style", "Illustration Skill"], "whyInteresting": "克制、高级手绘风视觉资产生成，适合技术博文与封面", "action": "可尝试集成入本地 Skill 库" }
-    },
-    {
-      "id": "tweet-3",
-      "category": "skills",
-      "categoryLabel": "Codex + 视频生成",
-      "author": { "name": "Sac", "handle": "@Saccc_c", "avatar": "https://pbs.twimg.com/profile_images/2081939362808520704/FwzCMH0g_x96.jpg" },
-      "createdAt": "2026-08-13T17:53:49.000Z",
-      "displayDate": "2026-08-13",
-      "content": "玩 Seedance 2.5 必须在 Codex 安装的插件：Higgsfield。\n\n工作流直接住在 Codex 内部，从关键帧设定、视频提示词到生成修改无缝闭环，生产力直接起飞！",
-      "media": [{ "type": "image", "url": "https://pbs.twimg.com/amplify_video_thumb/2087960526223806465/img/S9hI5YEeaVWoCHpU.jpg" }],
-      "metrics": { "reposts": 87, "likes": 495, "replies": 122 },
-      "ai": { "score": 91, "isMustRead": false, "tags": ["Codex", "Higgsfield", "Seedance 2.5", "AIGC Video"], "whyInteresting": "把复杂视频生成工作流原生内嵌至 IDE/Agent 内部", "action": "关注其插件架构与调用接口" }
-    },
-    {
-      "id": "tweet-4",
-      "category": "tools",
-      "categoryLabel": "开源专著",
-      "author": { "name": "XDash", "handle": "@XDash", "avatar": "https://pbs.twimg.com/profile_images/1835375310344527872/hQ7y7lkV_x96.jpg" },
-      "createdAt": "2026-08-14T01:30:53.000Z",
-      "displayDate": "2026-08-14",
-      "content": "把私下研究 Palantir「FDE（前沿部署工程师）」的二十万字资料整理成开源书，仅3周 GitHub 接近 4k star！\n\n本周正式上线独立官网 fde4.ai，提供极佳的在线阅读体验。",
-      "media": [{ "type": "image", "url": "https://pbs.twimg.com/media/HPpRju3b0AAEdG1?format=jpg&name=medium" }],
-      "metrics": { "reposts": 30, "likes": 173, "replies": 57 },
-      "links": [{ "type": "website", "url": "https://fde4.ai", "title": "fde4.ai (4k+ ⭐ 官网)" }],
-      "ai": { "score": 95, "isMustRead": true, "tags": ["FDE", "Palantir", "Engineering Book"], "whyInteresting": "前沿部署工程师深度系统化梳理，商业落地与技术实战结合", "action": "建议收藏并在 fde4.ai 查阅核心章节" }
-    },
-    {
-      "id": "tweet-5",
-      "category": "skills",
-      "categoryLabel": "图标生成 Skill",
-      "author": { "name": "十里", "handle": "@okooo5km", "avatar": "https://pbs.twimg.com/profile_images/2020293051302965250/jJjJxUI6_x96.jpg" },
-      "createdAt": "2026-08-14T03:57:16.000Z",
-      "displayDate": "2026-08-14",
-      "content": "稳定输出高质量「轻拟物图标（Soft Neumorphic）」技能发布！\n\n彻底解决之前 AI 图标生成的残次率，直接生成高质量 App Icon 级成品。",
-      "media": [{ "type": "image", "url": "https://pbs.twimg.com/media/HPp1PXTbEAEYB4R?format=jpg&name=large" }],
-      "metrics": { "reposts": 109, "likes": 661, "replies": 27 },
-      "ai": { "score": 88, "isMustRead": false, "tags": ["Neumorphism", "Icon Design", "YouMind"], "whyInteresting": "大幅提高 AI 生成拟物化 App 图标的成品可用率", "action": "适合作为 UI 设计 Skill 参考" }
-    },
-    {
-      "id": "tweet-6",
-      "category": "tools",
-      "categoryLabel": "经典教材",
-      "author": { "name": "灰狐", "handle": "@huihoo", "avatar": "https://pbs.twimg.com/profile_images/1233132661608071169/_PRc7chX_x96.jpg" },
-      "createdAt": "2026-08-14T01:05:45.000Z",
-      "displayDate": "2026-08-14",
-      "content": "复旦大学邱锡鹏教授编写经典系列教材全网开放彩色 PDF 下载：\n- 《神经网络与深度学习 第二版》562页\n- 《案例与实践篇》372页\n- 《大模型与智能体》408页\n理论、通识与代码实践全覆盖！",
-      "media": [{ "type": "image", "url": "https://pbs.twimg.com/media/HPpM4hMa0AAqxxy?format=jpg&name=large" }],
-      "metrics": { "reposts": 114, "likes": 467, "replies": 46 },
-      "ai": { "score": 93, "isMustRead": false, "tags": ["Deep Learning", "LLM Agent", "Textbook"], "whyInteresting": "学术界权威教授出品的体系化教材，全彩开源", "action": "下载 PDF 存入本地技术资料库" }
-    },
-    {
-      "id": "tweet-7",
-      "category": "agent",
-      "categoryLabel": "高赞 Prompt 技巧",
-      "author": { "name": "Nora X", "handle": "@NoraX2026", "avatar": "https://pbs.twimg.com/profile_images/2078140848114720768/hMPWC08N_x96.jpg" },
-      "createdAt": "2026-08-13T13:39:58.000Z",
-      "displayDate": "2026-08-13",
-      "content": "Reddit 疯传的“深度思考” Prompt 彻底改变了与 Codex 的交互体验：\n\n“请先不要回答我的问题。在给出答案前，指出我在问题中没有明确说出但已默认成立的假设……”",
-      "metrics": { "reposts": 436, "likes": 2366, "replies": 154 },
-      "ai": { "score": 94, "isMustRead": true, "tags": ["Prompt", "Deep Thinking", "Codex"], "whyInteresting": "通过前置假设检视有效避免 AI 盲目顺从导致的推演偏差", "action": "加入常用 Prompt 模板库" }
-    },
-    {
-      "id": "tweet-8",
-      "category": "tools",
-      "categoryLabel": "开源手册",
-      "author": { "name": "Amto", "handle": "@XAMTO_AI", "avatar": "https://pbs.twimg.com/profile_images/2054618779120984064/1iLfLP0Y_x96.jpg" },
-      "createdAt": "2026-08-15T00:15:00.000Z",
-      "displayDate": "2026-08-15",
-      "content": "专为程序员设计的英语学习开源项目《A Programmer's Guide to English》。\n\n直击技术文档、源码阅读、Issue/PR 撰写真实场景，程序员思维拆解，全文开源！",
-      "media": [{ "type": "image", "url": "https://pbs.twimg.com/media/HPtl8GibMAAwuac?format=jpg&name=medium" }],
-      "metrics": { "reposts": 8, "likes": 43, "replies": 34 },
-      "ai": { "score": 87, "isMustRead": false, "tags": ["English", "Open Source", "Developer Guide"], "whyInteresting": "聚焦 Issue/PR/源码场景的高频技术英语学习指南", "action": "查阅 GitHub 仓库" }
-    },
-    {
-      "id": "tweet-9",
-      "category": "skills",
-      "categoryLabel": "设计资产库",
-      "author": { "name": "开发者Hailey", "handle": "@IndieDevHailey", "avatar": "https://pbs.twimg.com/profile_images/1804848821702377472/fSfFlGTf_x96.jpg" },
-      "createdAt": "2026-08-14T02:41:48.000Z",
-      "displayDate": "2026-08-14",
-      "content": "有人把 X 上超顶的设计全聚在一起了——Inspora。\n\n专门收集 X 上的 Web、Branding、Product、Motion、3D 高质量作品，每小时更新，Vibe Coding 找参考极度爽快！",
-      "metrics": { "reposts": 44, "likes": 289, "replies": 14 },
-      "ai": { "score": 89, "isMustRead": false, "tags": ["Inspora", "Design Reference", "Vibe Coding"], "whyInteresting": "高频更新的 X 顶级前端/UI 设计作品聚合平台", "action": "加入前端设计参考收藏夹" }
+        "id": "x-2105322024587694448",
+        "category": "agent",
+        "categoryLabel": "AI Harness 范式",
+        "sourceUrl": "https://x.com/WasimShips/status/2105322024587694448",
+        "author": {
+            "name": "Wasim",
+            "handle": "@WasimShips",
+            "avatar": "./data/images/tweet-2-avatar-8f4d070396-0.jpg"
+        },
+        "createdAt": "2026-09-30T15:41:00.000Z",
+        "displayDate": "2026-09-30",
+        "content": "你的设计书签可以添些新面孔——从这9个开始 ↓\n\n- \nhttp://bencho.dev : 可实时调整的UI模块\n\n- \nhttp://on.design : 专为设计师的邀请制空间\n\n- \nhttp://inspomcp.dev : 供你的编码代理参考的800+真实网站\n\n- \nhttp://motionsites.ai : 带动画效果的网站AI提示\n\n- \nhttp://obsidianui.dev : 以动态为核心的React组件\n\n- \nhttp://ui.halaska.com : AI产品的单文件UI套件\n\n- \nhttp://builtbydesigners.com : 发现同行设计师制作的工具\n\n- \nhttp://goatedui.dev : 网站、界面、应用图标和OG图像的灵感来源\n\n- \nhttp://reelfolio.io : 将静态截图转化为展示卷轴\n你会添加哪个鲜为人知的网站？",
+        "media": [],
+        "metrics": {
+            "reposts": 2,
+            "likes": 109,
+            "replies": 2
+        },
+        "links": [
+            {
+                "url": "https://t.co/WsDGiUuful",
+                "type": "website"
+            },
+            {
+                "url": "https://t.co/Hf2qrJapiH",
+                "type": "website"
+            },
+            {
+                "url": "https://t.co/d37P5czUFL",
+                "type": "website"
+            }
+        ],
+        "comments": [
+            {
+                "author": "Stephen",
+                "handle": "@srotimi_ui",
+                "text": "这样的仪表板就是不一样。",
+                "avatar": "./data/images/tweet-2-comment-avatar-353f0ab491-0.jpg",
+                "time": "2026-09-30T10:43:31.000Z",
+                "url": "https://x.com/srotimi_ui/status/2105247161260621842"
+            },
+            {
+                "author": "brian benitez",
+                "handle": "@NotoriousUSB",
+                "text": "设计即代码。\n\n\nhttps://\nzoah.com",
+                "avatar": "./data/images/tweet-2-comment-avatar-6f85c0ceed-1.jpg",
+                "time": "2026-09-30T14:37:00.000Z",
+                "url": "https://x.com/NotoriousUSB/status/2105305918913024014"
+            },
+            {
+                "author": "sasha birukoff",
+                "handle": "@sashabirukoff",
+                "text": "流动光照",
+                "avatar": "./data/images/tweet-2-comment-avatar-af56258ac3-2.jpg",
+                "time": "2026-09-30T16:33:13.000Z",
+                "url": "https://x.com/sashabirukoff/status/2105335164532355314"
+            },
+            {
+                "author": "Bakers Studio",
+                "handle": "@studiobakers",
+                "text": "ui components for giza",
+                "avatar": "./data/images/tweet-2-comment-avatar-dd09b750a9-3.jpg",
+                "time": "2026-09-30T10:46:02.000Z",
+                "url": "https://x.com/studiobakers/status/2105247793615102192"
+            }
+        ],
+        "commentsAnalysis": "已抓取 4 条公开回复：讨论主要围绕体验反馈、补充信息与是否值得尝试展开；回复整体偏正向，但不能把评论热度等同于方案可靠性。",
+        "ai": {
+            "score": 88,
+            "isMustRead": false,
+            "tags": [
+                "Agent",
+                "Architecture"
+            ],
+            "whyInteresting": "高匹配度 (88% MATCH)，契合当前技术雷达重点关注领域。",
+            "action": "查阅对应链接: https://t.co/WsDGiUuful",
+            "personalTake": "这条内容的价值在于把 Agent 放回真实工作流，而不是停留在模型能力展示。案例里的增长或效率结论仍需用自己的数据复核。"
+        }
     }
-  ]
+]
 };
 
 let currentRadarData = null;
+let currentSnapshotUrl = './data/latest.json';
+let feedScrollPosition = 0;
 
-// LocalStorage helpers
+function escapeHtml(value) {
+  return String(value ?? '').replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
+}
+
+function formatMetric(value) {
+  return Number(value || 0).toLocaleString('zh-CN');
+}
+
+function normalizeImageUrl(url) {
+  if (!url) return '';
+  if (url.startsWith('/data/images/')) {
+    return '.' + url;
+  }
+  return url;
+}
+
+function getItemId(item) {
+  if (!item) return '';
+  if (item.sourceUrl) {
+    const match = item.sourceUrl.match(/status\/(\d+)/);
+    if (match) return 'x-' + match[1];
+  }
+  return item.id || '';
+}
+
 function getBookmarks() {
   try {
     return JSON.parse(localStorage.getItem('radar_bookmarks') || '[]');
@@ -178,6 +266,12 @@ function getBookmarks() {
 
 function saveBookmarks(bms) {
   localStorage.setItem('radar_bookmarks', JSON.stringify(bms));
+}
+
+function isItemStarred(item, bookmarks) {
+  const bms = bookmarks || getBookmarks();
+  const stableId = getItemId(item);
+  return bms.includes(stableId) || (item.id && bms.includes(item.id));
 }
 
 function getFeedback() {
@@ -194,19 +288,65 @@ function saveFeedback(fb) {
 
 function toggleStar(tweetId, btn) {
   const bms = getBookmarks();
-  const idx = bms.indexOf(tweetId);
-  const card = btn.closest('.tweet-card');
+  const item = currentRadarData?.items?.find(x => x.id === tweetId || getItemId(x) === tweetId);
+  const stableId = item ? getItemId(item) : tweetId;
+
+  const idx = bms.findIndex(x => x === stableId || x === tweetId);
+  const card = btn ? btn.closest('.tweet-card') : document.getElementById(tweetId);
+  let isStarred = false;
 
   if (idx > -1) {
     bms.splice(idx, 1);
-    btn.classList.remove('starred');
+    if (btn) btn.classList.remove('starred');
     if (card) card.removeAttribute('data-starred');
+    isStarred = false;
   } else {
-    bms.push(tweetId);
-    btn.classList.add('starred');
+    bms.push(stableId);
+    if (btn) btn.classList.add('starred');
     if (card) card.setAttribute('data-starred', 'true');
+    isStarred = true;
   }
   saveBookmarks(bms);
+  return isStarred;
+}
+
+function toggleStarFromDetail(tweetId, btn) {
+  const starred = toggleStar(tweetId, null);
+  if (btn) {
+    btn.classList.toggle('starred', starred);
+    const lbl = btn.querySelector('.star-label');
+    if (lbl) lbl.textContent = starred ? '已收藏' : '收藏';
+  }
+}
+
+function copyDetailLink(tweetId) {
+  const url = location.origin + location.pathname + `#/article/${encodeURIComponent(tweetId)}`;
+  navigator.clipboard.writeText(url).then(() => {
+    alert('推文详情链接已复制到剪贴板！');
+  }).catch(() => {
+    prompt('复制此推文详情链接：', url);
+  });
+}
+
+function openLightbox(src) {
+  const box = document.getElementById('imageLightbox');
+  const img = document.getElementById('lightboxImg');
+  if (box && img) {
+    img.src = src;
+    box.style.display = 'flex';
+  }
+}
+
+function closeLightbox() {
+  const box = document.getElementById('imageLightbox');
+  if (box) box.style.display = 'none';
+}
+
+function toggleExpandCard(btn) {
+  const card = btn.closest('.tweet-card');
+  if (!card) return;
+  const isExpanded = card.classList.toggle('is-expanded');
+  btn.textContent = isExpanded ? '收起全文 ↑' : '展开全文 ↓';
 }
 
 function voteCard(tweetId, type, btn) {
@@ -239,7 +379,57 @@ async function loadData(targetUrl) {
   return FALLBACK_DATA;
 }
 
+function updateArchiveNotice(targetUrl, data) {
+  const notice = document.getElementById('archiveNotice');
+  if (!notice) return;
+  const isArchive = targetUrl !== './data/latest.json';
+  if (isArchive) {
+    notice.innerHTML = `
+      <span>⚠️ 当前正在查看历史快照（${escapeHtml(data.date || '历史快照')}）</span>
+      <button class="archive-reset-btn" onclick="resetToLatest()">返回今日最新 ⚡</button>
+    `;
+    notice.style.display = 'flex';
+  } else {
+    notice.style.display = 'none';
+  }
+}
+
+async function initArchiveDropdown() {
+  const select = document.getElementById('archiveSelect');
+  if (!select) return;
+  try {
+    const resp = await fetch('./data/archive/index.json');
+    if (!resp.ok) return;
+    const manifest = await resp.json();
+    if (!manifest || !manifest.length) return;
+
+    let html = '<option value="latest">⚡ 今日最新 (Live)</option>';
+    manifest.forEach(m => {
+      html += `<option value="${m.file}">📅 ${m.date} (${m.selected}条精选)</option>`;
+    });
+    select.innerHTML = html;
+  } catch (e) {
+    console.warn('Could not load archive index for dropdown');
+  }
+}
+
+async function handleArchiveChange(selectEl) {
+  const val = selectEl.value;
+  if (val === 'latest') {
+    await initRadar('./data/latest.json');
+  } else {
+    await initRadar(`./data/archive/${val}`);
+  }
+}
+
+async function resetToLatest() {
+  const select = document.getElementById('archiveSelect');
+  if (select) select.value = 'latest';
+  await initRadar('./data/latest.json');
+}
+
 async function initRadar(targetUrl = './data/latest.json') {
+  currentSnapshotUrl = targetUrl;
   const feedGrid = document.getElementById('feedGrid');
   const trendGrid = document.getElementById('trendGrid');
   const statsBar = document.getElementById('statsBar');
@@ -248,9 +438,11 @@ async function initRadar(targetUrl = './data/latest.json') {
   const data = await loadData(targetUrl);
   currentRadarData = data;
 
+  updateArchiveNotice(targetUrl, data);
+
   // 1. Render Date & Meta
   if (dateBadge && data.date) {
-    dateBadge.innerHTML = `${ICONS.calendar} SYNC: ${data.date} (EGO-BROWSER)`;
+    dateBadge.innerHTML = `<span class="live-dot"></span> LIVE ${data.date}`;
   }
 
   // 2. Render Stats Bar
@@ -312,6 +504,9 @@ async function initRadar(targetUrl = './data/latest.json') {
   if (feedGrid && Array.isArray(data.items)) {
     renderFeedCards(data.items);
   }
+  if (location.hash.startsWith('#/article/')) {
+    renderArticleDetail(decodeURIComponent(location.hash.split('/')[2] || ''));
+  }
 }
 
 function renderFeedCards(items) {
@@ -319,11 +514,9 @@ function renderFeedCards(items) {
   if (!feedGrid) return;
 
   const bookmarks = getBookmarks();
-  const feedback = getFeedback();
 
-  feedGrid.innerHTML = items.map(item => {
-    const isStarred = bookmarks.includes(item.id);
-    const userVote = feedback[item.id];
+  const cardsHtml = items.map(item => {
+    const isStarred = isItemStarred(item, bookmarks);
 
     const pillClass = item.category === 'agent' ? 'pill-agent' :
                       item.category === 'skills' ? 'pill-skills' :
@@ -334,155 +527,199 @@ function renderFeedCards(items) {
     if (item.category === 'tools') catIcon = ICONS.wrench;
     if (item.category === 'agent') catIcon = ICONS.robot;
 
-    const mediaHtml = (item.media && item.media.length > 0 && item.media[0].url) ? `
-      <div class="tweet-media">
-        <img src="${item.media[0].url}" alt="Tweet media" loading="lazy" onerror="this.parentElement.style.display='none'">
+    const mediaList = (item.media || []).filter(m => m && m.url);
+    const hasMedia = mediaList.length > 0;
+    const cleanImg = hasMedia ? normalizeImageUrl(mediaList[0].url) : '';
+
+    const avatarUrl = normalizeImageUrl(item.author?.avatar);
+    const content = item.content || '';
+
+    // Fixed height thumbnail
+    const thumbHtml = hasMedia ? `
+      <div class="tweet-media-thumb">
+        <img src="${escapeHtml(cleanImg)}" alt="推文配图" loading="lazy" onerror="this.closest('.tweet-media-thumb').remove()">
       </div>
     ` : '';
 
-    const linksHtml = (item.links && item.links.length > 0) ? `
-      <div class="deep-links-wrap">
-        ${item.links.map(l => {
-          const u = (l.url || '').replace(/[),.;]+$/, '').replace(/[?&]twclid=[^&]*/, '');
-          const isShort = u.includes('t.co/');
-          const label = isShort ? u.replace(/^https:\/\/t\.co\//, 't.co/') : (l.title || u.replace(/^https?:\/\//, '').slice(0, 24));
-          return `
-          <a href="${l.url}" target="_blank" rel="noopener noreferrer" class="deep-link-chip"${isShort ? ' title="X 短链，点击跳转原文链接"' : ''}>
-            ${ICONS.link} ${label} ↗
-          </a>
-        `;
-        }).join('')}
+    // First deep link chip
+    const firstLink = (item.links && item.links.length > 0) ? item.links[0] : null;
+    const linkChipHtml = firstLink ? `
+      <div class="card-single-link" onclick="event.stopPropagation()">
+        <a href="${escapeHtml(firstLink.url)}" target="_blank" rel="noopener noreferrer" class="deep-link-chip">
+          ${ICONS.link} ${(firstLink.title || firstLink.url.replace(/^https?:\/\//, '')).slice(0, 30)} ↗
+        </a>
       </div>
     ` : '';
 
-    const sourceBtn = (item.sourceUrl) ? `
-      <a href="${item.sourceUrl}" target="_blank" rel="noopener noreferrer" class="source-link-btn" title="在 X 查看原文">
-        ${ICONS.link} 查看原文 ↗
-      </a>
-    ` : '';
-
-    const aiTakeHtml = (item.ai && item.ai.whyInteresting) ? `
+    // AI recommendation snippet (clamped)
+    const aiSnippetHtml = (item.ai && item.ai.whyInteresting) ? `
       <div class="ai-take-box">
-        <div class="ai-take-title">${ICONS.sparkle} AI 推荐理由：</div>
-        <div>${item.ai.whyInteresting}</div>
+        <span class="ai-take-label">${ICONS.sparkle} 推荐理由：</span>
+        <span>${escapeHtml(item.ai.whyInteresting)}</span>
       </div>
     ` : '';
 
     return `
-      <div class="tweet-card" data-cat="${item.category}" id="${item.id}" ${isStarred ? 'data-starred="true"' : ''}>
-        <div class="card-top-action">
-          <button class="star-btn ${isStarred ? 'starred' : ''}" onclick="toggleStar('${item.id}', this)" title="收藏推文">
+      <div class="tweet-card" data-cat="${item.category}" id="${item.id}" ${isStarred ? 'data-starred="true"' : ''} onclick="feedScrollPosition = window.scrollY; location.hash = '#/article/' + encodeURIComponent('${item.id}');">
+        
+        <!-- Header -->
+        <div class="tweet-card-top">
+          <div class="tweet-header">
+            <div class="avatar-box">
+              <img src="${avatarUrl}" alt="${escapeHtml(item.author.name)}" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'42\' height=\'42\' fill=\'%232563EB\'><rect width=\'42\' height=\'42\'/></svg>'">
+            </div>
+            <div class="author-meta">
+              <div class="author-name">${escapeHtml(item.author.name)}</div>
+              <div class="author-handle">${escapeHtml(item.author.handle)}</div>
+            </div>
+          </div>
+          <button class="star-btn ${isStarred ? 'starred' : ''}" onclick="event.stopPropagation(); toggleStar('${item.id}', this)" title="收藏推文">
             ${ICONS.star}
           </button>
         </div>
 
-        <div>
-          <div class="tweet-header">
-            <div class="avatar-box">
-              <img src="${item.author.avatar}" alt="${item.author.name}" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'52\' height=\'52\' fill=\'%23FF4D80\'><rect width=\'52\' height=\'52\'/></svg>'">
-            </div>
-            <div class="author-meta">
-              <div class="author-name">${item.author.name}</div>
-              <div class="author-handle">${item.author.handle}</div>
-            </div>
-          </div>
-
-          <div class="category-pill-wrap">
-            <span class="category-pill ${pillClass}">
-              ${catIcon} ${item.categoryLabel || item.category}
-            </span>
-            ${item.ai && item.ai.score ? `<span class="score-badge">${item.ai.score}% MATCH</span>` : ''}
-          </div>
-
-          <p class="tweet-body">${item.content}</p>
-          ${mediaHtml}
-          ${linksHtml}
-          ${aiTakeHtml}
+        <!-- Category & Match Score -->
+        <div class="category-pill-wrap">
+          <span class="category-pill ${pillClass}">
+            ${catIcon} ${escapeHtml(item.categoryLabel || item.category)}
+          </span>
+          ${item.ai && item.ai.score ? `<span class="score-badge">${item.ai.score}% MATCH</span>` : ''}
         </div>
 
-        <div class="tweet-footer">
+        <!-- Clamped Body Area (Fixed Height Slot) -->
+        <div class="tweet-card-body">
+          <p class="tweet-body">${escapeHtml(content)}</p>
+          ${thumbHtml}
+          ${!hasMedia ? aiSnippetHtml : linkChipHtml}
+        </div>
+
+        <!-- Pinned Footer -->
+        <div class="tweet-footer" onclick="event.stopPropagation()">
           <div class="metrics-pill">
-            <span class="metric-item">${ICONS.repost} ${item.metrics.reposts || 0}</span>
-            <span class="metric-item">${ICONS.heart} ${item.metrics.likes || 0}</span>
+            <span class="metric-item">${ICONS.repost} ${formatMetric(item.metrics && item.metrics.reposts)}</span>
+            <span class="metric-item">${ICONS.comment} ${formatMetric(item.metrics && item.metrics.replies)}</span>
+            <span class="metric-item">${ICONS.heart} ${formatMetric(item.metrics && item.metrics.likes)}</span>
           </div>
 
-          ${sourceBtn}
-
-          <div class="feedback-group">
-            <button class="fb-btn up ${userVote === 'up' ? 'active-up' : ''}" onclick="voteCard('${item.id}', 'up', this)" title="有用">
-              ${ICONS.thumbUp} 有用
-            </button>
-            <button class="fb-btn down ${userVote === 'down' ? 'active-down' : ''}" onclick="voteCard('${item.id}', 'down', this)" title="降权">
-              ${ICONS.thumbDown} 降权
-            </button>
+          <div class="card-footer-right">
+            <span class="tweet-date-text">${item.displayDate || item.createdAt.slice(0, 10)}</span>
+            <a href="#/article/${encodeURIComponent(item.id)}" class="detail-link-btn" onclick="feedScrollPosition = window.scrollY;">
+              全文详情 →
+            </a>
           </div>
-
-          <span class="tweet-date-text">${item.displayDate || item.createdAt.slice(0, 10)}</span>
         </div>
+
       </div>
     `;
   }).join('');
+
+  feedGrid.innerHTML = cardsHtml + `
+    <div id="feedEmptyNotice" class="feed-empty-notice" style="display: none;">
+      <div class="empty-star-icon">${ICONS.star}</div>
+      <div class="empty-title">暂无匹配内容</div>
+      <div class="empty-text">当前分类下没有推文。收藏推文后可在“T小P收藏”中查看。</div>
+    </div>
+  `;
 }
 
-function handleArchiveChange(selectEl) {
-  const val = selectEl.value;
-  if (val === 'latest') {
-    initRadar('./data/latest.json');
-  } else {
-    initRadar(`./data/archive/${val}.json`);
+async function ensureDataLoaded() {
+  if (!currentRadarData) {
+    currentRadarData = await loadData(currentSnapshotUrl || './data/latest.json');
   }
+  return currentRadarData;
 }
 
 /* ===== Multi-route navigation ===== */
-function goRoute(route, btn) {
+async function goRoute(route, btn) {
   document.querySelectorAll('.nav-tab').forEach(b => b.classList.remove('active'));
-  document.querySelectorAll('.route-section').forEach(s => s.classList.remove('active'));
+  document.querySelectorAll('.route-section').forEach(s => {
+    s.classList.remove('active');
+    s.style.display = 'none';
+  });
   const tabBtn = btn || document.querySelector(`.nav-tab[data-route="${route}"]`);
   if (tabBtn) tabBtn.classList.add('active');
   const sec = document.getElementById('route-' + route);
-  if (sec) sec.classList.add('active');
+  if (sec) {
+    sec.classList.add('active');
+    sec.style.display = (route === 'home') ? 'grid' : 'block';
+  }
+
+  // Toggle main-header visibility: only visible on home overview!
+  const mainHeader = document.querySelector('.main-header');
+  if (mainHeader) {
+    mainHeader.style.display = (route === 'home') ? 'flex' : 'none';
+  }
+
+  // Ensure data loaded before subroute renders
+  await ensureDataLoaded();
 
   // Lazy render per route
-  if (route === 'archive') loadArchive();
+  if (route === 'archive') await loadArchive();
   if (route === 'trends') renderTrends();
   if (route === 'authors') renderAuthors();
   if (route === 'links') renderLinks();
   if (route === 'about') renderAbout();
 
+  // Scroll to top on subroute switch
+  if (route !== 'home') {
+    window.scrollTo({ top: 0, behavior: 'instant' });
+  }
+
   // Update hash
-  if (location.hash !== '#' + route) history.replaceState(null, '', '#' + route);
+  if (route !== 'article' && location.hash !== '#' + route) history.replaceState(null, '', '#' + route);
+}
+
+function goHomeAndFilter(cat) {
+  goRoute('home');
+  const btn = document.querySelector(`.filter-btn[onclick*="'${cat}'"]`);
+  if (btn) filterCards(cat, btn);
+  window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
 async function loadArchive() {
   const grid = document.getElementById('archiveGrid');
   if (!grid) return;
-  grid.innerHTML = '<div class="route-sub">加载中…</div>';
+  grid.innerHTML = '<div class="route-loading-state"><span class="live-dot"></span> 加载历史快照归档中…</div>';
   try {
     const resp = await fetch('./data/archive/index.json');
     if (!resp.ok) throw new Error('no index');
     const manifest = await resp.json();
     if (!manifest.length) {
-      grid.innerHTML = '<div class="route-sub">暂无归档快照。</div>';
+      grid.innerHTML = '<div class="empty-note">暂无历史归档快照。</div>';
       return;
     }
     grid.innerHTML = manifest.map(m => `
-      <div class="archive-card">
-        <div class="ac-date">📅 ${m.date}</div>
-        <div class="ac-meta">${m.selected} 条精选 · 扫描 ${m.scanned} · ${(m.generatedAt || '').replace('T', ' ').slice(0, 19)}</div>
-        <button class="ac-btn" onclick="openArchive('${m.file}')">查看快照 →</button>
+      <div class="archive-card" onclick="openArchive('${m.file}')">
+        <div class="ac-top-row">
+          <div class="ac-date-wrap">
+            <span class="ac-cal-icon">${ICONS.calendar}</span>
+            <span class="ac-date-text">${m.date}</span>
+          </div>
+          <span class="ac-chip">${m.selected} 条精选</span>
+        </div>
+        <div class="ac-meta-line">
+          <span>全网扫描: ${m.scanned} 条</span>
+          <span>快照生成: ${(m.generatedAt || '').replace('T', ' ').slice(0, 19)}</span>
+        </div>
+        <div class="ac-footer-action">
+          <button class="ac-btn" onclick="event.stopPropagation(); openArchive('${m.file}')">
+            载入此快照 →
+          </button>
+        </div>
       </div>
     `).join('');
   } catch (e) {
-    grid.innerHTML = '<div class="route-sub">无法加载归档清单（首次运行可能还没有 index.json）。</div>';
+    grid.innerHTML = '<div class="empty-note">无法加载归档清单，请刷新重试。</div>';
   }
 }
 
 async function openArchive(file) {
-  const feed = document.getElementById('feedGrid');
-  const tab = document.querySelector('.nav-tab[data-route="home"]');
+  const select = document.getElementById('archiveSelect');
+  if (select) select.value = file;
   await initRadar(`./data/archive/${file}`);
-  goRoute('home', tab);
-  feed.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  const tab = document.querySelector('.nav-tab[data-route="home"]');
+  await goRoute('home', tab);
+  window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
 function renderTrends() {
@@ -490,17 +727,30 @@ function renderTrends() {
   if (!box) return;
   const data = currentRadarData;
   if (!data || !data.trends || !data.trends.length) {
-    box.innerHTML = '<div class="route-sub">暂无趋势数据。</div>';
+    box.innerHTML = '<div class="empty-note">暂无趋势追踪数据。</div>';
     return;
   }
-  box.innerHTML = data.trends.map((t, i) => `
-    <div class="trend-row">
-      <div class="tr-name">${t.name}</div>
-      <div class="tr-title">${t.title || ''}</div>
-      <div class="tr-summary">${t.summary || ''}</div>
-      ${t.score ? `<span class="tr-score">${t.score} PTS</span>` : ''}
-    </div>
-  `).join('');
+  box.innerHTML = data.trends.map((t, i) => {
+    const cat = i === 0 ? 'agent' : i === 1 ? 'skills' : 'tools';
+    return `
+      <div class="trend-card-full t${i + 1}">
+        <div class="tr-top-bar">
+          <div class="tr-badge-wrap">
+            <span class="tr-category-tag">${t.name}</span>
+            <span class="tr-momentum">🔥 核心爆发点</span>
+          </div>
+          ${t.score ? `<span class="tr-score-pill">${t.score} PTS</span>` : ''}
+        </div>
+        <h3 class="tr-headline">${escapeHtml(t.title || '')}</h3>
+        <p class="tr-summary-text">${escapeHtml(t.summary || '')}</p>
+        <div class="tr-footer-bar">
+          <button class="tr-action-btn" onclick="goHomeAndFilter('${cat}')">
+            筛选关联推文 (${t.name}) →
+          </button>
+        </div>
+      </div>
+    `;
+  }).join('');
 }
 
 function renderAuthors() {
@@ -508,33 +758,53 @@ function renderAuthors() {
   if (!box) return;
   const data = currentRadarData;
   if (!data || !data.items || !data.items.length) {
-    box.innerHTML = '<div class="route-sub">暂无作者数据。</div>';
+    box.innerHTML = '<div class="empty-note">暂无作者数据。</div>';
     return;
   }
   const byAuthor = {};
   data.items.forEach(item => {
     const key = item.author.handle || item.author.name;
     if (!byAuthor[key]) {
-      byAuthor[key] = { name: item.author.name, handle: item.author.handle, avatar: item.author.avatar, count: 0, totalScore: 0, likes: 0 };
+      byAuthor[key] = {
+        name: item.author.name,
+        handle: item.author.handle,
+        avatar: normalizeImageUrl(item.author.avatar),
+        count: 0,
+        totalScore: 0,
+        likes: 0,
+        reposts: 0
+      };
     }
     byAuthor[key].count += 1;
     byAuthor[key].totalScore += (item.ai && item.ai.score) || 0;
     byAuthor[key].likes += (item.metrics && item.metrics.likes) || 0;
+    byAuthor[key].reposts += (item.metrics && item.metrics.reposts) || 0;
   });
-  const rows = Object.values(byAuthor).sort((a, b) => b.totalScore - a.totalScore);
+  const rows = Object.values(byAuthor).sort((a, b) => b.count !== a.count ? b.count - a.count : b.totalScore - a.totalScore);
   box.innerHTML = rows.map(a => `
     <div class="author-card">
-      <div class="avatar-box">
-        <img src="${a.avatar}" alt="${a.name}" style="width: 52px; height: 52px; border-radius: 8px; border: 2.5px solid var(--ink);" onerror="this.style.visibility='hidden'">
-      </div>
-      <div>
-        <div class="author-name">${a.name}</div>
-        <div class="author-handle">${a.handle}</div>
-        <div class="author-stats">
-          <span class="up">▲ ${Math.round(a.totalScore / a.count)}</span> 均分
-          · ${a.count} 条
-          · <span class="down">♥ ${a.likes}</span>
+      <div class="author-card-header">
+        <div class="author-avatar-wrap">
+          <img src="${a.avatar}" alt="${escapeHtml(a.name)}" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'48\' height=\'48\' fill=\'%232563EB\'><rect width=\'48\' height=\'48\'/></svg>'">
         </div>
+        <div class="author-info-wrap">
+          <div class="author-name-text">${escapeHtml(a.name)}</div>
+          <div class="author-handle-text">
+            <a href="https://x.com/${escapeHtml((a.handle || '').replace('@', ''))}" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()">
+              ${escapeHtml(a.handle)} ↗
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="author-stat-chips">
+        <span class="stat-chip chip-score">均分 ${Math.round(a.totalScore / a.count)}</span>
+        <span class="stat-chip chip-count">${a.count} 篇推文</span>
+        <span class="stat-chip chip-likes">♥ ${formatMetric(a.likes)}</span>
+      </div>
+      <div class="author-footer-bar">
+        <a href="https://x.com/${escapeHtml((a.handle || '').replace('@', ''))}" target="_blank" rel="noopener noreferrer" class="author-profile-btn">
+          前往 X 主页 ↗
+        </a>
       </div>
     </div>
   `).join('');
@@ -545,59 +815,292 @@ function renderLinks() {
   if (!box) return;
   const data = currentRadarData;
   if (!data || !data.items || !data.items.length) {
-    box.innerHTML = '<div class="route-sub">暂无链接。</div>';
+    box.innerHTML = '<div class="empty-note">暂无外链资产。</div>';
     return;
   }
   const rows = [];
+  const seenUrls = new Set();
   data.items.forEach(item => {
     if (item.links && item.links.length) {
       item.links.forEach(l => {
-        rows.push({ url: l.url, type: l.type || 'website', src: item.author.handle || '' });
+        const u = (l.url || '').replace(/[),.;]+$/, '').replace(/[?&]twclid=[^&]*/, '');
+        if (u && !seenUrls.has(u)) {
+          seenUrls.add(u);
+          rows.push({
+            url: l.url,
+            type: l.type || (u.includes('github.com') ? 'github' : u.includes('arxiv') ? 'paper' : 'website'),
+            src: item.author.name || item.author.handle || '推文精选',
+            title: l.title || u.replace(/^https?:\/\//, '').split('/')[0]
+          });
+        }
       });
     }
   });
   if (!rows.length) {
-    box.innerHTML = '<div class="route-sub">本期没有提取到外链。</div>';
+    box.innerHTML = '<div class="empty-note">本期推文中没有提取到外链。</div>';
     return;
   }
   box.innerHTML = rows.map(r => {
-    const displayUrl = r.url.replace(/[),.;]+$/, '').replace(/[?&]twclid=[^&]*/, '');
-    const isShort = displayUrl.includes('t.co/');
-    const cleanUrl = isShort ? displayUrl.replace(/^https:\/\/t\.co\//, 't.co/') : displayUrl;
-    return `
-    <div class="link-row">
-      <span class="link-type">${r.type}</span>
-      <a class="link-url" href="${r.url}" target="_blank" rel="noopener noreferrer"${isShort ? ' title="X 短链，点击跳转原文链接"' : ''}>${cleanUrl} ↗</a>
-      <span class="link-src">via ${r.src}</span>
-    </div>
-  `;
-  }).join('');
+    const isGithub = r.type === 'github' || r.url.includes('github.com');
+    const isPaper = r.type === 'paper' || r.url.includes('arxiv');
+    const typeLabel = isGithub ? 'GitHub 仓库' : isPaper ? '论文/ArXiv' : '精选工具/网站';
+    const typeClass = isGithub ? 'type-github' : isPaper ? 'type-paper' : 'type-website';
+    const displayUrl = r.url.replace(/^https?:\/\//, '').slice(0, 42);
 
-  // Async: resolve t.co shortlinks to real URLs (best effort, no blocking)
-  rows.forEach((r, i) => {
-    if (r.url.includes('t.co/')) {
-      fetch(r.url, { method: 'HEAD', redirect: 'follow', mode: 'cors' })
-        .then(resp => {
-          const finalUrl = resp.url || r.url;
-          const links = box.querySelectorAll('.link-url');
-          if (links[i] && finalUrl && !finalUrl.includes('t.co/')) {
-            links[i].textContent = finalUrl.replace(/[?&]twclid=[^&]*/, '') + ' ↗';
-            links[i].href = finalUrl;
-            links[i].title = '已解析真实地址';
-          }
-        })
-        .catch(() => {});
-    }
-  });
+    return `
+      <div class="link-vault-card">
+        <div class="link-card-top">
+          <span class="link-type-pill ${typeClass}">${typeLabel}</span>
+          <span class="link-src-pill">via ${escapeHtml(r.src)}</span>
+        </div>
+        <div class="link-title-text">${escapeHtml(r.title)}</div>
+        <div class="link-url-mono">${escapeHtml(displayUrl)}</div>
+        <div class="link-actions-row">
+          <a href="${escapeHtml(r.url)}" target="_blank" rel="noopener noreferrer" class="link-open-btn">
+            打开外链 ↗
+          </a>
+          <button class="link-copy-btn" onclick="navigator.clipboard.writeText('${escapeHtml(r.url)}'); this.innerText='已复制！'; setTimeout(() => this.innerText='复制链接', 1500);">
+            复制链接
+          </button>
+        </div>
+      </div>
+    `;
+  }).join('');
 }
 
 function renderAbout() {
   // Static content already in index.html
 }
 
-document.addEventListener('DOMContentLoaded', () => {
-  initRadar();
-  // Handle initial hash
-  const initial = (location.hash || '#home').replace('#', '');
-  if (initial && initial !== 'home') goRoute(initial);
+function restoreFeedUI() {
+  document.body.classList.remove('detail-mode');
+  const topNavBar = document.getElementById('topNavBar');
+  const mainHeader = document.querySelector('.main-header');
+  const navTabs = document.getElementById('navTabs');
+  const archiveNotice = document.getElementById('archiveNotice');
+  if (topNavBar) topNavBar.style.display = '';
+  if (mainHeader) mainHeader.style.display = '';
+  if (navTabs) navTabs.style.display = '';
+  if (archiveNotice && archiveNotice.textContent.trim()) {
+    archiveNotice.style.display = 'flex';
+  }
+}
+
+function initTheme() {
+  const saved = localStorage.getItem('radar_theme') || 'light';
+  document.documentElement.setAttribute('data-theme', saved);
+  const meta = document.getElementById('theme-color-meta');
+  if (meta) meta.setAttribute('content', saved === 'dark' ? '#0b0f19' : '#fbfaf6');
+}
+
+function toggleTheme() {
+  const current = document.documentElement.getAttribute('data-theme') || 'light';
+  const next = current === 'dark' ? 'light' : 'dark';
+  document.documentElement.setAttribute('data-theme', next);
+  localStorage.setItem('radar_theme', next);
+  const meta = document.getElementById('theme-color-meta');
+  if (meta) meta.setAttribute('content', next === 'dark' ? '#0b0f19' : '#fbfaf6');
+}
+
+function backToFeed() {
+  restoreFeedUI();
+  goRoute('home');
+  location.hash = '#home';
+  setTimeout(() => {
+    window.scrollTo({ top: feedScrollPosition, behavior: 'instant' });
+  }, 20);
+}
+
+function renderArticleDetail(id) {
+  const box = document.getElementById('articleDetail');
+  const cleanId = String(id || '').replace(/^x-/, '');
+  let item = currentRadarData && currentRadarData.items && currentRadarData.items.find(x => {
+    if (!x) return false;
+    if (x.id === id) return true;
+    if (getItemId(x) === id) return true;
+    if (cleanId && x.sourceUrl && x.sourceUrl.includes(cleanId)) return true;
+    return false;
+  });
+
+  if (!item && currentRadarData?.items) {
+    const legacyMatch = String(id || '').match(/^tweet-(\d+)$/i);
+    if (legacyMatch) {
+      const idx = parseInt(legacyMatch[1], 10) - 1;
+      item = currentRadarData.items[idx];
+    }
+  }
+
+  if (!box) return;
+  if (!item) {
+    box.innerHTML = `
+      <article class="article-detail">
+        <div class="detail-toolbar">
+          <button class="detail-back-btn" onclick="backToFeed()">← 返回今日雷达</button>
+        </div>
+        <div class="empty-note">
+          <h2>找不到该文章或快照尚未载入</h2>
+          <p>请点击上方按钮返回今日雷达。</p>
+        </div>
+      </article>
+    `;
+    return;
+  }
+  const media = (item.media || []).filter(m => m && m.url);
+  const comments = Array.isArray(item.comments) ? item.comments : [];
+  const metrics = item.metrics || {};
+  const isStarred = isItemStarred(item);
+
+  box.innerHTML = `
+    <article class="article-detail">
+      <div class="detail-toolbar">
+        <button class="detail-back-btn" onclick="backToFeed()">← 返回今日雷达</button>
+        <div class="detail-toolbar-actions">
+          <button class="detail-action-btn ${isStarred ? 'starred' : ''}" onclick="toggleStarFromDetail('${item.id}', this)">
+            ${ICONS.star} <span class="star-label">${isStarred ? '已收藏' : '收藏'}</span>
+          </button>
+          <button class="detail-action-btn" onclick="copyDetailLink('${item.id}')">
+            ${ICONS.link} 复制分享链接
+          </button>
+          <a href="${escapeHtml(item.sourceUrl || '#')}" target="_blank" rel="noopener noreferrer" class="detail-action-btn" style="text-decoration: none;">
+            在 X 打开 ↗
+          </a>
+        </div>
+      </div>
+      <div class="detail-header">
+        <div class="detail-kicker">
+          <span class="category-pill">${escapeHtml(item.categoryLabel || item.category)}</span>
+          ${item.ai?.score ? `<span class="score-badge">${item.ai.score}% MATCH</span>` : ''}
+          <span class="detail-date-tag">📅 发布时间：${escapeHtml(item.displayDate || (item.createdAt || '').slice(0, 10))}</span>
+        </div>
+        <div class="detail-author">
+          <div class="avatar-box">
+            <img src="${escapeHtml(normalizeImageUrl(item.author?.avatar))}" alt="${escapeHtml(item.author?.name || '作者')}" onerror="this.style.display='none'">
+          </div>
+          <div>
+            <h1>${escapeHtml(item.author?.name || '未知作者')}</h1>
+            <div class="author-handle"><a href="https://x.com/${escapeHtml((item.author?.handle || '').replace('@', ''))}" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: underline;">${escapeHtml(item.author?.handle || '')}</a></div>
+          </div>
+        </div>
+        <div class="detail-lede">${escapeHtml(item.content || '')}</div>
+      </div>
+
+      <section class="detail-metrics">
+        <div><strong>${formatMetric(metrics.reposts)}</strong><span>转发</span></div>
+        <div><strong>${formatMetric(metrics.replies)}</strong><span>回复</span></div>
+        <div><strong>${formatMetric(metrics.likes)}</strong><span>点赞</span></div>
+        <div><strong>${formatMetric(comments.length)}</strong><span>收录评论</span></div>
+      </section>
+
+      ${media.length ? `
+        <section class="detail-section">
+          <div class="detail-section-label">📸 原文配图（点击图片放大浏览）</div>
+          <div class="detail-gallery">
+            ${media.map((m, i) => {
+              const cleanUrl = normalizeImageUrl(m.url);
+              return `<img src="${escapeHtml(cleanUrl)}" alt="原文配图 ${i + 1}" loading="lazy" onclick="openLightbox('${escapeHtml(cleanUrl)}')">`;
+            }).join('')}
+          </div>
+        </section>
+      ` : ''}
+
+      ${item.links && item.links.length ? `
+        <section class="detail-section">
+          <div class="detail-section-label">🔗 提取外链资源</div>
+          <div class="deep-links-wrap" style="margin-top: 8px;">
+            ${item.links.map(l => `
+              <a href="${l.url}" target="_blank" rel="noopener noreferrer" class="deep-link-chip">
+                ${ICONS.link} ${l.title || l.url.replace(/^https?:\/\//, '').slice(0, 32)} ↗
+              </a>
+            `).join('')}
+          </div>
+        </section>
+      ` : ''}
+
+      <section class="detail-section">
+        <div class="detail-section-label">💡 技术洞察与判断</div>
+        <div class="opinion-card">
+          <strong>${ICONS.sparkle} 推荐理由：</strong>${escapeHtml(item.ai?.whyInteresting || '')}
+          <div style="margin-top: 8px;"><strong>行动建议：</strong>${escapeHtml(item.ai?.action || '')}</div>
+          <div style="margin-top: 8px; color: #555; font-size: 0.86rem;">${escapeHtml(item.ai?.personalTake || '')}</div>
+        </div>
+      </section>
+
+      <section class="detail-section">
+        <div class="detail-section-label">💬 评论区分析与公开讨论</div>
+        <div class="analysis-card">${escapeHtml(item.commentsAnalysis || '本次未抓到可验证的公开回复，详情页不会用虚构内容填充评论区。')}</div>
+        <div class="comments-list">
+          ${comments.length ? comments.map(c => `
+            <div class="comment-row">
+              <div class="comment-avatar">
+                ${c.avatar ? `<img src="${escapeHtml(normalizeImageUrl(c.avatar))}" alt="${escapeHtml(c.author || '评论者')}">` : ''}
+              </div>
+              <div style="flex: 1;">
+                <div class="comment-meta">${escapeHtml(c.author || 'X 用户')} <span>${escapeHtml(c.handle || '')}</span></div>
+                <p>${escapeHtml(c.text || '')}</p>
+              </div>
+            </div>
+          `).join('') : '<div class="empty-note">没有抓到可验证的公开评论。</div>'}
+        </div>
+      </section>
+    </article>
+  `;
+}
+
+async function handleLocation() {
+  const raw = location.hash.replace(/^#\/?/, '');
+  const parts = raw.split('/').filter(Boolean);
+  const isDetail = parts[0] === 'article';
+  document.body.classList.toggle('detail-mode', isDetail);
+
+  const topNavBar = document.getElementById('topNavBar');
+  const mainHeader = document.querySelector('.main-header');
+  const navTabs = document.getElementById('navTabs');
+  const archiveNotice = document.getElementById('archiveNotice');
+
+  if (isDetail) {
+    if (topNavBar) topNavBar.style.display = 'none';
+    if (mainHeader) mainHeader.style.display = 'none';
+    if (navTabs) navTabs.style.display = 'none';
+    if (archiveNotice) archiveNotice.style.display = 'none';
+
+    document.querySelectorAll('.route-section').forEach(s => {
+      if (s.id === 'route-article') {
+        s.style.display = 'block';
+        s.classList.add('active');
+      } else {
+        s.style.display = 'none';
+        s.classList.remove('active');
+      }
+    });
+
+    await ensureDataLoaded();
+    renderArticleDetail(decodeURIComponent(parts[1] || ''));
+    window.scrollTo({ top: 0, behavior: 'instant' });
+    return;
+  }
+
+  restoreFeedUI();
+  await goRoute(parts[0] || 'home');
+}
+
+document.addEventListener('DOMContentLoaded', async () => {
+  initTheme();
+  initArchiveDropdown();
+  await initRadar();
+  await handleLocation();
+});
+
+window.addEventListener('hashchange', handleLocation);
+
+window.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') {
+    const lightbox = document.getElementById('imageLightbox');
+    if (lightbox && lightbox.style.display !== 'none') {
+      closeLightbox();
+      return;
+    }
+    if (document.body.classList.contains('detail-mode')) {
+      backToFeed();
+    }
+  }
 });

@@ -3,3 +3,6 @@ logs/*.log
 .DS_Store
 .env
 *.tmp
+data/images/
+config/*.plist
+logs/
